@@ -1,0 +1,95 @@
+site_name: H2O Healthcare 
+
+theme:
+  name: material
+  logo: assets/h2o_logo/h2oai.png
+  font:
+    text: Roboto
+  features:
+    - navigation.top
+    - search.suggest
+  palette:
+    - scheme: default
+      primary: black
+      toggle:
+        icon: material/weather-night
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/weather-sunny
+  plugins:
+    - search
+extra:
+  version:
+    provider: mike
+
+
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - admonition
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+
+extra_css:
+  - stylesheets/extra.css
+
+
+plugins:
+  - search
+  - macros
+
+
+extra:
+  number: version_of_app_with_out_v
+
+
+copyright: ©Copyright 2017-2021 H2O.ai
+
+
+nav:
+    - H2O Healthcare Documentation: 'index.md'
+    - Overview: 
+        - 'Introduction': 'introduction.md'
+        - 'What is H2O Healthcare?': 'what_is_name_of_app.md'
+        - 'Explore Use Cases': 'use_cases.md'
+        - 'Video: H2O Healthcare Overview': 'video_name_of_app_overview.md'
+    - Quickstart:
+        - 'Access H2O Healthcare Apps ': 'access_name_of_app.md'
+    - H2O Healthcare Apps: 
+        - 'Pharma Cloud': 
+          - 'Marketing AI': 
+            - 'Overview': 'marketing_ai_overview.md'
+        - 'Cancer Cloud': 'cancer_cloud.md'
+        - 'Clinical Care': 'clinical_care.md'
+        - 'Clinical Operations': 'clinical_operations.md'
+        - 'Epidemiology AI': 
+          - 'COVID-19': 
+            - 'Overview': 'covid_19_overview.md'
+            - 'References': 'covid_19_references.md'
+            - 'Release Notes': 'covid_19_release_notes.md'
+        - 'Hospital Operations': 'hospital_operations.md'
+    - FAQ: 'faq.md'
+
+
+
+ 
+
+
+
+
+        
+  
+        
+
+
