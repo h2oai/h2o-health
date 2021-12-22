@@ -72,7 +72,22 @@ nav:
             - 'Overview': 'epidemiology_ai_apps/covid_19_forecast/covid_19_forecast_overview.md'
             - 'Guide': 'epidemiology_ai_apps/covid_19_forecast/covid_19_forecast_guide.md'
             - 'Release Notes': 'epidemiology_ai_apps/covid_19_forecast/covid_19_forecast_release_notes.md'
-            - 'FAQ': 'epidemiology_ai_apps/covid_19_forecast/covid_19_forecast_faq.md'       
+            - 'FAQ': 'epidemiology_ai_apps/covid_19_forecast/covid_19_forecast_faq.md' 
+          - 'COVID-19 Hospitalization Predictor':  
+            - 'Overview': 'epidemiology_ai_apps/covid_19_hospitalization_predictor/covid_19_hospitalization_predictor_overview.md' 
+            - 'Guide': 'epidemiology_ai_apps/covid_19_hospitalization_predictor/covid_19_hospitalization_predictor_guide.md'
+            - 'Release Notes': 'epidemiology_ai_apps/covid_19_hospitalization_predictor/covid_19_hospitalization_predictor_release_notes.md' 
+            - 'FAQ': 'epidemiology_ai_apps/covid_19_hospitalization_predictor/covid_19_hospitalization_predictor_faq.md' 
+          - 'Pop-up Predictor':
+            - 'Overview': 'epidemiology_ai_apps/pop_up_predictor/pop_up_predictor_overview.md'
+            - 'Guide': 'epidemiology_ai_apps/pop_up_predictor/pop_up_predictor_guide.md'
+            - 'Release Notes': 'epidemiology_ai_apps/pop_up_predictor/pop_up_predictor_release_notes.md'
+            - 'FAQ': 'epidemiology_ai_apps/pop_up_predictor/pop_up_predictor_faq.md'
+          - 'COVID-19 Vaccine NLP':
+            - 'Overview': 'epidemiology_ai_apps/covid_19_vaccine_nlp/covid_19_vaccine_nlp_overview.md'
+            - 'Guide': 'epidemiology_ai_apps/covid_19_vaccine_nlp/covid_19_vaccine_nlp_guide.md'
+            - 'Release Notes': 'epidemiology_ai_apps/covid_19_vaccine_nlp/covid_19_vaccine_nlp_release_notes.md'
+            - 'FAQ': 'epidemiology_ai_apps/covid_19_vaccine_nlp/covid_19_vaccine_nlp_faq.md'
     - FAQ: 'faq.md'
 
 
