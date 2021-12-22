@@ -1,8 +1,4 @@
-# :material-frequently-asked-questions: FAQ: Frequently Asked Questions 
- 
-
-
-## General 
+# :material-note-multiple-outline: Release Notes
 
 
 <br>

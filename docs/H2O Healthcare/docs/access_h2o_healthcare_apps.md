@@ -1,4 +1,4 @@
-# :door: Access H2O Healthcare Apps  
+# :material-door: Access H2O Healthcare Apps  
 
 
 You can access H2O Healthcare apps through the  <a href="https://cloud.h2o.ai/login?referer=%2F" target="_blank" >H2O AI Cloud</a>. In the H2O AI Cloud (HAC), you can access an H2O Healthcare app through an instance of the app. 
@@ -112,8 +112,8 @@ Now, explore available H2O Healthcare apps solving complex healthcare and life s
 
 <br>
 === "Feedback"
-    - :page_facing_up: <a href="" target="_blank">Submit and view feedback for this page</a>
-    - :package: Send feedback about H2O Healthcare to <niki.athanasiadou@h2o.ai>
+    - :material-file-outline: <a href="" target="_blank">Submit and view feedback for this page</a>
+    - :material-package-variant-closed: Send feedback about H2O Healthcare to <niki.athanasiadou@h2o.ai>
 
 
 

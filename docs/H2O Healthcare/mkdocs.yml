@@ -27,6 +27,7 @@ extra:
 
 markdown_extensions:
   - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -61,24 +62,17 @@ nav:
     - H2O Healthcare Documentation: 'index.md'
     - Overview: 
         - 'Introduction': 'introduction.md'
-        - 'What is H2O Healthcare?': 'what_is_name_of_app.md'
-        - 'Explore Use Cases': 'use_cases.md'
-        - 'Video: H2O Healthcare Overview': 'video_name_of_app_overview.md'
+        - 'What is H2O Healthcare?': 'what_is_h2o_healthcare.md'
+        - 'Video: H2O Healthcare Overview': 'video_h2o_healthcare_overview.md'
     - Quickstart:
-        - 'Access H2O Healthcare Apps ': 'access_name_of_app.md'
+        - 'Access H2O Healthcare Apps ': 'access_h2o_healthcare_apps.md'
     - H2O Healthcare Apps: 
-        - 'Pharma Cloud': 
-          - 'Marketing AI': 
-            - 'Overview': 'marketing_ai_overview.md'
-        - 'Cancer Cloud': 'cancer_cloud.md'
-        - 'Clinical Care': 'clinical_care.md'
-        - 'Clinical Operations': 'clinical_operations.md'
         - 'Epidemiology AI': 
-          - 'COVID-19': 
-            - 'Overview': 'covid_19_overview.md'
-            - 'References': 'covid_19_references.md'
-            - 'Release Notes': 'covid_19_release_notes.md'
-        - 'Hospital Operations': 'hospital_operations.md'
+          - 'COVID-19 Forecast': 
+            - 'Overview': 'epidemiology_ai_apps/covid_19_forecast/covid_19_forecast_overview.md'
+            - 'Guide': 'epidemiology_ai_apps/covid_19_forecast/covid_19_forecast_guide.md'
+            - 'Release Notes': 'epidemiology_ai_apps/covid_19_forecast/covid_19_forecast_release_notes.md'
+            - 'FAQ': 'epidemiology_ai_apps/covid_19_forecast/covid_19_forecast_faq.md'       
     - FAQ: 'faq.md'
 
 

@@ -1,8 +1,5 @@
-# :material-frequently-asked-questions: FAQ: Frequently Asked Questions 
- 
+# :material-book-open-page-variant-outline: Guide
 
-
-## General 
 
 
 <br>
