@@ -51,10 +51,6 @@ plugins:
   - macros
 
 
-extra:
-  number: version_of_app_with_out_v
-
-
 copyright: ©Copyright 2017-2021 H2O.ai
 
 

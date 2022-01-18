@@ -1,7 +1,0 @@
-mkdocs-material
-mike 
-mkdocs-macros-plugin
-termcolor
-
-
-
