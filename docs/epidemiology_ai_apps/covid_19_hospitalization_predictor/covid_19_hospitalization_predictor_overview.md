@@ -1,16 +1,18 @@
-# :material-file-document-outline: Overview 
+# :material-file-document-outline: Overview
 
-![](covid_19_hospitalization_predictor_essets/covid_19_hospitalization_predictor_logo.png){ align=left width="380" }
-<h1 style="margin-bottom: -25px; margin-top: 55px;">COVID-19 Hospitalization Predictor
-</h1>
-<h3>COVID-19 Hospitalization Predictor given adverse conditions, demographics and diseases</h3>
+![](covid_19_hospitalization_predictor_essets/covid_19_hospitalization_predictor_logo.png){ align=right width="380" }
 
-v0.0.2 (latest)
 
-## Description
+
+## Description 
 
 The COVID-19 Hospitalization Predictor can be used to predict the number of required beds in a hospital given adverse conditions, demographics and diseases.
 
+
+## Value Proposition 
+
+
+## Background
 
 ## Access COVID-19 Hospitalization Predictor
 
