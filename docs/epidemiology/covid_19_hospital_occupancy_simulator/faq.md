@@ -1,6 +1,8 @@
 # :material-frequently-asked-questions: FAQ: Frequently Asked Questions 
  
-Using state-of-the-art time series models and real-time data, Simulate enables hospital staff to obtain a four-week projection on their COVID-19 ICU and non-ICU hospital occupancy, admission, and length of stay (LOS). As well, in the projection, Simulate includes a four-week projection on local county COVID-19 cases. You can understand a projection through simple and interactive charts. 
+
+Through a simulation supported with state-of-the-art time series models and real-time data, *Simulate* enables hospital staff to obtain a four-week projection on their COVID-19 ICU and non-ICU hospital occupancy, admission, and length of stay (LOS). As well, in the projection, *Simulate* includes a four-week projection on local county COVID-19 cases. You can understand a projection through simple and interactive charts.
+
 
 To provide total control over the data used to generate a projection, hospital staff can override the data feeding the models. 
 
