@@ -64,10 +64,14 @@ nav:
     - H2O Health Apps: 
         - 'Epidemiology AI': 
           - 'COVID-19 Hospital Occupancy Simulator':
-            - 'Overview': 'epidemiology_ai_apps/covid_19_hospital_occupancy_simulator/covid_19_hospital_occupancy_simulator_overview.md'
-            - 'Guide': 'epidemiology_ai_apps/covid_19_hospital_occupancy_simulator/covid_19_hospital_occupancy_simulator_guide.md'
-            - 'Release Notes': 'epidemiology_ai_apps/covid_19_hospital_occupancy_simulator/covid_19_hospital_occupancy_simulator_release_notes.md'
-            - 'FAQ': 'epidemiology_ai_apps/covid_19_hospital_occupancy_simulator/covid_19_hospital_occupancy_simulator_faq.md' 
+            - 'Overview': 'epidemiology/covid_19_hospital_occupancy_simulator/overview.md'
+            - 'Guide': 
+              - 'Simulation Flow': 'epidemiology/covid_19_hospital_occupancy_simulator/simulation_flow.md'
+              - 'Simulation Settings': 'epidemiology/covid_19_hospital_occupancy_simulator/simulation_settings.md'
+              - 'Charts': 'epidemiology/covid_19_hospital_occupancy_simulator/charts.md'
+              - 'Data Files': 'epidemiology/covid_19_hospital_occupancy_simulator/data_files.md'
+            - 'Release Notes': 'epidemiology/covid_19_hospital_occupancy_simulator/release_notes.md'
+            - 'FAQ': 'epidemiology/covid_19_hospital_occupancy_simulator/faq.md' 
     - FAQ: 'faq.md'
 
 

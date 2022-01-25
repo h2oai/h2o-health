@@ -8,18 +8,18 @@ With the critical information, a projection can provide during public health eme
 
 *Simulate: prepare strategically ahead of time.*
 
-
-## Background 
-
 ## Audience 
 
+Hospital staff (e.g., hospital managers, hospital leadership, etc.)
 
 ## Access 
 
-**COVID-19 Forecast** is available in the H2O Cloud. To learn how to access it, see [Access H2O Health Apps]().
+Simulate is available on the H2O Cloud. To learn how to access it, see [Access H2O Health Apps]().
+
+
 
 
 <br>
 === "Feedback"
     - :material-file-outline: <a href="" target="_blank">Submit and view feedback for this page</a>
-    - :material-package-variant-closed: Send feedback about H2O Healthcare to <dmitry.gordeev@h2o.ai>
+    - :material-package-variant-closed: Send feedback about H2O Healthcare to <ranjith.anantharaman@h2o.ai>
