@@ -1,4 +1,4 @@
-site_name: H2O Healthcare 
+site_name: H2O Health 
 
 theme:
   name: material
@@ -55,35 +55,19 @@ copyright: ©Copyright 2017-2021 H2O.ai
 
 
 nav:
-    - H2O Healthcare Documentation: 'index.md'
+    - H2O Health Documentation: 'index.md'
     - Overview: 
         - 'Introduction': 'introduction.md'
-        - 'What is H2O Healthcare?': 'what_is_h2o_healthcare.md'
-        - 'Video: H2O Healthcare Overview': 'video_h2o_healthcare_overview.md'
+        - 'What is H2O Health?': 'what_is_h2o_health.md'
     - Quickstart:
-        - 'Access H2O Healthcare Apps ': 'access_h2o_healthcare_apps.md'
-    - H2O Healthcare Apps: 
+        - 'Access H2O Health Apps ': 'access_h2o_health_apps.md'
+    - H2O Health Apps: 
         - 'Epidemiology AI': 
-          - 'COVID-19 Forecast': 
-            - 'Overview': 'epidemiology_ai_apps/covid_19_forecast/covid_19_forecast_overview.md'
-            - 'Guide': 'epidemiology_ai_apps/covid_19_forecast/covid_19_forecast_guide.md'
-            - 'Release Notes': 'epidemiology_ai_apps/covid_19_forecast/covid_19_forecast_release_notes.md'
-            - 'FAQ': 'epidemiology_ai_apps/covid_19_forecast/covid_19_forecast_faq.md' 
-          - 'COVID-19 Hospitalization Predictor':  
-            - 'Overview': 'epidemiology_ai_apps/covid_19_hospitalization_predictor/covid_19_hospitalization_predictor_overview.md' 
-            - 'Guide': 'epidemiology_ai_apps/covid_19_hospitalization_predictor/covid_19_hospitalization_predictor_guide.md'
-            - 'Release Notes': 'epidemiology_ai_apps/covid_19_hospitalization_predictor/covid_19_hospitalization_predictor_release_notes.md' 
-            - 'FAQ': 'epidemiology_ai_apps/covid_19_hospitalization_predictor/covid_19_hospitalization_predictor_faq.md' 
-          - 'Pop-up Predictor':
-            - 'Overview': 'epidemiology_ai_apps/pop_up_predictor/pop_up_predictor_overview.md'
-            - 'Guide': 'epidemiology_ai_apps/pop_up_predictor/pop_up_predictor_guide.md'
-            - 'Release Notes': 'epidemiology_ai_apps/pop_up_predictor/pop_up_predictor_release_notes.md'
-            - 'FAQ': 'epidemiology_ai_apps/pop_up_predictor/pop_up_predictor_faq.md'
-          - 'COVID-19 Vaccine NLP':
-            - 'Overview': 'epidemiology_ai_apps/covid_19_vaccine_nlp/covid_19_vaccine_nlp_overview.md'
-            - 'Guide': 'epidemiology_ai_apps/covid_19_vaccine_nlp/covid_19_vaccine_nlp_guide.md'
-            - 'Release Notes': 'epidemiology_ai_apps/covid_19_vaccine_nlp/covid_19_vaccine_nlp_release_notes.md'
-            - 'FAQ': 'epidemiology_ai_apps/covid_19_vaccine_nlp/covid_19_vaccine_nlp_faq.md'
+          - 'COVID-19 Hospital Occupancy Simulator':
+            - 'Overview': 'epidemiology_ai_apps/covid_19_hospital_occupancy_simulator/covid_19_hospital_occupancy_simulator_overview.md'
+            - 'Guide': 'epidemiology_ai_apps/covid_19_hospital_occupancy_simulator/covid_19_hospital_occupancy_simulator_guide.md'
+            - 'Release Notes': 'epidemiology_ai_apps/covid_19_hospital_occupancy_simulator/covid_19_hospital_occupancy_simulator_release_notes.md'
+            - 'FAQ': 'epidemiology_ai_apps/covid_19_hospital_occupancy_simulator/covid_19_hospital_occupancy_simulator_faq.md' 
     - FAQ: 'faq.md'
 
 
