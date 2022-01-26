@@ -1,16 +1,13 @@
 # :material-frequently-asked-questions: FAQ: Frequently Asked Questions 
  
 
-Through a simulation supported with state-of-the-art time series models and real-time data, *Simulate* enables hospital staff to obtain a four-week projection on their COVID-19 ICU and non-ICU hospital occupancy, admission, and length of stay (LOS). In the projection, *Simulate* includes a four-week estimate on local county COVID-19 cases. You can understand a projection through simple and interactive charts.
+Through simulations supported with state-of-the-art time series models and real-time data, *COVID-19 Hospital Occupancy Simulator* (CHOS) enables hospital staff to obtain four-week projections on their COVID-19 ICU and non-ICU hospital occupancy, admission, and length of stay (LOS). Plus, *CHOS* includes a four-week estimate on local county COVID-19 cases in the projections. You can understand projections through simple and interactive charts.
 
 To provide total control over the data used to generate a projection, hospital staff can override the data feeding the models. 
 
-With the critical information a projection can provide during public health emergencies like the one we currently experience, managing hospital resources becomes less complicated and more precise when we know what is ahead.
+With the critical information, a projection can provide during public health emergencies like the one we currently experience, managing hospital resources becomes less complicated and wasteful when we know what is ahead.
 
-*Simulate: prepare strategically ahead of time.*
-
-
-The below sections provide answers to frequently asked questions. If you have additional questions, send them to the following email: <ranjith.anantharaman@h2o.ai>.
+The below sections provide answers to frequently asked questions. If you have additional questions, send them to the following email: <niki.athanasiadou@h2o.ai>.
 
 
 ## General 
@@ -28,4 +25,4 @@ The below sections provide answers to frequently asked questions. If you have ad
 <br>
 === "Feedback"
     - :material-file-outline: <a href="" target="_blank">Submit and view feedback for this page</a>
-    - :material-package-variant-closed: Send feedback about H2O Healthcare to <ranjith.anantharaman@h2o.ai>
+    - :material-package-variant-closed: Send feedback about H2O Healthcare to <niki.athanasiadou@h2o.ai>

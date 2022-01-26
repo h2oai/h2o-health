@@ -1,7 +1,6 @@
 # :material-file-outline: Data Files 
 
-
-Simulate uses the following data files to generate a projection:
+A simulation to generate a projection uses the following data files: 
 
 - [Hospital occupancy]() 
 - [COVID-19 cases]()
@@ -19,4 +18,4 @@ In the below sections, each data file, in turn, is explained in detail.
 <br>
 === "Feedback"
     - :material-file-outline: <a href="" target="_blank">Submit and view feedback for this page</a>
-    - :material-package-variant-closed: Send feedback about H2O Healthcare to <ranjith.anantharaman@h2o.ai>
+    - :material-package-variant-closed: Send feedback about H2O Healthcare to <niki.athanasiadou@h2o.ai>

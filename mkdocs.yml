@@ -71,8 +71,11 @@ nav:
               - 'Charts': 'epidemiology/covid_19_hospital_occupancy_simulator/charts.md'
               - 'Data Files': 'epidemiology/covid_19_hospital_occupancy_simulator/data_files.md'
             - 'Release Notes': 'epidemiology/covid_19_hospital_occupancy_simulator/release_notes.md'
+            - 'Team': 'epidemiology/covid_19_hospital_occupancy_simulator/team.md'
             - 'FAQ': 'epidemiology/covid_19_hospital_occupancy_simulator/faq.md' 
+    - Team: 'team.md'
     - FAQ: 'faq.md'
+    
 
 
 
