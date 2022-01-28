@@ -59,6 +59,7 @@ nav:
     - Overview: 
         - 'Introduction': 'introduction.md'
         - 'What is H2O Health?': 'what_is_h2o_health.md'
+        - 'Example Use Cases': 'explore_use_cases.md'
     - Quickstart:
         - 'Access H2O Health Apps ': 'access_h2o_health_apps.md'
     - H2O Health Apps: 
