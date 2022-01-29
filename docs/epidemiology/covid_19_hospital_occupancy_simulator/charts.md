@@ -3,23 +3,49 @@
 You can understand a projection through several interactive and simple charts. The following charts are available when a simulation generates a projection: 
 
 - [Four-week projection on local county COVID-19 cases]()
-- [Length of stay, non-ICU]() 
-- [Length of stay, ICU]()
 - [Occupancy and admissions, non-ICU]()
 - [Occupancy and net change, ICU]()
+- [Length of stay, non-ICU]() 
+- [Length of stay, ICU]()
+
 
 In the below sections, each chart, in turn, is explained in detail. 
 
 ## Four-week projection on local county COVID-19 cases
 
+<figure>
+  <img src="../assets/charts/covid_19_forecast.png" width="500" alt="Four-week projection on local county COVID-19 cases"/>
+</figure>
 
-## Length of stay, non-ICU
-
-## Length of stay, ICU
 
 ## Occupancy and admissions, non-ICU
 
+<figure>
+  <img src="../assets/charts/occupancy_and_admissions_non_icu.png" width="600" alt="Occupancy and admissions, non-ICU"/>
+</figure>
+
+
 ## Occupancy and net change, ICU
+
+<figure>
+  <img src="../assets/charts/occupancy_and_net_change_icu.png" width="600" alt="Occupancy and net change, ICU"/>
+</figure>
+
+## Length of stay, non-ICU
+
+<figure>
+  <img src="../assets/charts/length_of_stay_non_icu.png" width="600" alt="Length of stay, non-ICU"/>
+</figure>
+
+
+## Length of stay, ICU
+
+<figure>
+  <img src="../assets/charts/length_of_stay_icu.png" width="600" alt="Length of stay, ICU"/>
+</figure>
+
+
+
 
 
 <br>

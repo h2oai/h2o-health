@@ -14,7 +14,7 @@ discussed below:
 
 ## Prepare simulation: specify hospital state and county  
 
-[As the first step in the simulation flow](./simulation_flow.md#step-1-select-state-and-county), a hospital needs to specify its state and county. To select a state and county, consider the following instructions: 
+As [step 1](./simulation_flow.md#step-1-select-state-and-county) in the simulation flow, a hospital needs to specify its state and county. To select a state and county, consider the following instructions: 
 
 1. In the **CHOS** navigation menu, click :material-bullseye-arrow: *Simulation*. 
 2. In the **State** list, select the *state* in which the hospital resides.
@@ -23,7 +23,7 @@ discussed below:
 ## Overrides: personalize hospital 
 
 
-[As the second step in the simulation flow](./simulation_flow.md#step-2-review-or-customize-input-data), a hospital can use the following **personalize hospital** overrides:
+As [step 2](./simulation_flow.md#step-2-review-or-customize-input-data) in the simulation flow, a hospital can use the following **personalize hospital** overrides:
 
 - **Avg admissions per week over the past 8 weeks**
 
@@ -64,9 +64,9 @@ To reset the **personalize hospital** override values, consider the following in
 
         Clicking **Reset Defaults & Go** will generate a simulation-based projection. At the same time, average data point values will be used, which are calculated using the past 8-weeks county-level data on reported COVID-19 cases and several metrics around hospitalization due to COVID-19.
 
-## Overrides: expected future averages (avg)
+## Overrides: expected future averages (avgs)
 
-[As the fourth step in the simulation flow](./simulation_flow.md#step-4-optional-adjust-simulation-to-reflect-best-and-worst-case-alternatives), a hospital can use overrides under the *expected future averages* category:
+As [step 4](./simulation_flow.md#step-4-optional-adjust-simulation-to-reflect-best-and-worst-case-alternatives) in the simulation flow, a hospital can use overrides under the *expected future averages* category:
 
 
 - **Expected avg admissions per week**
