@@ -18,12 +18,16 @@ The COVID-19 Hospital Occupancy Simulator (CHOS) provides simulation-based proje
 
 - ==A county-level four-week projection of expected county-level COVID-19 cases used to generate the hospital-level four-week projection==
 
-Therefore, starting a simulation requires selecting the state and county in which the hospital resides. 
+Therefore, when preparing a simulation a hospital neeeds to specify it's state and county. 
 
 
 !!! note 
 
-    To learn how to start a simulation, see 
+    - To learn how to prepare a simulation, see [Prepare simulation: specify hospital state and county](./simulation_settings.md#prepare-simulation-specify-hospital-state-and-county).
+
+    - To learn how the county-level four-week projection of expected county-level COVID-19 cases is generated, see 
+
+    - To learn about the CHOS state-of-the-art forecasting models used during a simulation-based projection, see 
 
 
 
@@ -31,23 +35,23 @@ Therefore, starting a simulation requires selecting the state and county in whic
 
 The hospital-level four-week projection averages particular data points, and using the result values of those averages generates the hospital-level projection. Accordingly, it might be the case that a particular hospital might not correspond with the average data points. It could be the case that a hospital in the selected county might have above or below-average values from the average data point values. Accordingly, hospitals can change such average data point values before generating a hospital-level four-week projection. 
 
-The average data points mix the latest county-level data on the reported COVID-19 cases and several metrics around hospitalization due to COVID-19. 
+The average data point values are calculated using the past 8-weeks county-level data on reported COVID-19 cases and several metrics around hospitalization due to COVID-19. 
 
 Overrides enable hospitals to use their average data point values that reflect specific characteristics of the hospital. The data overrides that enable hospitals to introduce personalized data points are referred to as *personalize hospital* overrides. 
 
-
 !!! note 
+
+    - To learn about how the particular data point values are average, see
 
     - To learn about the available *personalize hospital* overrides, see 
 
-    - To learn about the particular data points that are average, see
 
-    - To learn about the CHOS state-of-the-art forecasting models used during a simulation, see 
+
 
 
 ## Step 3: Review simulation-based projection
 
-After generating a simulation-based projection, the following interactive and simple charts will appear for the simulation-based projection: 
+After the simulation-based projection is generated, the following interactive and simple charts will appear: 
 
 - For the hospital-level four-week projection of expected ICU and non-ICU hospital-level admissions and occupancy for COVID-19 patients, the following charts are available: 
 
@@ -62,17 +66,25 @@ After generating a simulation-based projection, the following interactive and si
 
 !!! note 
 
-    To learn more about the charts and how to interpret them, see 
+    - To learn more about the charts and how to interpret them, see 
+
+    - A simulation-based projection contains two distinct projections: a hospital-level and a county-level four-week projection. See [Step 1: Select state and county](#step-1-select-state-and-county). 
 
 ## Step 4 (optional): Adjust simulation to reflect best- and worst-case alternatives
 
 
-Hospitals can better customize the models' average data point values to reflect a hospital's specific characteristics through available data overrides; overrides based on expectations about the future allow you to play out different scenarios and generate alternative projections. For example, as one of the available overrides, you can change the average COVID-19 cases per week and play out different scenarios when COVID-19 cases increase or decrease. In this case, the data overrides that enable hospitals to play out different scenarios and generate alternative projections are referred to as *expert future estimates*. 
+After a simulation-based projection is generated, hospitals can introduce certain overrides based on expectations about the future to play out different scenarios and generate alternative simulation-based projections. For example: 
+
+!!! example 
+
+    One of the available overrides is changing the average future expected COVID-19 cases per week. This override enables hospitals to clearly understand the implications under an increasing or decreasing surge of COVID-19 cases. 
+
+Data overrides that enable hospitals to modify future variable values are under the *expected future averages* category. 
 
 
 !!! note 
 
-	To learn about the available *expert future estimates* overrides, see 
+	To learn about the available overrides under the *expected future averages* category, see 
 
 <br>
 === "Feedback"
