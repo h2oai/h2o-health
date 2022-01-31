@@ -23,40 +23,51 @@ As [step 1](./simulation_flow.md#step-1-select-state-and-county) in the simulati
 ## Overrides: personalize hospital 
 
 
-As [step 2](./simulation_flow.md#step-2-review-or-customize-input-data) in the simulation flow, a hospital can use the following **personalize hospital** overrides:
+As [step 2](./simulation_flow.md#step-2-review-or-customize-input-data) in the simulation flow, a hospital can use the following **personalize hospital** overrides (settings):
 
 - **Avg admissions per week over the past 8 weeks**
 
-    Description.....
+    Defines the admissions average value per week over the past 8-weeks that the models will use to generate the hospital-level four-week projection of expected ICU and non-ICU admissions and occupancy for COVID-19 patients.
+
+    The default value for this setting is determined by the calculated average data point values from the past 8-weeks' county-level data on reported admissions due to COVID-19.
 
 
-    ???+ settings "Modification instructions" 
+    ???+ settings "Override instructions" 
 
-        On the :material-bullseye-arrow: **Simulation** page, slide the **Avg admissions per week over the past 8 weeks** slider. 
+        1. On the :material-bullseye-arrow: **Simulation** page, slide the **Avg admissions per week over the past 8 weeks** slider. 
+        2. Click **Apply & Go**.
 
 
 
 - **Avg occupancy per week over the past 8 weeks**
 
-    Description.....
+    Defines the average occupancy value per week over the past 8-weeks that the models will use to generate the hospital-level four-week projection of expected ICU and non-ICU admissions and occupancy for COVID-19 patients.
 
-    ???+ settings "Modification instructions"
+    The default value for this setting is determined by the calculated average data point values from the past 8-weeks' county-level data on reported occupancy due to COVID-19.
+
+    ???+ settings "Override instructions"
     
-        On the :material-bullseye-arrow: **Simulation** page, slide the **Avg  occupancy per week over the past 8 weeks** slider.
+        1. On the :material-bullseye-arrow: **Simulation** page, slide the **Avg  occupancy per week over the past 8 weeks** slider.
+
+        2. Click **Apply & Go**.
 
 
 - **Avg ICU admissions per week over the past 8 weeks** 
 
-    Description.....
+    Defines the average ICU admissions per week over the past 8-weeks that the models will use to generate the hospital-level four-week projection of expected ICU and non-ICU admissions and occupancy for COVID-19 patients. 
 
-    ???+ settings "Modification instructions"
+    The default value for this setting is determined by the calculated average data point values from the past 8-weeks' county-level data on reported admissions due to COVID-19. 
 
-        On the :material-bullseye-arrow: **Simulation** page, slide the **Avg ICU admissions per week over the past 8 weeks** slider.
+    ???+ settings "Override instructions"
+
+        1. On the :material-bullseye-arrow: **Simulation** page, slide the **Avg ICU admissions per week over the past 8 weeks** slider.
+        
+        2. Click **Apply & Go**.
 
 
-### Reset override values 
+### Remove override values 
 
-To reset the **personalize hospital** override values, consider the following instructions: 
+To remove the **personalize hospital** override values, consider the following instructions: 
 
 1. On the :material-bullseye-arrow: **Simulation** page, click **Reset Defaults & Go**. 
 
@@ -66,68 +77,88 @@ To reset the **personalize hospital** override values, consider the following in
 
 ## Overrides: expected future averages (avgs)
 
-As [step 4](./simulation_flow.md#step-4-optional-adjust-simulation-to-reflect-best-and-worst-case-alternatives) in the simulation flow, a hospital can use overrides under the *expected future averages* category:
+As [step 4](./simulation_flow.md#step-4-optional-adjust-simulation-to-reflect-best-and-worst-case-alternatives) in the simulation flow, a hospital can use overrides (settings) under the *expected future averages* category:
 
 
 - **Expected avg admissions per week**
 
-    Description.....
+    Defines the weekly expected admissions average value at the hospital level that the simulation will use to modify the four-week projection of expected ICU and non-ICU admissions and occupancy for COVID-19 patients. As a result, a new four-week projection will be generated.
 
-    ???+ settings "Modification instructions"
+    ???+ settings "Overrride instructions"
     
         1. On the :material-bullseye-arrow: **Simulation** page, click the **expected future averages** expander arrow. 
 
         2. Slide the **Expected avg admissions per week** slider.
 
+        3. Click **Apply & Go**.
+
+
 - **Expected ICU net change avg per week**
 
 
-    Description.....
+    Defines the weekly expected ICU net change admissions average value at the hospital level that will be used to modify the four-week projection of expected ICU and non-ICU admissions and occupancy for COVID-19 patients. As a result, a new four-week projection will be generated. 
 
-    ???+ settings "Modification instructions"
+
+    ???+ settings "Override instructions"
     
         1. On the :material-bullseye-arrow: **Simulation** page, click the **expected future averages** expander arrow. 
 
         2. Slide the **Expected ICU net change avg per week** slider.
 
+        3. Click **Apply & Go**.
+
 
 - **Expected avg of COVID-19 cases per week**
 
-    Description.....
+    Defines the weekly expected average value of COVID-19 cases at the hospital level that will be used to modify the four-week projection of expected ICU and non-ICU admissions and occupancy for COVID-19 patients. As a result, a new four-week projection will be generated. 
 
-    ???+ settings "Modification instructions"
+    ???+ settings "Override instructions"
     
         1. On the :material-bullseye-arrow: **Simulation** page, click the **expected future averages** expander arrow. 
 
         2. Slide the **Expected avg of COVID-19 cases per week** slider.
 
+        3. Click **Apply & Go**.
+
+
 - **Expected LOS avg for non-ICU patients** 
 
+    
+    Defines the weekly expected length of stay (LOS) average value for non-ICU COVID-19 patients at the hospital level that will be used to modify the four-week projection of expected ICU and non-ICU admissions and occupancy for COVID-19 patients. As a result, a new four-week projection will be generated.
 
-    Description.....
-
-    ???+ settings "Modification instructions"
+    ???+ settings "Override instructions"
     
         1. On the :material-bullseye-arrow: **Simulation** page, click the **expected future averages** expander arrow. 
 
         2. Slide the **Expected LOS avg for non-ICU patients** slider.
 
+        3. Click **Apply & Go**.
+
+
 - **Expected LOS avg for ICU patients** 
 
 
-    Description.....
+    Defines the weekly expected length of stay (LOS) average value for ICU COVID-19 patients at the hospital level that will be used to modify the four-week projection of expected ICU and non-ICU admissions and occupancy for COVID-19 patients. As a result, a new four-week projection will be generated.
 
-    ???+ settings "Modification instructions"
+
+    ???+ settings "Override instructions"
     
         1. On the :material-bullseye-arrow: **Simulation** page, click the **expected future averages** expander arrow. 
 
         2. Slide the **Expected LOS avg for ICU patients** slider.
 
+        3. Click **Apply & Go**.
 
 
-### Reset override values 
+!!! note
 
-To reset the overrides under the **Expected future averages** category, consider the following instructions: 
+    To learn about the implications of using the above overrides (settings), see  [Step 4 (optional): Adjust simulation to reflect best- and worst-case alternatives]().
+
+
+
+### Remove override values 
+
+To remove the overrides under the **Expected future averages** category, consider the following instructions: 
 
 
 

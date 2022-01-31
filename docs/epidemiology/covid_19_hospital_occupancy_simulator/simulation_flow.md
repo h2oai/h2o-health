@@ -16,7 +16,7 @@ The COVID-19 Hospital Occupancy Simulator (CHOS) provides simulation-based proje
 
 - ==A hospital-level four-week projection of expected ICU and non-ICU hospital-level admissions and occupancy for COVID-19 patients, as well,==
 
-- ==A county-level four-week projection of expected county-level COVID-19 cases used to generate the hospital-level four-week projection==
+- ==A county-level four-week projection of expected COVID-19 cases used to generate the hospital-level four-week projection==
 
 Therefore, when preparing a simulation a hospital neeeds to specify it's state and county. 
 

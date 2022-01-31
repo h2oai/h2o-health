@@ -13,12 +13,21 @@ In the below sections, each chart, in turn, is explained in detail.
 
 ## Four-week projection on local county COVID-19 cases
 
+This chart provides a county-level four-week projection of expected COVID-19 cases. 
+
+!!! note 
+
+    This county-level four-week projection of expected COVID-19 cases is used to generate the hospital-level four-week projection of expected ICU and non-ICU hospital-level admissions and occupancy for COVID-19 patients. To learn more, see []()
+
+
 <figure>
   <img src="../assets/charts/covid_19_forecast.png" width="500" alt="Four-week projection on local county COVID-19 cases"/>
 </figure>
 
 
 ## Occupancy and admissions, non-ICU
+
+This chart provides a hospital-level four-week projection of expected occupancy and admissions for non-ICU COVID-19 patients. We can observe the hospital-level past 8-weeks occupancy and admissions rate to the left of the vertical dash line. And to the right of the dashed line, we can observe the hospital-level four-week projection.
 
 <figure>
   <img src="../assets/charts/occupancy_and_admissions_non_icu.png" width="600" alt="Occupancy and admissions, non-ICU"/>
@@ -27,11 +36,15 @@ In the below sections, each chart, in turn, is explained in detail.
 
 ## Occupancy and net change, ICU
 
+This chart provides a hospital-level four-week projection of expected occupancy and net-change admissions for ICU COVID-19 patients. We can observe the hospital-level past 8-weeks occupancy and net-change admissions rate to the left of the vertical dash line. And to the right of the dashed line, we can observe the hospital-level four-week projection.
+
 <figure>
   <img src="../assets/charts/occupancy_and_net_change_icu.png" width="600" alt="Occupancy and net change, ICU"/>
 </figure>
 
 ## Length of stay, non-ICU
+
+This histogram provides a nationwide (USA) random average sample of the length of stay (LOS) for non-ICU COVID-19 patients. 
 
 <figure>
   <img src="../assets/charts/length_of_stay_non_icu.png" width="600" alt="Length of stay, non-ICU"/>
@@ -39,6 +52,10 @@ In the below sections, each chart, in turn, is explained in detail.
 
 
 ## Length of stay, ICU
+
+This histogram provides a nationwide (USA) random average sample of the length of stay (LOS) for ICU COVID-19 patients. 
+
+
 
 <figure>
   <img src="../assets/charts/length_of_stay_icu.png" width="600" alt="Length of stay, ICU"/>
