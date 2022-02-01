@@ -1,25 +1,22 @@
 # :material-tune: Simulation Settings 
 
-As part of the [Simulation Flow](simulation_flow.md), the COVID-19 Hospital Occupancy Simulator (CHOS) application enables hospitals to customize the input data used to generate a simulation-based projection through **personalize hospital** overrides and overrides under the **expected future averages** category. Through overrides under *expected future averages*, hospitals can adjust a simulation-based projection to play out best and worst-case alternatives. The distinct overrides are discussed below: 
+As part of the [Simulation Flow](simulation_flow.md), the COVID-19 Hospital Occupancy Simulator (**CHOS**) application enables hospitals to customize the input data used to generate a simulation-based projection through **personalize hospital** overrides and overrides under the **expected future averages** category. Through overrides under *expected future averages*, hospitals can adjust a simulation-based projection to play out best and worst-case alternatives. The distinct overrides are discussed below: 
 
 - [Overrides: personalize hospital](#overrides-personalize-hospital)
-- [Overrides: expected future averages (avg)](#overrides-expert-future-estimates)
+- [Overrides: expected future averages](#overrides-expected-future-averages)
 
 
-!!! note 
 
-    After specifying the state and county in which the hospital resides, a hospital can specify the above overrides. To learn more, see [Prepare simulation: specify hospital state and county](#prepare-simulation-specify-hospital-state-and-county)
+## Start simulation 
 
-
-## Prepare simulation: specify hospital state and county  
-
-As [step 1](./simulation_flow.md#step-1-select-state-and-county) in the simulation flow, a hospital needs to specify its state and county. To select a state and county, consider the following instructions: 
+To start a simulation, consider the following instructions: 
 
 1. In the **CHOS** navigation menu, click :material-bullseye-arrow: *Simulation*. 
 2. In the **State** list, select the *state* in which the hospital resides.
 3. In the **County** list, select the *county* in which the hospital resides.
 
-After specifying the state and county in which the hospital resides, a hospital can override the model.
+
+If you want to use **personalize hospital** overrides:  
 
 ## Overrides: personalize hospital 
 
@@ -76,7 +73,7 @@ To remove the **personalize hospital** override values, consider the following i
 
         Clicking **Reset Defaults & Go** will generate a simulation-based projection. At the same time, average data point values will be used, which are calculated using the past 8-weeks county-level data on reported COVID-19 cases and several metrics around hospitalization due to COVID-19.
 
-## Overrides: expected future averages (avgs)
+## Overrides: expected future averages
 
 As [step 4](./simulation_flow.md#step-4-optional-adjust-simulation-to-reflect-best-and-worst-case-alternatives) in the simulation flow, a hospital can use overrides (settings) under the *expected future averages* category:
 
