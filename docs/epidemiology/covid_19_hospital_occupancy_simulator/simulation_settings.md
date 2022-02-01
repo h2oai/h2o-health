@@ -1,10 +1,9 @@
 # :material-tune: Simulation Settings 
 
-As part of the [Simulation Flow](simulation_flow.md), the COVID-19 Hospital Occupancy Simulator (CHOS) application enables hospitals to customize the input data used to generate a simulation-based projection through **personalize hospital** overrides and overrides under the **expected future averages** category. Through overrides under *expected future averages*, hospitals can adjust a simulation-based projection to play out best and worst-case alternatives. The distinct overrides are 
-discussed below: 
+As part of the [Simulation Flow](simulation_flow.md), the COVID-19 Hospital Occupancy Simulator (CHOS) application enables hospitals to customize the input data used to generate a simulation-based projection through **personalize hospital** overrides and overrides under the **expected future averages** category. Through overrides under *expected future averages*, hospitals can adjust a simulation-based projection to play out best and worst-case alternatives. The distinct overrides are discussed below: 
 
 - [Overrides: personalize hospital](#overrides-personalize-hospital)
-- [Overrides:expected future averages (avg)](#overrides-expert-future-estimates)
+- [Overrides: expected future averages (avg)](#overrides-expert-future-estimates)
 
 
 !!! note 
@@ -19,6 +18,8 @@ As [step 1](./simulation_flow.md#step-1-select-state-and-county) in the simulati
 1. In the **CHOS** navigation menu, click :material-bullseye-arrow: *Simulation*. 
 2. In the **State** list, select the *state* in which the hospital resides.
 3. In the **County** list, select the *county* in which the hospital resides.
+
+After specifying the state and county in which the hospital resides, a hospital can override the model.
 
 ## Overrides: personalize hospital 
 
@@ -61,7 +62,7 @@ As [step 2](./simulation_flow.md#step-2-review-or-customize-input-data) in the s
     ???+ settings "Override instructions"
 
         1. On the :material-bullseye-arrow: **Simulation** page, slide the **Avg ICU admissions per week over the past 8 weeks** slider.
-        
+
         2. Click **Apply & Go**.
 
 

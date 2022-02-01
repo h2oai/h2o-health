@@ -66,6 +66,7 @@ nav:
         - 'Epidemiology AI': 
           - 'COVID-19 Hospital Occupancy Simulator':
             - 'Overview': 'epidemiology/covid_19_hospital_occupancy_simulator/overview.md'
+            - 'Terms': 'epidemiology/covid_19_hospital_occupancy_simulator/terms.md'
             - 'Guide': 
               - 'Simulation Flow': 'epidemiology/covid_19_hospital_occupancy_simulator/simulation_flow.md'
               - 'Simulation Settings': 'epidemiology/covid_19_hospital_occupancy_simulator/simulation_settings.md'
