@@ -1,17 +1,22 @@
 # :material-account-supervisor-circle-outline: Team 
 
-The *COVID-19 Hospital Occupancy Simulator* app will not be possible without our team composed of makers. 
+The *COVID-19 Hospital Occupancy Simulator* app would not be possible without our team: 
 
-## Makers 
-### Ranjith Anantharaman | Customer Data Scientist
 
-### Marios Michailidis | Senior Data Scientist + Kaggle Grandmaster 
+### Ranjith Anantharaman | Data Scientist, Wave Engineer
 
-### Niki Athanasiadou | Customer Data Scientist
+### John Miller | Senior Data Scientist 
 
-### Sergio Perez | Technical Writer + Wave Engineer   
+### Marios Michailidis, PhD | Senior Data Scientist, Kaggle Grandmaster 
 
-### John Miller | Senior Data Scientist
+### Sergio Perez | Technical Writer, Wave Engineer 
+
+
+### Niki Athanasiadou, MRes, PhD | Data Scientist, Health and Life Sciences AI Product Manager
+
+ 
+
+
 
 
 
