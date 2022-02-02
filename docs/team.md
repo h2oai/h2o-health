@@ -2,51 +2,53 @@
 
 *H2O Health* will not be possible without our team composed of makers. 
 
-## Ranjith Anantharaman | Customer Data Scientist
 
-## Niki Athanasiadou | 
+## Makers 
+### Ranjith Anantharaman | Customer Data Scientist
 
-## Benjamin Scheiner |
+### Niki Athanasiadou | 
 
-## Sergio Perez |
+### Benjamin Scheiner |
 
-## David Engler |
+### Sergio Perez |
 
-## Dmitry Gordeev | 
+### David Engler |
 
-## Jagadeesh Rajarajan |
+### Dmitry Gordeev | 
 
-## John Miller |
+### Jagadeesh Rajarajan |
 
-## Snigdha Bose |
+### John Miller |
 
-## Trushant Kalyanpur |
+### Snigdha Bose |
 
-## Venkatesh Yadav |
+### Trushant Kalyanpur |
 
-## Chetan Ganjihal |
+### Venkatesh Yadav |
 
-## Sandaru Paranahewa |
+### Chetan Ganjihal |
 
-## Aakash Nain |
+### Sandaru Paranahewa |
 
-## Chris Mascioli |
+### Aakash Nain |
 
-## Gabor Fodor | 
+### Chris Mascioli |
 
-## Kishani Kandasamy
+### Gabor Fodor | 
 
-## Marios Michailidis
+### Kishani Kandasamy
 
-## Mark Landry
+### Marios Michailidis
 
-## Melonie De Almeida
+### Mark Landry
 
-## Prashant Natarajan
+### Melonie De Almeida
 
-## Vijitha Ekanayake
+### Prashant Natarajan
 
-## Vinod Iyengar
+### Vijitha Ekanayake
+
+### Vinod Iyengar
 
 <br>
 === "Feedback"

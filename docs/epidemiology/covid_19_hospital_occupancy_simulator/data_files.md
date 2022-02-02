@@ -2,7 +2,7 @@
 
 
 
-The particular historical data points a simulation uses to generate a [simulation-based projection](./terminology.md#simulation-based-projection) are as follows: 
+The models generate a [simulation-based projection](./terminology.md#simulation-based-projection) after certain model variables obtain an average value when calculating historical data. Such historical data points are as follows: 
 
 
 - Past eight-week average of all COVID-19 non-ICU admissions at the county-level 

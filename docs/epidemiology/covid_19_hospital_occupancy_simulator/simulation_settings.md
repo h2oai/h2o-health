@@ -1,27 +1,26 @@
 # :material-tune: Simulation Settings 
 
-As part of the [Simulation Flow](simulation_flow.md), the COVID-19 Hospital Occupancy Simulator (**CHOS**) application enables hospitals to customize the input data used to generate a simulation-based projection through **personalize hospital** overrides and overrides under the **expected future averages** category. Through overrides under *expected future averages*, hospitals can adjust a simulation-based projection to play out best and worst-case alternatives. The distinct overrides are discussed below: 
+As part of the [Simulation Flow](simulation_flow.md), the COVID-19 Hospital Occupancy Simulator ([**CHOS**](./terminology.md#chos-covid-19-hospital-occupancy-simulator])) application enables hospitals to customize the input data used to generate a simulation-based projection through **personalize hospital** overrides and **expert future estimates** overrides. Through  **expert future estimates** overrides, hospitals can adjust a simulation-based projection to reflect a hospital's specific characteristics and to play out best and worst-case alternatives. The distinct overrides are discussed below: 
+
+
 
 - [Overrides: personalize hospital](#overrides-personalize-hospital)
-- [Overrides: expected future averages](#overrides-expected-future-averages)
-
-
+- [Overrides: expert future estimates](#overrides-expert-future-estimates)
 
 ## Start Simulation 
 
 To start a simulation, consider the following instructions: 
 
-1. In the **CHOS** navigation menu, click :material-bullseye-arrow: *Simulation*. 
+1. In the [**CHOS**](./terminology.md#chos-covid-19-hospital-occupancy-simulator]) navigation menu, click :material-bullseye-arrow: *Simulation*. 
 2. In the **State** list, select the *state* in which the hospital resides.
 3. In the **County** list, select the *county* in which the hospital resides.
+4. (==optional==) Before starting a simulation, you can use **personalize hospital**  or **expert future estimates** overrides.  To learn more about available overrides and how to enable them, see [Overrides: personalize hospital ]() and [Overrides: expert future estimates]().
+5. If you don't want to enable any overrides, click **Show forecast**. 
 
-
-If you want to use **personalize hospital** overrides:  
 
 ## Overrides: personalize hospital 
 
-
-As [step 2](./simulation_flow.md#step-2-review-or-customize-input-data) in the simulation flow, a hospital can use the following **personalize hospital** overrides (settings):
+As part of the simulation flow ([step 2](./simulation_flow.md#step-2-review-or-customize-input-data)), a hospital can use the following **personalize hospital** overrides (settings):
 
 - **Avg admissions per week over the past 8 weeks**
 
@@ -63,7 +62,7 @@ As [step 2](./simulation_flow.md#step-2-review-or-customize-input-data) in the s
         2. Click **Apply & Go**.
 
 
-### Remove override values 
+### Remove Override Values 
 
 To remove the **personalize hospital** override values, consider the following instructions: 
 
@@ -73,9 +72,9 @@ To remove the **personalize hospital** override values, consider the following i
 
         Clicking **Reset Defaults & Go** will generate a simulation-based projection. At the same time, average data point values will be used, which are calculated using the past 8-weeks county-level data on reported COVID-19 cases and several metrics around hospitalization due to COVID-19.
 
-## Overrides: expected future averages
+## Overrides: expert future estimates
 
-As [step 4](./simulation_flow.md#step-4-optional-adjust-simulation-to-reflect-best-and-worst-case-alternatives) in the simulation flow, a hospital can use overrides (settings) under the *expected future averages* category:
+As part of the simulation flow (step [2](./simulation_flow.md#step-2-review-or-customize-input-data) and [3](./simulation_flow.md#step-3-review-simulation-based-projection)), a hospital can use the following **expert future estimates** overrides (settings):
 
 
 - **Expected avg admissions per week**
@@ -152,9 +151,7 @@ As [step 4](./simulation_flow.md#step-4-optional-adjust-simulation-to-reflect-be
 
     To learn about the implications of using the above overrides (settings), see  [Step 4 (optional): Adjust simulation to reflect best- and worst-case alternatives]().
 
-
-
-### Remove override values 
+### Remove Override Values 
 
 To remove the overrides under the **Expected future averages** category, consider the following instructions: 
 
