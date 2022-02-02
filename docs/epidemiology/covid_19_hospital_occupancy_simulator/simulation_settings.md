@@ -22,42 +22,42 @@ To start a simulation, consider the following instructions:
 
 As part of the simulation flow ([step 2](./simulation_flow.md#step-2-review-or-customize-input-data)), a hospital can use the following **personalize hospital** overrides (settings):
 
-- **Avg admissions per week over the past 8 weeks**
+- **Avg admissions per week over the past 4 weeks**
 
-    Defines the admissions average value per week over the past 8-weeks that the models will use to generate the hospital-level four-week projection of expected ICU and non-ICU admissions and occupancy for COVID-19 patients.
+    Defines the admissions average value per week over the past 4-weeks that the models will use to generate the hospital-level four-week projection of expected ICU and non-ICU admissions and occupancy for COVID-19 patients.
 
-    The default value for this setting is determined by the calculated average data point values from the past 8-weeks' county-level data on reported admissions due to COVID-19.
+    The default value for this setting is determined by the calculated average data point values from the past 4-weeks' county-level data on reported admissions due to COVID-19.
 
 
     ???+ settings "Override instructions" 
 
-        1. On the :material-bullseye-arrow: **Simulation** page, slide the **Avg admissions per week over the past 8 weeks** slider. 
+        1. On the :material-bullseye-arrow: **Simulation** page, slide the **Avg admissions per week over the past 4 weeks** slider. 
         2. Click **Apply & Go**.
 
 
 
-- **Avg occupancy per week over the past 8 weeks**
+- **Avg occupancy per week over the past 4 weeks**
 
-    Defines the average occupancy value per week over the past 8-weeks that the models will use to generate the hospital-level four-week projection of expected ICU and non-ICU admissions and occupancy for COVID-19 patients.
+    Defines the average occupancy value per week over the past 4-weeks that the models will use to generate the hospital-level four-week projection of expected ICU and non-ICU admissions and occupancy for COVID-19 patients.
 
-    The default value for this setting is determined by the calculated average data point values from the past 8-weeks' county-level data on reported occupancy due to COVID-19.
+    The default value for this setting is determined by the calculated average data point values from the past 4-weeks' county-level data on reported occupancy due to COVID-19.
 
     ???+ settings "Override instructions"
     
-        1. On the :material-bullseye-arrow: **Simulation** page, slide the **Avg  occupancy per week over the past 8 weeks** slider.
+        1. On the :material-bullseye-arrow: **Simulation** page, slide the **Avg  occupancy per week over the past 4 weeks** slider.
 
         2. Click **Apply & Go**.
 
 
-- **Avg ICU admissions per week over the past 8 weeks** 
+- **Avg ICU admissions per week over the past 4 weeks** 
 
-    Defines the average ICU admissions per week over the past 8-weeks that the models will use to generate the hospital-level four-week projection of expected ICU and non-ICU admissions and occupancy for COVID-19 patients. 
+    Defines the average ICU admissions per week over the past 4-weeks that the models will use to generate the hospital-level four-week projection of expected ICU and non-ICU admissions and occupancy for COVID-19 patients. 
 
-    The default value for this setting is determined by the calculated average data point values from the past 8-weeks' county-level data on reported admissions due to COVID-19. 
+    The default value for this setting is determined by the calculated average data point values from the past 4-weeks' county-level data on reported admissions due to COVID-19. 
 
     ???+ settings "Override instructions"
 
-        1. On the :material-bullseye-arrow: **Simulation** page, slide the **Avg ICU admissions per week over the past 8 weeks** slider.
+        1. On the :material-bullseye-arrow: **Simulation** page, slide the **Avg ICU admissions per week over the past 4 weeks** slider.
 
         2. Click **Apply & Go**.
 
@@ -70,9 +70,9 @@ To remove the **personalize hospital** override values, consider the following i
 
     !!! note 
 
-        Clicking **Reset Defaults & Go** will generate a simulation-based projection. At the same time, average data point values will be used, which are calculated using the past 8-weeks county-level data on reported COVID-19 cases and several metrics around hospitalization due to COVID-19.
+        Clicking **Reset Defaults & Go** will generate a simulation-based projection. At the same time, average data point values will be used, which are calculated using the past 4-weeks county-level data on reported COVID-19 cases and several metrics around hospitalization due to COVID-19.
 
-## Overrides: expert future estimates
+## Overrides: future expert estimates
 
 As part of the simulation flow (step [2](./simulation_flow.md#step-2-review-or-customize-input-data) and [3](./simulation_flow.md#step-3-review-simulation-based-projection)), a hospital can use the following **expert future estimates** overrides (settings):
 

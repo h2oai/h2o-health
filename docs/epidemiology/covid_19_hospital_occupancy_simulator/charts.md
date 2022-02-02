@@ -2,7 +2,7 @@
 
 You can understand a projection through several interactive and simple charts. The following charts are available when a simulation generates a projection: 
 
-- [New COVID Cases: 4-Weeks Projection](#new-covid-cases-4-weeks-projection)
+- [New COVID Cases: 4-Weeks Projection (county-level)](#new-covid-cases-4-weeks-projection-county-level)
 - [Occupancy and admissions, non-ICU](#occupancy-and-admissions-non-icu)
 - [Occupancy and net change, ICU](#occupancy-and-net-change-icu)
 - [Length of stay, non-ICU](#length-of-stay-non-icu) 
@@ -11,7 +11,7 @@ You can understand a projection through several interactive and simple charts. T
 
 In the below sections, each chart, in turn, is explained in detail. 
 
-## New COVID Cases: 4-Weeks Projection
+## New COVID Cases: 4-Weeks Projection (county-level)
 
 This chart provides a county-level four-week projection of expected COVID-19 cases. 
 
@@ -21,7 +21,7 @@ This chart provides a county-level four-week projection of expected COVID-19 cas
 
 
 <figure>
-  <img src="../assets/charts/covid_19_forecast.png" width="500" alt="FNew COVID Cases: 4-Weeks Projection"/>
+  <img src="../assets/charts/covid_19_forecast.png" width="500" alt="FNew COVID Cases: 4-Weeks Projection (county-level)"/>
 </figure>
 
 
