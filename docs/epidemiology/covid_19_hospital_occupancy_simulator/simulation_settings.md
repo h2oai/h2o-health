@@ -7,7 +7,7 @@ As part of the [Simulation Flow](simulation_flow.md), the COVID-19 Hospital Occu
 
 
 
-## Start simulation 
+## Start Simulation 
 
 To start a simulation, consider the following instructions: 
 

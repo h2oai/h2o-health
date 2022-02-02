@@ -12,21 +12,24 @@ In the below sections, each step, in turn, is explained in detail.
 
 ## Step 1: Select state and county 
 
-The COVID-19 Hospital Occupancy Simulator (**CHOS**) provides to a given hospital a [simulation-based projection](./terms.md#simulation-based-projection) supported with state-of-the-art forecasting models and the latest county-level data on the reported positive cases and hospitalizations. A [simulation-based projection](./terms.md#simulation-based-projection) includes: 
+The COVID-19 Hospital Occupancy Simulator (**CHOS**) provides to a given hospital a [simulation-based projection](./terms.md#simulation-based-projection) supported with state-of-the-art forecasting models and the latest county-level data on the reported positive cases and hospitalizations. A [simulation-based projection](./terminology.md#simulation-based-projection) includes: 
 
-- ==A **hospital-level** four-week projection of expected ICU and non-ICU admissions and occupancy for COVID-19 patients, as well,==
+- A ==**hospital-level**== four-week projection that includes the following metrics for COVID-19 patients:
 
-- ==A **county-level** four-week projection of expected COVID-19 cases used to generate the **hospital-level** four-week projection==
+	- Daily expected non-ICU occupancy and admissions 
+	- Daily expected ICU occupancy and admissions net change 
+
+- A ==**county-level**== four-week projection of expected COVID-19 cases used to generate the ==**hospital-level**== four-week projection
 
 Therefore, when preparing a simulation for the first time, hospitals need to specify their county and the county's state. 
 
 !!! note 
 
-    - To learn how to start a simulation, see []().
+    - To learn how to start a simulation, see [Start Simulation](./simulation_settings.md#start-simulation).
 
-    - To learn how the county-level four-week projection of expected COVID-19 cases is generated, see 
+    - To learn how the county-level four-week projection of expected COVID-19 cases is generated, see [CDC County-Level Ensemble Model](./models.md#cdc-county-level-ensemble-model).
 
-    - To learn about the state-of-the-art forecasting models used during a [simulation-based projection](./terms.md#simulation-based-projection), see 
+    - The state-of-the-art forecasting models rely on certain assumptions to effectively generate a [simulation-based projection](./terminology.md#simulation-based-projection). To learn more, see [Modeling Assumptions](./models.md#modeling-assumptions).
 
 
 
@@ -41,10 +44,6 @@ Hospitals can modify the average values given to the model's variables through d
     - To learn about the particular county-level data points that are average to generate a hospital-level four-week projection, see 
 
     - To learn about the available **personalize hospital** overrides, see 
-
-
-
-
 
 ## Step 3: Review simulation-based projection
 

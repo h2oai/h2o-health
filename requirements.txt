@@ -4,4 +4,3 @@ mkdocs-macros-plugin
 termcolor
 
 
-

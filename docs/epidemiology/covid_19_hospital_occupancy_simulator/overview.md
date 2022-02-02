@@ -8,7 +8,13 @@ With the insights, [simulation-based projections](./terms.md#simulation-based-pr
 
 ## Audience 
 
-Hospital staff (e.g., hospital managers, hospital leadership, etc.)
+Nursing staff, hospital managers, and hospital leadership
+
+## Background 
+
+As the COVID-19 pandemic has clearly demonstrated, hospital and ICU capacity management is vulnerable to public health emergencies. While avoiding that bed and consumable availability becomes scarce during times of need, managers need to ensure the facility is not maintaining and manning an unsustainably large excess of resources for prolonged periods at a time. Moreover, during pandemic events like the one we currently experience, closely following the infection rate at the specific facility’s service area, the demand for beds comes in waves, the onset and regional magnitude of which is impossible for a manager (or anyone) to gauge. 
+
+COVID-19 Hospital Capacity Simulator (CHOS) offers a robust solution for capacity management of hospital and ICU beds
 
 ## Access 
 

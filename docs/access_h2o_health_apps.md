@@ -23,7 +23,7 @@ Access your <a href="https://cloud.h2o.ai/login?referer=%2F" target="_blank" >HA
 
 !!! note
 
-    To obtain a HAC account, please contact ......
+    To obtain a HAC account, please email <niki.athanasiadou@h2o.ai>.
 
 
 
@@ -37,6 +37,9 @@ In the **HAC** search bar, search ```name_of_app```, in this case, ```name_of_ap
 
 Now, select the app card, the *app details* page appears containing information about the app. 
 
+!!! note 
+
+    Instead of searching for health apps, you can click the **Healthcare** in the HAC navigation menu. On the **Healthcare** page, you can explore all available H2O Health apps. 
 ## Step 3: Run app 
 
 To start an instance, click **Run App**:
