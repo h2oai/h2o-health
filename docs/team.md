@@ -13,41 +13,41 @@
 
 ### Niki Athanasiadou, MRes, PhD | Data Scientist, Health and Life Sciences AI Product Manager
 
-### Benjamin Scheiner |
+### Benjamin Scheiner | Sr. Software Engineer
 
-### David Engler |
+### David Engler | Sr. Data Scientist
 
 ### Dmitry Gordeev | Senior Data Scientist, Kaggle Grandmaster 
 
-### Jagadeesh Rajarajan |
+### Jagadeesh Rajarajan | Sr. Software Engineer
 
-### Snigdha Bose |
+### Snigdha Bose | Director, Healthcare Al & Analytics
 
-### Trushant Kalyanpur |
+### Trushant Kalyanpur | Customer Solutions Engineer
 
-### Venkatesh Yadav |
+### Venkatesh Yadav | VP Engineering
 
-### Chetan Ganjihal |
+### Chetan Ganjihal | Professional Services Vertical 
 
-### Sandaru Paranahewa |
+### Sandaru Paranahewa | Lead UX Designer
 
-### Aakash Nain |
+### Aakash Nain | Senior Data Scientist
 
-### Chris Mascioli |
+### Chris Mascioli | Lead Data Scientist
 
-### Gabor Fodor | 
+### Gabor Fodor | Customer Data Scientist, Kaggle Grandmaster 
 
-### Kishani Kandasamy
+### Kishani Kandasamy | Software Engineer - Intern
 
-### Mark Landry
+### Mark Landry | Data Scientist & Product Mgr
 
-### Melonie De Almeida
+### Melonie De Almeida | Machine Learning Engineer
 
-### Prashant Natarajan
+### Prashant Natarajan | Vice President, Healthcare
 
-### Vijitha Ekanayake
+### Vijitha Ekanayake | Sr. Fullstack Software Development Engineer
 
-### Vinod Iyengar
+### Vinod Iyengar | VP of Products
 
 <br>
 === "Feedback"

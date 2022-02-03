@@ -1,6 +1,14 @@
 # Suites
 
+H2O Health develops apps around the following suites: 
 
+
+- [Epidemiology AI](#epidemiology-ai)
+
+
+## Epidemiology AI
+
+Epidemiology AI refers to the intersectionality of AI and the branch of medicine that concerns itself with the incidence, distribution, and control of diseases and other factors relating to a patient's health. 
 
 
 <br>
