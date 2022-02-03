@@ -1,20 +1,13 @@
 ---
-name: "\U0001F56E Documentation feedback"
+name: "CHOS documentation feedback"
 about: Provide feedback to help us improve
-title: '[DOCS]'
+title: '[CHOS DOCS]'
 labels: 'type/documentation'
 assignees: '5675sp'
 
 ---
 
-**Describe feedback**
-
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**Describe documentation feedback for the *COVID-19 Hospital Occupancy Simulator* application**
 
 **Screenshots**
 If applicable, add screenshots to help explain your feedback/problem.
