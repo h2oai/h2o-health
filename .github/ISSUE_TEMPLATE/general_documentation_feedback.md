@@ -1,5 +1,5 @@
 ---
-name: "\U0001F56E H2O Health documentation feedback"
+name: "H2O Health documentation feedback"
 about: Provide feedback to help us improve
 title: '[H2O Health DOCS]'
 labels: 'h2o_health/documentation'
