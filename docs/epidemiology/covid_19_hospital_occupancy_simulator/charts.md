@@ -1,6 +1,6 @@
 # :material-chart-box-outline: Charts
 
-You can understand a projection through several interactive and simple charts. The following charts are available when a simulation generates a projection: 
+You can understand a projection through several interactive and simple charts. The following charts are available when a simulation generates a [simulation-based projection](./terminology.md#simulation-based-projection): 
 
 - [New COVID Cases: 4-Weeks Projection (county-level)](#new-covid-cases-4-weeks-projection-county-level)
 - [Occupancy and admissions, non-ICU](#occupancy-and-admissions-non-icu)
@@ -15,16 +15,13 @@ In the below sections, each chart, in turn, is explained in detail.
 
 This chart provides a county-level four-week projection of expected COVID-19 cases. 
 
-!!! note 
-
-    This county-level four-week projection of expected COVID-19 cases is used to generate the hospital-level four-week projection of expected ICU and non-ICU hospital-level admissions and occupancy for COVID-19 patients. To learn more, see []()
-
-
 <figure>
   <img src="../assets/charts/covid_19_forecast.png" width="500" alt="FNew COVID Cases: 4-Weeks Projection (county-level)"/>
 </figure>
 
+!!! note 
 
+    This county-level four-week projection of expected COVID-19 cases uses the CDC county-level ensemble model. To learn more, see [CDC County-Level Ensemble Model](./models.md#cdc-county-level-ensemble-model).
 ## Occupancy and admissions, non-ICU
 
 This chart provides a hospital-level four-week projection of expected occupancy and admissions for non-ICU COVID-19 patients. We can observe the hospital-level past 8-weeks occupancy and admissions rate to the left of the vertical dash line. And to the right of the dashed line, we can observe the hospital-level four-week projection.

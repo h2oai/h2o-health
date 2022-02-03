@@ -28,7 +28,7 @@ As the COVID-19 pandemic demonstrates, hospital and ICU capacity management is v
 [**CHOS**](./terminology.md#chos-covid-19-hospital-occupancy-simulator]) offers a robust solution for capacity management of hospital and ICU beds. 
 ## Access 
 
-[**CHOS**](./terminology.md#chos-covid-19-hospital-occupancy-simulator]) is available on the H2O AI Cloud. To learn how to access it, see [Access H2O Health Apps]().
+[**CHOS**](./terminology.md#chos-covid-19-hospital-occupancy-simulator]) is available on the H2O AI Cloud. To learn how to access it, see [Access H2O Health Apps](../../access_h2o_health_apps.md).
 
 
 
