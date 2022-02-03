@@ -1,4 +1,4 @@
-# Suites
+# :material-shape-outline: Suites
 
 H2O Health develops apps around the following suites: 
 
