@@ -1,5 +1,5 @@
 ---
-name: Documentation feedback
+name: "\U0001F56EDocumentation feedback"
 about: Provide feedback to help us improve
 title: '[DOCS]'
 labels: 'type/documentation'
