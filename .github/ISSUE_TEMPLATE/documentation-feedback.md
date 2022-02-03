@@ -1,9 +1,9 @@
 ---
 name: Documentation feedback
 about: Provide feedback to help us improve
-title: ''
-labels: ''
-assignees: ''
+title: '[DOCS]'
+labels: 'type/documentation'
+assignees: '5675sp'
 
 ---
 
