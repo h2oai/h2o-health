@@ -5,13 +5,13 @@
 The models generate a [simulation-based projection](./terminology.md#simulation-based-projection) after certain model variables obtain an average value when calculating historical data. Such historical data points are as follows: 
 
 
-- Past eight-week average of all COVID-19 non-ICU admissions at the county-level 
+- Past four-week average of all COVID-19 non-ICU admissions at the county-level 
 
-- Past eight-week admissions net change average of all  ICU patients at the county-level
+- Past four-week admissions net change average of all  ICU patients at the county-level
 
-- Past eight-week length of stay (LOS) average of all ICU and non-ICU COVID-19 patients at the county-level 
+- Past four-week length of stay (LOS) average of all ICU and non-ICU COVID-19 patients at the county-level 
 
-- Past eight-week occupancy average of all ICU and non-ICU COVID-19 patients at the county-level 
+- Past four-week occupancy average of all ICU and non-ICU COVID-19 patients at the county-level 
 
 - A county-level four-week projection of expected COVID-19 cases
 
@@ -102,5 +102,5 @@ To download the **COVID-19 forecast** data file, consider the following instruct
 
 <br>
 === "Feedback"
-    - :material-file-outline: <a href="" target="_blank">Submit and view feedback for this page</a>
+    - :material-file-outline: <a href="https://github.com/h2oai/h2o-health/issues/new?assignees=5675sp&labels=chos%2Fdocumentation&template=chos_documentation_feedback.md&title=%5BCHOS+DOCS%5D" target="_blank">Submit and view feedback for this page</a>
     - :material-package-variant-closed: Send feedback about H2O Healthcare to <niki.athanasiadou@h2o.ai>
