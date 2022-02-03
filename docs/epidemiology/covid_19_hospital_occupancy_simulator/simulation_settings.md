@@ -72,7 +72,7 @@ As part of the simulation flow ([step 2](./simulation_flow.md#step-2-review-or-c
         2. Click **Apply & Go**.
 
 
-### Remove **personalize hospital** overrides  
+### Remove personalize hospital overrides  
 
 To remove the **personalize hospital** overrides and generate a simulation, consider the following instructions: 
 
@@ -156,7 +156,7 @@ As part of the simulation flow (step [2](./simulation_flow.md#step-2-review-or-c
 
     To learn about the implications of using the above overrides (settings), see  [Adjust simulation to reflect best- and worst-case alternatives](./simulation_flow.md#adjust-simulation-to-reflect-best-and-worst-case-alternatives).
 
-### Remove **future expected estimate** overrides 
+### Remove future expected estimate overrides 
 
 To remove the **future expected estimate** overrides and generate a simulation, consider the following instructions: 
 
