@@ -2,7 +2,7 @@
 name: "CHOS documentation feedback"
 about: Provide feedback to help us improve
 title: '[CHOS DOCS]'
-labels: 'type/documentation'
+labels: 'chos/documentation'
 assignees: '5675sp'
 
 ---
