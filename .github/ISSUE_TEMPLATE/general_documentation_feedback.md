@@ -1,13 +1,13 @@
 ---
-name: "\U0001F56E  General H2O Health documentation feedback"
+name: "\U0001F56E H2O Health documentation feedback"
 about: Provide feedback to help us improve
 title: '[H2O Health DOCS]'
-labels: 'general/h2o_health_documentation'
+labels: 'h2o_health/documentation'
 assignees: '5675sp'
 
 ---
 
-**Describe general H2O Health documentation feedback**
+**Describe H2O Health documentation feedback**
 
 **Screenshots**
 If applicable, add screenshots to help explain your feedback/problem.
