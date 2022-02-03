@@ -2,7 +2,7 @@
 name: "\U0001F56E  General documentation feedback"
 about: Provide feedback to help us improve
 title: '[DOCS]'
-labels: 'type/documentation'
+labels: 'area/documentation'
 assignees: '5675sp'
 
 ---
