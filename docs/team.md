@@ -1,24 +1,25 @@
 # :material-account-supervisor-circle-outline: Team 
 
-*H2O Health* will not be possible without our team composed of makers. 
+*H2O Health* will not be possible without our team: 
+
+### Ranjith Anantharaman | Data Scientist, Wave Engineer
+
+### John Miller | Senior Data Scientist 
+
+### Marios Michailidis, PhD | Senior Data Scientist, Kaggle Grandmaster 
+
+### Sergio Perez | Technical Writer, Wave Engineer 
 
 
-## Makers 
-### Ranjith Anantharaman | Customer Data Scientist
-
-### Niki Athanasiadou | 
+### Niki Athanasiadou, MRes, PhD | Data Scientist, Health and Life Sciences AI Product Manager
 
 ### Benjamin Scheiner |
 
-### Sergio Perez |
-
 ### David Engler |
 
-### Dmitry Gordeev | 
+### Dmitry Gordeev | Senior Data Scientist, Kaggle Grandmaster 
 
 ### Jagadeesh Rajarajan |
-
-### John Miller |
 
 ### Snigdha Bose |
 
@@ -37,8 +38,6 @@
 ### Gabor Fodor | 
 
 ### Kishani Kandasamy
-
-### Marios Michailidis
 
 ### Mark Landry
 

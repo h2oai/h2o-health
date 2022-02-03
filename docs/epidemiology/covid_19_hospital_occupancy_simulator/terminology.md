@@ -1,4 +1,4 @@
-# :book: Terminology 
+# :material-book-open-outline: Terminology 
 
 The *COVID-19 Hospital Occupancy Simulator* (**CHOS**) uses several terms across its documentation, and each, in turn, is explained in the below sections.
 

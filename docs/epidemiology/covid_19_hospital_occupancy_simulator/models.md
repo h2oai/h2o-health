@@ -1,4 +1,4 @@
-# Models
+# :material-state-machine: Models
 
 The models used to generate a simulation-based projection rely on certain [modeling assumptions](#modeling-assumptions). The county-level four-week projection of expected COVID-19 cases relies on the [CDC County-Level Ensemble Model](#cdc-county-level-ensemble-model). 
 ## Modeling Assumptions 

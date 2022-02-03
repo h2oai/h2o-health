@@ -1,4 +1,4 @@
-# COVID-19 Hospital Occupancy Simulator
+# COVID-19 Hospital Occupancy Simulator ([CHOS](./terminology.md#chos-covid-19-hospital-occupancy-simulator]))
 
 
 The COVID-19 Hospital Occupancy Simulator ([**CHOS**](./terminology.md#chos-covid-19-hospital-occupancy-simulator])) application enables hospitals to prepare for patient surges due to COVID-19. Through simulations supported with state-of-the-art forecasting models and the latest county-level data on the reported COVID-19 cases and hospitalizations due to COVID-19, [**CHOS**](./terminology.md#chos-covid-19-hospital-occupancy-simulator]) produces [simulation-based projections](./terms.md#simulation-based-projection) containing a hospital-level four-week projection that includes:
@@ -19,13 +19,16 @@ Nursing staff, hospital managers, and hospital leadership
 
 ## Background 
 
-As the COVID-19 pandemic has clearly demonstrated, hospital and ICU capacity management is vulnerable to public health emergencies. While avoiding that bed and consumable availability becomes scarce during times of need, managers need to ensure the facility is not maintaining and manning an unsustainably large excess of resources for prolonged periods at a time. Moreover, during pandemic events like the one we currently experience, closely following the infection rate at the specific facility’s service area, the demand for beds comes in waves, the onset and regional magnitude of which is impossible for a manager (or anyone) to gauge. 
+As the COVID-19 pandemic demonstrates, hospital and ICU capacity management is vulnerable to public health emergencies. While avoiding that bed and consumable availability becomes scarce during times of need, managers need to ensure the facility is not maintaining and manning an unsustainably large excess of resources for prolonged periods at a time. During pandemic events like the one we currently experience, a manager (or anyone) can't predict:
 
-COVID-19 Hospital Capacity Simulator (CHOS) offers a robust solution for capacity management of hospital and ICU beds
+1. The infection rate at the specific facility's service area
+2. How the demand for beds will come in waves
+3. The onset and regional magnitude 
 
+[**CHOS**](./terminology.md#chos-covid-19-hospital-occupancy-simulator]) offers a robust solution for capacity management of hospital and ICU beds. 
 ## Access 
 
-[**CHOS**](./terminology.md#chos-covid-19-hospital-occupancy-simulator]) is available on the H2O Cloud. To learn how to access it, see [Access H2O Health Apps]().
+[**CHOS**](./terminology.md#chos-covid-19-hospital-occupancy-simulator]) is available on the H2O AI Cloud. To learn how to access it, see [Access H2O Health Apps]().
 
 
 

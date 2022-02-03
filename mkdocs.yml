@@ -63,16 +63,16 @@ nav:
     - Quickstart:
         - 'Access H2O Health Apps ': 'access_h2o_health_apps.md'
     - H2O Health Apps: 
-        - 'Epidemiology AI': 
+        - 'Suite 1: Epidemiology AI': 
           - 'COVID-19 Hospital Occupancy Simulator':
             - 'Overview': 'epidemiology/covid_19_hospital_occupancy_simulator/overview.md'
-            - 'Terminology': 'epidemiology/covid_19_hospital_occupancy_simulator/terminology.md'
             - 'Guide': 
               - 'Simulation Flow': 'epidemiology/covid_19_hospital_occupancy_simulator/simulation_flow.md'
               - 'Simulation Settings': 'epidemiology/covid_19_hospital_occupancy_simulator/simulation_settings.md'
               - 'Models': 'epidemiology/covid_19_hospital_occupancy_simulator/models.md'
               - 'Charts': 'epidemiology/covid_19_hospital_occupancy_simulator/charts.md'
               - 'Data Files': 'epidemiology/covid_19_hospital_occupancy_simulator/data_files.md'
+            - 'Terminology': 'epidemiology/covid_19_hospital_occupancy_simulator/terminology.md'
             - 'Release Notes': 'epidemiology/covid_19_hospital_occupancy_simulator/release_notes.md'
             - 'Team': 'epidemiology/covid_19_hospital_occupancy_simulator/team.md'
             - 'FAQ': 'epidemiology/covid_19_hospital_occupancy_simulator/faq.md' 

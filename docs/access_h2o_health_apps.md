@@ -69,8 +69,6 @@ An app instance can be paused or terminated. Pausing the instance saves computat
 
     - Customers pay for <a href="https://cloud.h2o.ai/login?referer=%2F" target="_blank" >H2O AI Cloud</a>  via AI Units so that as they consume more resources, they pay more. 
 
-    - By default, each instance takes 4 AI Units. 
-
 
 
 === "To pause instance"

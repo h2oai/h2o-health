@@ -1,6 +1,6 @@
 # :material-chart-timeline-variant: Simulation Flow 
 
-The flow of a simulation which subsequently generates a [simulation-based projection](./terms.md#simulation-based-projection) can be summarized in the following sequential steps: 
+The flow of a simulation, which subsequently generates a [simulation-based projection](./terms.md#simulation-based-projection), can be summarized in the following sequential steps: 
 
 
 - [Step 1: Select state and county](#step-1-select-state-and-county) 
@@ -11,7 +11,7 @@ In the below sections, each step, in turn, is explained in detail.
 
 ## Step 1: Select state and county 
 
-The COVID-19 Hospital Occupancy Simulator ([**CHOS**](./terminology.md#chos-covid-19-hospital-occupancy-simulator])) provides hospitals a [simulation-based projection](./terms.md#simulation-based-projection) supported with state-of-the-art forecasting models and the latest county-level data on the reported positive cases and metrics around COVID-19 hospitalizations. A [simulation-based projection](./terminology.md#simulation-based-projection) includes: 
+The COVID-19 Hospital Occupancy Simulator ([**CHOS**](./terminology.md#chos-covid-19-hospital-occupancy-simulator])) provides hospitals with a [simulation-based projection](./terms.md#simulation-based-projection) supported with state-of-the-art forecasting models and the latest county-level data on the reported positive cases and metrics around COVID-19 hospitalizations. A [simulation-based projection](./terminology.md#simulation-based-projection) includes: 
 
 - A ==**hospital-level**== four-week projection that includes the following metrics for COVID-19 patients:
 
@@ -34,13 +34,11 @@ Therefore, when preparing a simulation for the first time, hospitals need to spe
 
 ## Step 2: Review or customize input data 
 
-To generate a hospital-level four-week projection, the models use certain variables that obtain an average value by computing county-level data from the past 4-weeks around hospitalization metrics. 
-At times, it could be the case that a hospital might not agree with the 
- average values because the hospital knows to have above or below-average values (e.g., big vs. small hospitals in the same county). And this perceived difference will often occur among big and small hospitals in the same county. Therefore: 
+To generate a hospital-level four-week projection, the models use certain variables that obtain an average value by computing county-level data from the past four weeks around hospitalization metrics. At times, it could be the case that a hospital might not agree with the average values because the hospital knows to have above or below-average values (e.g., big vs. small hospitals in the same county). And this perceived difference will often occur among big and small hospitals in the same county. Therefore: 
 
-- Before starting a simulation, hospitals can modify the average values given to the model's variables through data overrides known as **personalize hospital** overrides. Through these overrides, [**CHOS**](./terminology.md#chos-covid-19-hospital-occupancy-simulator]) enables hospitals to use their perceived average values while taking into account the specific characteristics of the hospital. To learn about the available personalize hospital overrides, see [Overrides: personalize hospital](./simulation_settings.md#overrides-personalize-hospital).
+- Before starting a simulation, hospitals can modify the average values given to the model's variables through data overrides known as **personalized hospital** overrides. Through these overrides, [**CHOS**](./terminology.md#chos-covid-19-hospital-occupancy-simulator]) enables hospitals to use their perceived average values while considering the specific characteristics of the hospital. To learn about the available personalize hospital overrides, see [Overrides: personalized hospital](./simulation_settings.md#overrides-personalize-hospital).
 
-On top of the **personalize hospital** overrides, hospitals can introduce certain overrides based on expectations about the future to play out different scenarios and generate a modify [simulation-based projection](./terms.md#simulation-based-projection). The data overrides that enable hospitals to modify future averages are referred to as **future expert estimate** overrides. To learn more, see [Adjust simulation to reflect best- and worst-case alternatives](#adjust-simulation-to-reflect-best-and-worst-case-alternatives).
+On top of the **personalized hospital** overrides, hospitals can introduce certain overrides based on expectations about the future to play out different scenarios and generate a modified [simulation-based projection](./terms.md#simulation-based-projection). The data overrides that enable hospitals to modify future averages are referred to as **future expert estimate** overrides. To learn more, see [Adjust simulation to reflect best- and worst-case alternatives](#adjust-simulation-to-reflect-best-and-worst-case-alternatives).
 
 !!! note 
 
@@ -65,11 +63,11 @@ For the **county-level** four-week projection used to generate the **hospital-le
     
 - New COVID Cases: 4-Weeks Projection (county-level)
 
-After a [simulation-based projection](./terms.md#simulation-based-projection) is generated, hospitals can introduce certain overrides based on expectations about the future to play out different scenarios and generate an alternative [simulation-based projection](./terms.md#simulation-based-projection). The data overrides that enable hospitals to modify future averages are referred to as **expert future estimates** overrides. To learn more, see [Adjust simulation to reflect best- and worst-case alternatives](#adjust-simulation-to-reflect-best-and-worst-case-alternatives).
+After a [simulation-based projection](./terms.md#simulation-based-projection) is generated, hospitals can introduce certain overrides based on expectations about the future to play out different scenarios and generate an alternative [simulation-based projection](./terms.md#simulation-based-projection). The data overrides that enable hospitals to modify future averages are referred to as **future expert estimate** overrides. To learn more, see [Adjust simulation to reflect best- and worst-case alternatives](#adjust-simulation-to-reflect-best-and-worst-case-alternatives).
 
 !!! note 
 
-    - To learn more about the charts and how to interpret them, see [Charts](charts.md).
+    - To learn more about the charts and their interpretation, see [Charts](charts.md).
 
 ## Adjust simulation to reflect best- and worst-case alternatives
 
@@ -77,7 +75,7 @@ Using one of the **future expert estimate** overrides enables hospitals to chang
 
 !!! example 
 
-    One of the available overrides enables hospitals to select a hospital-level average of future expected COVID-19 cases per week. This override allows hospitals to clearly understand the implications under an increasing or decreasing surge of COVID-19 cases within their facilities. 
+    One of the available overrides enables hospitals to select a hospital-level average of future expected COVID-19 cases per week. This override allows hospitals to clearly understand the implications of an increasing or decreasing surge of COVID-19 cases within their facilities. 
 
 !!! note 
 
