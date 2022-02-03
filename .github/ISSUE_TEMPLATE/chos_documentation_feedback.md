@@ -9,6 +9,9 @@ assignees: '5675sp'
 
 **Describe documentation feedback for the *COVID-19 Hospital Occupancy Simulator* application**
 
+
+**Page title (if a subsection, please specify section title)** 
+
 **Screenshots**
 If applicable, add screenshots to help explain your feedback/problem.
 

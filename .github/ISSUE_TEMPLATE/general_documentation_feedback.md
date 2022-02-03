@@ -9,6 +9,8 @@ assignees: '5675sp'
 
 **Describe H2O Health documentation feedback**
 
+**Page title (if a subsection, please specify section title)** 
+
 **Screenshots**
 If applicable, add screenshots to help explain your feedback/problem.
 
