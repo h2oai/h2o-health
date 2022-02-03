@@ -9,9 +9,7 @@ Here, you will find information about H2O Health; in particular,  you will find 
 
     !!! note 
 
-        H2O Health apps are divided into the following suites:
-
-        - Epidemiology AI
+        H2O Health apps are divided into different suites. To learn more, see [Suites](suites.md).
 
 - **Team**: Explore who is behind H2O Health 
 - **FAQ:** Discover frequently asked questions

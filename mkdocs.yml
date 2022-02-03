@@ -59,7 +59,7 @@ nav:
     - Overview: 
         - 'Introduction': 'introduction.md'
         - 'What is H2O Health?': 'what_is_h2o_health.md'
-        #- 'Suites': 'suites.md'
+        - 'Suites': 'suites.md'
     - Quickstart:
         - 'Access H2O Health Apps ': 'access_h2o_health_apps.md'
     - H2O Health Apps: 
@@ -73,7 +73,7 @@ nav:
               - 'Charts': 'epidemiology/covid_19_hospital_occupancy_simulator/charts.md'
               - 'Data Files': 'epidemiology/covid_19_hospital_occupancy_simulator/data_files.md'
             - 'Terminology': 'epidemiology/covid_19_hospital_occupancy_simulator/terminology.md'
-            - 'Release Notes': 'epidemiology/covid_19_hospital_occupancy_simulator/release_notes.md'
+            #- 'Release Notes': 'epidemiology/covid_19_hospital_occupancy_simulator/release_notes.md'
             - 'Team': 'epidemiology/covid_19_hospital_occupancy_simulator/team.md'
             - 'FAQ': 'epidemiology/covid_19_hospital_occupancy_simulator/faq.md' 
     - Team: 'team.md'
