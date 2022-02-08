@@ -7,7 +7,9 @@ The *COVID-19 Hospital Occupancy Simulator* app would not be possible without ou
 
 ### John Miller | Senior Data Scientist 
 
-### Marios Michailidis, PhD | Senior Data Scientist, Kaggle Grandmaster 
+### Marios Michailidis, PhD | Senior Data Scientist, Kaggle Grandmaster
+
+### Melonie Almeida | Machine Learning Engineer
 
 ### Sergio Perez | Technical Writer, Wave Engineer 
 
