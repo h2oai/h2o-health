@@ -22,7 +22,7 @@ The below sections provide answers to frequently asked questions. If you have ad
 ### Who can use CHOS? 
 
 
-[**CHOS**](./terminology.md#chos-covid-19-hospital-occupancy-simulator]) was developed for nursing staff, hospital managers, and hospital leadership to 
+[**CHOS**](./terminology.md#chos-covid-19-hospital-occupancy-simulator]) was developed for nursing staff, hospital managers, and hospital leadership.  
 
 ## Models 
 
