@@ -62,5 +62,49 @@ img[src*="#center"] {
             mask-image: var(--md-admonition-icon--settings);
   }
 
+.md-sidebar {
+  width: 16rem;
+}
 
+@media screen and (max-width: 76.1875em) {
+  .md-sidebar--primary {
+    left: -16rem !important; 
+  }
+  [data-md-toggle=drawer]:checked~.md-container .md-sidebar--primary {
+    transform: translateX(16rem);
+  }
+}
 
+.home-page-title {
+  color: unset !important;
+  font-weight: bold !important;
+  margin: 0 0 0.75em !important;
+}
+
+.suite-title {
+  margin: 20px 0 8px 0 !important;
+  font-weight: bold !important;
+}
+
+.home-suite-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -20px;
+}
+
+.home-app-link {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  text-align: center;
+  margin: 20px;
+}
+
+.home-app-link > img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.home-app-link > span {
+  margin-top: 8px;
+}

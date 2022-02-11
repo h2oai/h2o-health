@@ -1,20 +1,18 @@
 # :material-account-supervisor-circle-outline: Team 
 
-The *COVID-19 Hospital Occupancy Simulator* app would not be possible without our team: 
+The *COVID-19 Hospital Occupancy Simulator* was built by the following people:
 
+**Ranjith Anantharaman** | Data Scientist, Wave Engineer
 
-### Ranjith Anantharaman | Data Scientist, Wave Engineer
+**John Miller** | Senior Data Scientist 
 
-### John Miller | Senior Data Scientist 
+**Marios Michailidis, PhD** | Senior Data Scientist, Kaggle Grandmaster
 
-### Marios Michailidis, PhD | Senior Data Scientist, Kaggle Grandmaster
+**Melonie Almeida** | Machine Learning Engineer
 
-### Melonie Almeida | Machine Learning Engineer
+**Sergio Perez** | Technical Writer, Wave Engineer 
 
-### Sergio Perez | Technical Writer, Wave Engineer 
-
-
-### Niki Athanasiadou, MRes, PhD | Data Scientist, Health and Life Sciences AI Product Manager
+**Niki Athanasiadou, MRes, PhD** | Data Scientist, Health and Life Sciences AI Product Manager
 
  
 
