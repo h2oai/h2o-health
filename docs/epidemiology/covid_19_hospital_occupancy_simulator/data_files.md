@@ -12,13 +12,14 @@ Variables derived from the **available historical hospitalization dataset** are:
 
 - Average Length of Stay (LOS) in the facility (defaults to the latest national average). 
 
-These variables can be viewed and downloaded from the [Hospital occupancy](#hospital-occupancy) table: 
+[CHOS](./terminology.md#chos) also utilizes **weekly county-level [COVID-19 forecasts](#covid-19-forecast)** for the next four weeks. These are estimated based on the **weekly [COVID-19 cases](#covid-19-cases)** in the last four weeks. 
+
+All the datasets are available for view and downloading following these steps:
 
 1. On the app navigation menu, go to **Data Files** 
-2. Click **Hospital occupancy**. 
+2. Click on the dataset you want to view or download. 
 3. Inspect the data and click **Download full table**. 
 
-[CHOS](./terminology.md#chos) also utilizes weekly county-level [COVID-19 forecasts](#covid-19-forecast) for the next four weeks. These are estimated based on the weekly [COVID-19 cases](#covid-19-cases) in the last four weeks. Both these datasets are available for view and downloading under **Data Files** in the navigation menu following the steps descibed in detale above for table [Hospital occupancy](#hospital-occupancy).
 
 Details on the available fields in each of these three tables is offered below.
 
