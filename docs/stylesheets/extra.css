@@ -108,3 +108,7 @@ img[src*="#center"] {
 .home-app-link > span {
   margin-top: 8px;
 }
+
+.table-of-contents-link {
+  font-weight: bold;
+}
