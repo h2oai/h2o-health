@@ -9,11 +9,13 @@ There are many health care apps available in the <a href="https://cloud.h2o.ai/l
 
 
 <div class="home-suite-container">
-  <a href="/epidemiology/covid_19_hospital_occupancy_simulator/overview/" class="home-app-link">
+  <a href="/h2o-health/epidemiology/covid_19_hospital_occupancy_simulator/overview/" class="home-app-link">
     <img src="assets/index/logo_chos.png" class="home-app-logo" />
     <span>Covid-19 Hospital Occupancy Simulator</span>
   </a>
 </div>
+
+
 
 
 <h3 class="suite-title">Documentation structure</h3>
@@ -23,7 +25,7 @@ There are many health care apps available in the <a href="https://cloud.h2o.ai/l
     <span><a class="table-of-contents-link" href="/">Home:</a> Description of the H2O Health Initiative and available apps</span>
   </li>
   <li>
-    <span><a class="table-of-contents-link" href="/access_h2o_health_apps">Access H2O Health Apps In HAIC:</a> Quick start to the H2O AI Cloud and how to access H2O Health apps</span>
+    <span><a class="table-of-contents-link" href="/h2o-health/access_h2o_health_apps">Access H2O Health Apps:</a> Quick start to the H2O AI Cloud and how to access H2O Health apps</span>
   </li>
   <li>
     <span><a class="table-of-contents-link" href="/team">Team:</a> A list of H2O makers who contribute to this initiative</span>
