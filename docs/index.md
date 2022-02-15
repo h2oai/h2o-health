@@ -22,13 +22,13 @@ There are many health care apps available in the <a href="https://cloud.h2o.ai/l
 
 <ul style="margin-bottom: 80px;">
   <li>
-    <span><a class="table-of-contents-link" href="/">Home:</a> Description of the H2O Health Initiative and available apps</span>
+    <span><a class="table-of-contents-link" href="/h2o-health">Home:</a> Description of the H2O Health Initiative and available apps</span>
   </li>
   <li>
     <span><a class="table-of-contents-link" href="/h2o-health/access_h2o_health_apps">Access H2O Health Apps:</a> Quick start to the H2O AI Cloud and how to access H2O Health apps</span>
   </li>
   <li>
-    <span><a class="table-of-contents-link" href="/team">Team:</a> A list of H2O makers who contribute to this initiative</span>
+    <span><a class="table-of-contents-link" href="/h2o-health/team">Team:</a> A list of H2O makers who contribute to this initiative</span>
   </li>
 </ul>
 
