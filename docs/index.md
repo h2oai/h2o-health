@@ -11,7 +11,7 @@ There are many health care apps available in the <a href="https://cloud.h2o.ai/l
 <div class="home-suite-container">
   <a href="/h2o-health/epidemiology/covid_19_hospital_occupancy_simulator/overview/" class="home-app-link">
     <img src="assets/index/logo_chos.png" class="home-app-logo" />
-    <span>Covid-19 Hospital Occupancy Simulator</span>
+    <span>Covid-19 Hospital Occupancy Simulator (CHOS)</span>
   </a>
 </div>
 
