@@ -52,16 +52,16 @@ plugins:
   - macros
 
 
-copyright: ©Copyright 2017-2021 H2O.ai
+copyright: Copyright © 2022 H2O.ai. All rights reserved
 
 
 nav:
     - Home: 'index.md'
-    - 'Access H2O Health Apps In HAIC': 'access_h2o_health_apps.md'
+    - 'Access H2O Health Apps': 'access_h2o_health_apps.md'
     # - 'What is H2O Health?': 'what_is_h2o_health.md'
     # - 'Suites': 'suites.md'
     # - 'FAQ': 'faq.md'
-    - COVID-19 Hospital Occupancy Simulator: 
+    - CHOS: 
         - 'Overview': 'epidemiology/covid_19_hospital_occupancy_simulator/overview.md'
         - 'Guide': 
           - 'Simulation Flow': 'epidemiology/covid_19_hospital_occupancy_simulator/simulation_flow.md'

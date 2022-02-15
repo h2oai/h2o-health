@@ -1,7 +1,7 @@
-# COVID-19 Hospital Occupancy Simulator ([CHOS](./terminology.md#chos-covid-19-hospital-occupancy-simulator]))
+# COVID-19 Hospital Occupancy Simulator ([CHOS](./terminology.md#chos))
 
 
-The COVID-19 Hospital Occupancy Simulator ([**CHOS**](./terminology.md#chos-covid-19-hospital-occupancy-simulator])) application enables hospitals to prepare for patient surges due to COVID-19. Through simulations supported with state-of-the-art forecasting models and the latest county-level data on the reported COVID-19 cases and hospitalizations due to COVID-19, [**CHOS**](./terminology.md#chos-covid-19-hospital-occupancy-simulator]) produces [simulation-based projections](./terminology.md#simulation-based-projection) containing a hospital-level four-week projection that includes:
+The COVID-19 Hospital Occupancy Simulator ([**CHOS**](./terminology.md#chos)) application enables hospitals to prepare for patient surges due to COVID-19. Through simulations supported with state-of-the-art forecasting models and the latest county-level data on the reported COVID-19 cases and hospitalizations due to COVID-19, [**CHOS**](./terminology.md#chos) produces [simulation-based projections](./terminology.md#simulation-based-projection) containing a hospital-level four-week projection that includes:
 
 - Daily expected non-ICU occupancy and admissions for COVID-19 patients 
 - Daily expected ICU occupancy and net change admissions for COVID-19 patients 
@@ -25,10 +25,10 @@ As the COVID-19 pandemic demonstrates, hospital and ICU capacity management is v
 2. How the demand for beds will come in waves
 3. The onset and regional magnitude 
 
-[**CHOS**](./terminology.md#chos-covid-19-hospital-occupancy-simulator]) offers a robust solution for capacity management of hospital and ICU beds. 
+[**CHOS**](./terminology.md#chos) offers a robust solution for capacity management of hospital and ICU beds. 
 ## Access 
 
-[**CHOS**](./terminology.md#chos-covid-19-hospital-occupancy-simulator]) is available on the H2O AI Cloud. To learn how to access it, see [Access H2O Health Apps](../../access_h2o_health_apps.md).
+[**CHOS**](./terminology.md#chos) is available on the H2O AI Cloud. To learn how to access it, see [Access H2O Health Apps](../../access_h2o_health_apps.md).
 
 
 
@@ -36,4 +36,4 @@ As the COVID-19 pandemic demonstrates, hospital and ICU capacity management is v
 <br>
 === "Feedback"
     - :material-file-outline: <a href="https://github.com/h2oai/h2o-health/issues/new?assignees=5675sp&labels=chos%2Fdocumentation&template=chos_documentation_feedback.md&title=%5BCHOS+DOCS%5D" target="_blank">Submit and view feedback for this page</a>
-    - :material-package-variant-closed: Send feedback about [**CHOS**](./terminology.md#chos-covid-19-hospital-occupancy-simulator) to <niki.athanasiadou@h2o.ai>
+    - :material-package-variant-closed: Send feedback about [CHOS](./terminology.md#chos) to <niki.athanasiadou@h2o.ai>

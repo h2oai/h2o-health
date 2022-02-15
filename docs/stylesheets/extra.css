@@ -62,9 +62,7 @@ img[src*="#center"] {
             mask-image: var(--md-admonition-icon--settings);
   }
 
-.md-sidebar {
-  width: 16rem;
-}
+
 
 @media screen and (max-width: 76.1875em) {
   .md-sidebar--primary {
