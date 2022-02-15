@@ -1,10 +1,8 @@
-# H2O Health Documentation
+<h1 class="home-page-title">H2O Health Documentation</h1>
 
 <a href="https://h2o.ai/solutions/industry/health/" target="_blank" >H2O Health</a> is an initiative of <a href="https://www.h2o.ai/" target="_blank" >H2O.ai</a> to build AI apps to solve complex healthcare and life science problems while accelerating the discovery of new ideas within the industry. H2O Health is co-innovating with major healthcare organizations to address existing and emerging challenges.
 
-
-
-## Health apps
+<h3 class="suite-title">Health apps</h3>
 
 There are many health care apps available in the <a href="https://cloud.h2o.ai/login?referer=%2F" target="_blank" >H2O AI Cloud (HAIC)</a>. However, documentation is currently only available for the following app:
 
@@ -13,20 +11,24 @@ There are many health care apps available in the <a href="https://cloud.h2o.ai/l
 <div class="home-suite-container">
   <a href="/epidemiology/covid_19_hospital_occupancy_simulator/overview/" class="home-app-link">
     <img src="assets/index/logo_chos.png" class="home-app-logo" />
-    <span>Covid-19 Hospital Occupancy Simulator (CHOS)</span>
+    <span>Covid-19 Hospital Occupancy Simulator</span>
   </a>
 </div>
 
 
-## Documentation structure 
+<h3 class="suite-title">Documentation structure</h3>
 
-- [Home](index.md): Description of the H2O Health Initiative and available apps
-
-- [Access H2O Health Apps](access_h2o_health_apps.md): Quick start to the H2O AI Cloud and how to access H2O Health apps
-
-- [CHOS](/epidemiology/covid_19_hospital_occupancy_simulator/overview/): Documentation for the COVID-19 Hospital Occupancy Simulator (CHOS)  
-
-- [Team](team.md): A list of H2O makers who contribute to this initiative
+<ul style="margin-bottom: 80px;">
+  <li>
+    <span><a class="table-of-contents-link" href="/">Home:</a> Description of the H2O Health Initiative and available apps</span>
+  </li>
+  <li>
+    <span><a class="table-of-contents-link" href="/access_h2o_health_apps">Access H2O Health Apps In HAIC:</a> Quick start to the H2O AI Cloud and how to access H2O Health apps</span>
+  </li>
+  <li>
+    <span><a class="table-of-contents-link" href="/team">Team:</a> A list of H2O makers who contribute to this initiative</span>
+  </li>
+</ul>
 
 
 <br>

@@ -62,17 +62,6 @@ img[src*="#center"] {
             mask-image: var(--md-admonition-icon--settings);
   }
 
-
-
-@media screen and (max-width: 76.1875em) {
-  .md-sidebar--primary {
-    left: -16rem !important; 
-  }
-  [data-md-toggle=drawer]:checked~.md-container .md-sidebar--primary {
-    transform: translateX(16rem);
-  }
-}
-
 .home-page-title {
   color: unset !important;
   font-weight: bold !important;
@@ -109,4 +98,9 @@ img[src*="#center"] {
 
 .table-of-contents-link {
   font-weight: bold;
+}
+
+.md-logo > img {
+  image-rendering: -webkit-optimize-contrast;
+  height: 1.6rem !important;
 }
