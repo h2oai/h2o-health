@@ -1,6 +1,6 @@
 # :material-tune: Simulation Settings 
 
-As part of the [Simulation Flow](simulation_flow.md), the COVID-19 Hospital Occupancy Simulator ([**CHOS**](./terminology.md#chos-covid-19-hospital-occupancy-simulator])) application enables hospitals to customize the models input data through **personalize hospital** overrides and **future expert estimate** overrides. Through  **future expert estimate** overrides, hospitals can adjust a [simulation-based projection](./terminology.md#simulation-based-projection) to reflect a hospital's specific characteristics and to play out best and worst-case alternatives. The distinct overrides are discussed below: 
+As part of the [Simulation Flow](simulation_flow.md), the COVID-19 Hospital Occupancy Simulator ([**CHOS**](./terminology.md#chos)) application enables hospitals to customize the models input data through **personalize hospital** overrides and **future expert estimate** overrides. Through  **future expert estimate** overrides, hospitals can adjust a [simulation-based projection](./terminology.md#simulation-based-projection) to reflect a hospital's specific characteristics and to play out best and worst-case alternatives. The distinct overrides are discussed below: 
 
 
 - [Overrides: personalize hospital](#overrides-personalize-hospital)
@@ -10,7 +10,7 @@ As part of the [Simulation Flow](simulation_flow.md), the COVID-19 Hospital Occu
 
 To start a simulation, consider the following instructions: 
 
-1. In the [**CHOS**](./terminology.md#chos-covid-19-hospital-occupancy-simulator]) navigation menu, click :material-bullseye-arrow: *Simulation*. 
+1. In the [**CHOS**](./terminology.md#chos) navigation menu, click :material-bullseye-arrow: *Simulation*. 
 2. In the **State** list, select the *state* in which the hospital resides.
 3. In the **County** list, select the *county* in which the hospital resides.
 4. (==optional==) Before starting a simulation, you can use **personalize hospital**  or **future expert estimate** overrides.  To learn more about available overrides and how to enable them, see [Overrides: personalize hospital ](#overrides-personalize-hospital) and [Overrides: future expert estimates](#overrides-future-expert-estimates).
@@ -169,4 +169,4 @@ To remove the **future expected estimate** overrides and generate a simulation, 
 <br>
 === "Feedback"
     - :material-file-outline: <a href="https://github.com/h2oai/h2o-health/issues/new?assignees=5675sp&labels=chos%2Fdocumentation&template=chos_documentation_feedback.md&title=%5BCHOS+DOCS%5D" target="_blank">Submit and view feedback for this page</a>
-    - :material-package-variant-closed: Send feedback about [**CHOS**](./terminology.md#chos-covid-19-hospital-occupancy-simulator) to <niki.athanasiadou@h2o.ai>
+    - :material-package-variant-closed: Send feedback about [CHOS](./terminology.md#chos) to <niki.athanasiadou@h2o.ai>

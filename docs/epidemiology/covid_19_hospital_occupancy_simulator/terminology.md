@@ -4,7 +4,7 @@ The *COVID-19 Hospital Occupancy Simulator* (**CHOS**) uses several terms across
 
 
 
-## CHOS: COVID-19 Hospital Occupancy Simulator 
+## CHOS
 
 CHOS stands for *COVID-19 Hospital Occupancy Simulator*. The name of the application. 
 
@@ -20,7 +20,7 @@ A simulation-based projection includes:
 
 - A ==**county-level**== four-week projection of expected COVID-19 cases used to generate the ==**hospital-level**== four-week projection
 
-## LOS: length of stay
+## LOS
 
 LOS stands for *length of stay*. In other words, it refers to how long a patient stays in a hospital as an inpatient. 
 
@@ -30,4 +30,4 @@ LOS stands for *length of stay*. In other words, it refers to how long a patient
 <br>
 === "Feedback"
     - :material-file-outline: <a href="https://github.com/h2oai/h2o-health/issues/new?assignees=5675sp&labels=chos%2Fdocumentation&template=chos_documentation_feedback.md&title=%5BCHOS+DOCS%5D" target="_blank">Submit and view feedback for this page</a>
-    - :material-package-variant-closed: Send feedback about [**CHOS**](./terminology.md#chos-covid-19-hospital-occupancy-simulator) to <niki.athanasiadou@h2o.ai>
+    - :material-package-variant-closed: Send feedback about [CHOS](./terminology.md#chos) to <niki.athanasiadou@h2o.ai>

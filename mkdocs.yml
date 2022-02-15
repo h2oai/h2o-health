@@ -1,8 +1,9 @@
-site_name: H2O Health 
+site_name: H2O Health Documentation
 
 theme:
   name: material
   logo: assets/h2o_logo/h2oai.png
+  favicon: assets/h2o_logo/favicon.ico
   font:
     text: Roboto
   features:
@@ -51,33 +52,28 @@ plugins:
   - macros
 
 
-copyright: ©Copyright 2017-2021 H2O.ai
+copyright: Copyright © 2022 H2O.ai. All rights reserved
 
 
 nav:
-    - H2O Health Documentation: 'index.md'
-    - Overview: 
-        - 'Introduction': 'introduction.md'
-        - 'What is H2O Health?': 'what_is_h2o_health.md'
-        - 'Suites': 'suites.md'
-    - Quickstart:
-        - 'Access H2O Health Apps ': 'access_h2o_health_apps.md'
-    - H2O Health Apps: 
-        - 'Suite 1: Epidemiology AI': 
-          - 'COVID-19 Hospital Occupancy Simulator':
-            - 'Overview': 'epidemiology/covid_19_hospital_occupancy_simulator/overview.md'
-            - 'Guide': 
-              - 'Simulation Flow': 'epidemiology/covid_19_hospital_occupancy_simulator/simulation_flow.md'
-              - 'Simulation Settings': 'epidemiology/covid_19_hospital_occupancy_simulator/simulation_settings.md'
-              - 'Models': 'epidemiology/covid_19_hospital_occupancy_simulator/models.md'
-              - 'Charts': 'epidemiology/covid_19_hospital_occupancy_simulator/charts.md'
-              - 'Data Files': 'epidemiology/covid_19_hospital_occupancy_simulator/data_files.md'
-            - 'Terminology': 'epidemiology/covid_19_hospital_occupancy_simulator/terminology.md'
-            #- 'Release Notes': 'epidemiology/covid_19_hospital_occupancy_simulator/release_notes.md'
-            - 'Team': 'epidemiology/covid_19_hospital_occupancy_simulator/team.md'
-            - 'FAQ': 'epidemiology/covid_19_hospital_occupancy_simulator/faq.md' 
-    - Team: 'team.md'
-    - FAQ: 'faq.md'
+    - Home: 'index.md'
+    - 'Access H2O Health Apps': 'access_h2o_health_apps.md'
+    # - 'What is H2O Health?': 'what_is_h2o_health.md'
+    # - 'Suites': 'suites.md'
+    # - 'FAQ': 'faq.md'
+    - CHOS: 
+        - 'Overview': 'epidemiology/covid_19_hospital_occupancy_simulator/overview.md'
+        - 'Guide': 
+          - 'Simulation Flow': 'epidemiology/covid_19_hospital_occupancy_simulator/simulation_flow.md'
+          - 'Simulation Settings': 'epidemiology/covid_19_hospital_occupancy_simulator/simulation_settings.md'
+          - 'Models': 'epidemiology/covid_19_hospital_occupancy_simulator/models.md'
+          - 'Charts': 'epidemiology/covid_19_hospital_occupancy_simulator/charts.md'
+          - 'Data Files': 'epidemiology/covid_19_hospital_occupancy_simulator/data_files.md'
+        - 'Terminology': 'epidemiology/covid_19_hospital_occupancy_simulator/terminology.md'
+        #- 'Release Notes': 'epidemiology/covid_19_hospital_occupancy_simulator/release_notes.md'
+        - 'Team': 'epidemiology/covid_19_hospital_occupancy_simulator/team.md'
+        - 'FAQ': 'epidemiology/covid_19_hospital_occupancy_simulator/faq.md' 
+    - 'Team': 'team.md'
     
 
 

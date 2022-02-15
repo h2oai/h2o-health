@@ -1,53 +1,52 @@
 # :material-account-supervisor-circle-outline: Team 
 
-*H2O Health* will not be possible without our team: 
+The H2O Health Initiative would not be possible without our team: 
 
-### Ranjith Anantharaman | Data Scientist, Wave Engineer
+**Ranjith Anantharaman** | Data Scientist, Wave Engineer
 
-### John Miller | Senior Data Scientist 
+**John Miller** | Senior Data Scientist 
 
-### Marios Michailidis, PhD | Senior Data Scientist, Kaggle Grandmaster 
+**Marios Michailidis, PhD** | Senior Data Scientist, Kaggle Grandmaster 
 
-### Sergio Perez | Technical Writer, Wave Engineer 
+**Sergio Perez** | Technical Writer, Wave Engineer 
 
+**Niki Athanasiadou, MRes, PhD** | Data Scientist, Health and Life Sciences AI Product Manager
 
-### Niki Athanasiadou, MRes, PhD | Data Scientist, Health and Life Sciences AI Product Manager
+**Benjamin Scheiner** | Sr. Software Engineer
 
-### Benjamin Scheiner | Sr. Software Engineer
+**David Engler** | Sr. Data Scientist
 
-### David Engler | Sr. Data Scientist
+**Dmitry Gordeev** | Senior Data Scientist, Kaggle Grandmaster 
 
-### Dmitry Gordeev | Senior Data Scientist, Kaggle Grandmaster 
+**Jagadeesh Rajarajan** | Sr. Software Engineer
 
-### Jagadeesh Rajarajan | Sr. Software Engineer
+**Snigdha Bose** | Director, Healthcare Al & Analytics
 
-### Snigdha Bose | Director, Healthcare Al & Analytics
+**Trushant Kalyanpur** | Customer Solutions Engineer
 
-### Trushant Kalyanpur | Customer Solutions Engineer
+**Venkatesh Yadav** | VP Engineering
 
-### Venkatesh Yadav | VP Engineering
+**Chetan Ganjihal** | Professional Services Vertical 
 
-### Chetan Ganjihal | Professional Services Vertical 
+**Sandaru Paranahewa** | Lead UX Designer
 
-### Sandaru Paranahewa | Lead UX Designer
+**Aakash Nain** | Senior Data Scientist
 
-### Aakash Nain | Senior Data Scientist
+**Chris Mascioli** | Lead Data Scientist
 
-### Chris Mascioli | Lead Data Scientist
+**Gabor Fodor** | Customer Data Scientist, Kaggle Grandmaster 
 
-### Gabor Fodor | Customer Data Scientist, Kaggle Grandmaster 
+**Kishani Kandasamy** | Software Engineer - Intern
 
-### Kishani Kandasamy | Software Engineer - Intern
+**Mark Landry** | Data Scientist & Product Mgr
 
-### Mark Landry | Data Scientist & Product Mgr
+**Melonie De Almeida** | Machine Learning Engineer
 
-### Melonie De Almeida | Machine Learning Engineer
+**Prashant Natarajan** | Vice President, Healthcare
 
-### Prashant Natarajan | Vice President, Healthcare
+**Vijitha Ekanayake** | Sr. Fullstack Software Development Engineer
 
-### Vijitha Ekanayake | Sr. Fullstack Software Development Engineer
-
-### Vinod Iyengar | VP of Products
+**Vinod Iyengar** | VP of Products
 
 <br>
 === "Feedback"

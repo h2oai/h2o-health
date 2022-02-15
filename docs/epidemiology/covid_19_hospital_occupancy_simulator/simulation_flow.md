@@ -11,7 +11,7 @@ In the below sections, each step, in turn, is explained in detail.
 
 ## Step 1: Select state and county 
 
-The COVID-19 Hospital Occupancy Simulator ([**CHOS**](./terminology.md#chos-covid-19-hospital-occupancy-simulator])) provides hospitals with a [simulation-based projection](./terminology.md#simulation-based-projection) supported with state-of-the-art forecasting models and the latest county-level data on the reported positive cases and metrics around COVID-19 hospitalizations. A [simulation-based projection](./terminology.md#simulation-based-projection) includes: 
+The COVID-19 Hospital Occupancy Simulator ([**CHOS**](./terminology.md#chos)) provides hospitals with a [simulation-based projection](./terminology.md#simulation-based-projection) supported with state-of-the-art forecasting models and the latest county-level data on the reported positive cases and metrics around COVID-19 hospitalizations. A [simulation-based projection](./terminology.md#simulation-based-projection) includes: 
 
 {==
 
@@ -40,7 +40,7 @@ Therefore, when preparing a simulation for the first time, hospitals need to spe
 
 To generate a hospital-level four-week projection, the models use certain variables that obtain an average value by computing county-level data from the past four weeks around hospitalization metrics. At times, it could be the case that a hospital might not agree with the average values because the hospital knows to have above or below-average values (e.g., big vs. small hospitals in the same county). This perceived difference will often occur among big and small hospitals when county-level averages will not correspond.  Therefore: 
 
-- Before starting a simulation, hospitals can modify the average values given to the model's variables through data overrides known as **personalized hospital** overrides. Through these overrides, [**CHOS**](./terminology.md#chos-covid-19-hospital-occupancy-simulator]) enables hospitals to use their perceived average values while considering the specific characteristics of the hospital. To learn about the available personalized hospital overrides, see [Overrides: personalized hospital](./simulation_settings.md#overrides-personalize-hospital).
+- Before starting a simulation, hospitals can modify the average values given to the model's variables through data overrides known as **personalized hospital** overrides. Through these overrides, [**CHOS**](./terminology.md#chos) enables hospitals to use their perceived average values while considering the specific characteristics of the hospital. To learn about the available personalized hospital overrides, see [Overrides: personalized hospital](./simulation_settings.md#overrides-personalize-hospital).
 
 On top of the **personalized hospital** overrides, hospitals can introduce certain overrides based on expectations about the future to play out different scenarios and generate a modified [simulation-based projection](./terminology.md#simulation-based-projection). The data overrides that enable hospitals to modify future averages are referred to as **future expert estimate** overrides. To learn more, see [Adjust simulation to reflect best- and worst-case alternatives](#adjust-simulation-to-reflect-best-and-worst-case-alternatives).
 
@@ -87,4 +87,4 @@ Using one of the **future expert estimate** overrides enables hospitals to chang
 <br>
 === "Feedback"
     - :material-file-outline: <a href="https://github.com/h2oai/h2o-health/issues/new?assignees=5675sp&labels=chos%2Fdocumentation&template=chos_documentation_feedback.md&title=%5BCHOS+DOCS%5D" target="_blank">Submit and view feedback for this page</a>
-    - :material-package-variant-closed: Send feedback about [**CHOS**](./terminology.md#chos-covid-19-hospital-occupancy-simulator) to <niki.athanasiadou@h2o.ai>
+    - :material-package-variant-closed: Send feedback about [CHOS](./terminology.md#chos) to <niki.athanasiadou@h2o.ai>

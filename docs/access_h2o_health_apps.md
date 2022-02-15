@@ -1,7 +1,7 @@
 # :material-door: Access H2O Health Apps  
 
 
-You can access H2O Health apps through the  <a href="https://cloud.h2o.ai/login?referer=%2F" target="_blank" >H2O AI Cloud (HAC)</a>. To access a particular app, refer to the following steps: 
+You can access H2O Health apps through the  <a href="https://cloud.h2o.ai/login?referer=%2F" target="_blank" >H2O AI Cloud (HAIC)</a>. To access a particular app:
 
 - [Step 1: Access your account](#step-1-access-your-account)
 - [Step 2: Search app](#step-2-search-app)
@@ -18,18 +18,18 @@ You can access H2O Health apps through the  <a href="https://cloud.h2o.ai/login?
 
 ## Step 1: Access your account
 
-Access your <a href="https://cloud.h2o.ai/login?referer=%2F" target="_blank" >HAC</a>  account. 
+Access your <a href="https://cloud.h2o.ai/login?referer=%2F" target="_blank" >HAIC</a>  account. 
 
 
 !!! note
 
-    To obtain a HAC account, please email <niki.athanasiadou@h2o.ai>.
+    To obtain a HAIC account, please email <niki.athanasiadou@h2o.ai>.
 
 
 
 ## Step 2: Search app
 
-In the **HAC** search bar, search ```name_of_app```, in this case, ```name_of_app``` refers to the name of the app you want to access (e.g., Route Optimizer): 
+In the **HAIC** search bar, search ```name_of_app```, in this case, ```name_of_app``` refers to the name of the app you want to access (e.g., Route Optimizer): 
 
 <figure>
   <img src="../assets/access_h2o_health_apps/search_bar.png" width="1000" alt="Search Bar"/>
@@ -39,7 +39,7 @@ Now, select the app card, the *app details* page appears containing information 
 
 !!! note 
 
-    Instead of searching for health apps, you can click the **Healthcare** in the HAC navigation menu. On the **Healthcare** page, you can explore all available H2O Health apps. 
+    Instead of searching for health apps, you can click the **Healthcare** in the HAIC navigation menu. On the **Healthcare** page, you can explore all available H2O Health apps. 
 ## Step 3: Run app 
 
 To start an instance, click **Run App**:
@@ -50,7 +50,7 @@ To start an instance, click **Run App**:
 
 ## Step 4: Access app instance
 
-Now, HAC is starting an instance of the app for you. While you have a starting/running instance, the **Run App** button will change its name to **Go to Instance**. To open the app in a new tab, click **Visit**:
+Now, HAIC is starting an instance of the app for you. While you have a starting/running instance, the **Run App** button will change its name to **Go to Instance**. To open the app in a new tab, click **Visit**:
 
 <figure>
   <img src="../assets/access_h2o_health_apps/visit.png" width="300"  alt="Visit" />
@@ -71,20 +71,22 @@ An app instance can be paused or terminated. Pausing the instance saves computat
 
 
 
-=== "To pause instance"
+=== "Pause"
+
+    You can **Pause** an instance in the *app details* page:
 
     1. In the *app details* page, click the **App Instances** tab. 
     2. Locate your instance row.
-    3. Click **Pause**:
+    3. Click **Pause**.
 
     <figure>
       <img src="../assets/access_h2o_health_apps/pause.png" width="1000" alt="Pause" />
     </figure>
 
-    You can also **Pause** the instance in the **My Instances** page: 
+    You can also **Pause** an instance in the **My Instances** page:
 
 
-    1. In the **HAC** menu, select **My Instances**:
+    1. In the **HAIC** menu, select **My Instances**.
     2. Locate your instance row.
     3. Click **Pause**.
 
@@ -94,22 +96,24 @@ An app instance can be paused or terminated. Pausing the instance saves computat
 
 
 
-=== "To terminate instance"
+=== "Terminate"
+
+    You can **Terminate** an instance in the *app details* page:
     
     1. In the *app details* page, click the **App Instances** tab. 
     2. Locate your instance row. 
-    3. Click :material-chevron-down: **Down Arrow**. 
-    2. Click **Terminate**: 
+    3. Click :material-chevron-down: **Expand**. 
+    2. Click **Terminate**.
 
     <figure>
       <img src="../assets/access_h2o_health_apps/terminate.png" width="1000" alt="Pause Terminate" />
     </figure>
 
-    You can also **Terminate** the instance in the **My Instances** page: 
+    You can also **Terminate** an instance in the **My Instances** page: 
 
-    1. In the **HAC** menu, select **My Instances**.
+    1. In the **HAIC** menu, select **My Instances**.
     2. Locate your instance row.
-    3. Click :material-chevron-down: **Down Arrow**. 
+    3. Click :material-chevron-down: **Expand**. 
     4. Click **Terminate**.
 
     <figure>
