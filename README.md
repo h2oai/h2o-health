@@ -1,6 +1,6 @@
-# H2O Health Docs
+# H2O Health Documentation
 
-Documentation for the H2O Health apps. This project was built with [MKDocs](https://squidfunk.github.io/mkdocs-material/).
+Documentation for the H2O Health apps. Documentation was built with [MKDocs](https://squidfunk.github.io/mkdocs-material/).
 
 ## About H2O Health 
 
