@@ -1,6 +1,6 @@
 # :material-chart-timeline-variant: How Simulations Work
 
-There are three basic steps to run a simulation in CHOS.
+There are three basic steps to run a [simulation-based projection](./terminology.md#simulation-based-projection) in CHOS.
 
 - [Step 1: Select state and county](#step-1-select-state-and-county) 
 - [Step 2: Review or customize input data](#step-2-review-or-customize-input-data) 

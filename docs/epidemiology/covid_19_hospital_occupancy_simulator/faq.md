@@ -1,6 +1,18 @@
 # :material-frequently-asked-questions: FAQ: Frequently Asked Questions 
 
 
+
+The COVID-19 Hospital Occupancy Simulator ([**CHOS**](./terminology.md#chos)) application enables hospitals to prepare for patient surges due to COVID-19. Through simulations supported with state-of-the-art forecasting models and the latest county-level data on the reported COVID-19 cases and hospitalizations due to COVID-19, CHOS produces [simulation-based projections](./terminology.md#simulation-based-projection) containing a hospital-level four-week projection that includes:
+
+- Daily expected non-ICU occupancy and admissions for COVID-19 patients 
+- Daily expected ICU occupancy and net change admissions for COVID-19 patients 
+
+The [simulation-based projection](./terminology.md#simulation-based-projection) also includes the four-week county-level forecast on expected COVID-19 cases used to generate the hospital-level four-week projections.
+
+Hospitals can better customize the models' data to reflect a hospital's specific characteristics and future expectations through data override; overrides based on expectations about the future allow you to play out different scenarios and generate alternative projections.
+
+With the insights [simulation-based projections](./terminology.md#simulation-based-projection) can provide during public health emergencies like the one we currently experience, CHOS makes the process of managing hospital resources more efficient and less complicated.
+
 The below sections provide answers to frequently asked questions. If you have additional questions, send them to the following email: <niki.athanasiadou@h2o.ai>.
 
 ## General 
