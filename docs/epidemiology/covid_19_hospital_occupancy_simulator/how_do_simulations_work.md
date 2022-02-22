@@ -1,13 +1,11 @@
-# :material-chart-timeline-variant: Simulation Flow 
+# :material-chart-timeline-variant: How Simulations Work
 
-The flow of a simulation, which subsequently generates a [simulation-based projection](./terminology.md#simulation-based-projection), can be summarized in the following sequential steps: 
-
+There are three basic steps to run a [simulation-based projection](./terminology.md#simulation-based-projection) in CHOS.
 
 - [Step 1: Select state and county](#step-1-select-state-and-county) 
 - [Step 2: Review or customize input data](#step-2-review-or-customize-input-data) 
 - [Step 3: Review simulation-based projection](#step-3-review-simulation-based-projection)
 
-In the below sections, each step, in turn, is explained in detail. 
 
 ## Step 1: Select state and county 
 

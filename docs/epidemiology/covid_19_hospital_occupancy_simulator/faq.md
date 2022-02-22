@@ -1,5 +1,5 @@
 # :material-frequently-asked-questions: FAQ: Frequently Asked Questions 
- 
+
 
 
 The COVID-19 Hospital Occupancy Simulator ([**CHOS**](./terminology.md#chos)) application enables hospitals to prepare for patient surges due to COVID-19. Through simulations supported with state-of-the-art forecasting models and the latest county-level data on the reported COVID-19 cases and hospitalizations due to COVID-19, CHOS produces [simulation-based projections](./terminology.md#simulation-based-projection) containing a hospital-level four-week projection that includes:
@@ -13,16 +13,17 @@ Hospitals can better customize the models' data to reflect a hospital's specific
 
 With the insights [simulation-based projections](./terminology.md#simulation-based-projection) can provide during public health emergencies like the one we currently experience, CHOS makes the process of managing hospital resources more efficient and less complicated.
 
-
 The below sections provide answers to frequently asked questions. If you have additional questions, send them to the following email: <niki.athanasiadou@h2o.ai>.
-
 
 ## General 
 
-### Who can use CHOS? 
+### What does CHOS stand for?
 
+COVID-19 Hospital Occupancy Simulator.
 
-[**CHOS**](./terminology.md#chos) was developed for nursing staff, hospital managers, and hospital leadership.  
+### How can I use the CHOS app? 
+
+The CHOS app is available on the [H2O AI Cloud](https://cloud.h2o.ai/login?referer=%2F) (HAIC). If you have access to HAIC but are still having trouble finding or running the CHOS app, see [Accessing H2O Health Apps](../../access_h2o_health_apps.md).
 
 ## Models 
 

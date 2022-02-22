@@ -64,7 +64,7 @@ nav:
     - CHOS: 
         - 'Overview': 'epidemiology/covid_19_hospital_occupancy_simulator/overview.md'
         - 'Guide': 
-          - 'Simulation Flow': 'epidemiology/covid_19_hospital_occupancy_simulator/simulation_flow.md'
+          - 'How do simulations work?': 'epidemiology/covid_19_hospital_occupancy_simulator/how_do_simulations_work.md'
           - 'Simulation Settings': 'epidemiology/covid_19_hospital_occupancy_simulator/simulation_settings.md'
           - 'Models': 'epidemiology/covid_19_hospital_occupancy_simulator/models.md'
           - 'Charts': 'epidemiology/covid_19_hospital_occupancy_simulator/charts.md'
