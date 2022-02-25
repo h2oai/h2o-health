@@ -1,4 +1,4 @@
-site_name: H2O Health Documentation
+site_name: H2O Health 
 
 theme:
   name: material
@@ -58,9 +58,6 @@ copyright: Copyright © 2022 H2O.ai. All rights reserved
 nav:
     - Home: 'index.md'
     - 'Access H2O Health Apps': 'access_h2o_health_apps.md'
-    # - 'What is H2O Health?': 'what_is_h2o_health.md'
-    # - 'Suites': 'suites.md'
-    # - 'FAQ': 'faq.md'
     - CHOS: 
         - 'Overview': 'epidemiology/covid_19_hospital_occupancy_simulator/overview.md'
         - 'Guide': 
@@ -70,7 +67,6 @@ nav:
           - 'Charts': 'epidemiology/covid_19_hospital_occupancy_simulator/charts.md'
           - 'Data Files': 'epidemiology/covid_19_hospital_occupancy_simulator/data_files.md'
         - 'Terminology': 'epidemiology/covid_19_hospital_occupancy_simulator/terminology.md'
-        #- 'Release Notes': 'epidemiology/covid_19_hospital_occupancy_simulator/release_notes.md'
         - 'Team': 'epidemiology/covid_19_hospital_occupancy_simulator/team.md'
         - 'FAQ': 'epidemiology/covid_19_hospital_occupancy_simulator/faq.md' 
     - 'Team': 'team.md'
