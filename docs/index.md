@@ -7,7 +7,7 @@ At <a href="https://h2o.ai/solutions/industry/health/" target="_blank" >H2O Heal
 <div class="home-suite-container">
   <a href="/h2o-health/epidemiology/covid_19_hospital_occupancy_simulator/overview/" class="home-app-link">
     <img src="assets/index/logo_chos.png" class="home-app-logo" /></div></div>
-    <span>Covid-19 Hospital Occupancy Simulator (CHOS)</span>
+    <break>Covid-19 Hospital Occupancy Simulator (CHOS)</break>
   </a>
 </div>
 
