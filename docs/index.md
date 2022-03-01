@@ -23,7 +23,7 @@ At <a href="https://h2o.ai/solutions/industry/health/" target="_blank" >H2O Heal
     <span><a class="table-of-contents-link" href="/h2o-health/access_h2o_health_apps/">Access H2O Health Apps:</a> Quick start to the H2O AI Cloud and how to access H2O Health apps</span>
   </li>
   <li>
-     <span>Documentation of individual H2O Health apps</span>
+    <span><a class="table-of-contents-link" href="/h2o-health/covid_19_hospital_occupancy_simulator/overview/">CHOS:</a> Documentation for CHOS</span>
   </li>
   <li>
     <span><a class="table-of-contents-link" href="/h2o-health/team/">Team:</a> A list of H2O makers who contribute to this initiative</span>
@@ -32,6 +32,7 @@ At <a href="https://h2o.ai/solutions/industry/health/" target="_blank" >H2O Heal
 
 
 <br>
+
 === "Feedback"
     - :material-file-outline: <a href="https://github.com/h2oai/h2o-health/issues/new?assignees=5675sp&labels=h2o_health%2Fdocumentation&template=general_documentation_feedback.md&title=%5BH2O+Health+DOCS%5D" target="_blank">Submit and view feedback for this page</a>
     - :material-package-variant-closed: Send feedback about H2O Health to <niki.athanasiadou@h2o.ai>
