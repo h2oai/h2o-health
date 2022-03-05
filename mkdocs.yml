@@ -69,6 +69,14 @@ nav:
         - 'Terminology': 'epidemiology/covid_19_hospital_occupancy_simulator/terminology.md'
         - 'Team': 'epidemiology/covid_19_hospital_occupancy_simulator/team.md'
         - 'FAQ': 'epidemiology/covid_19_hospital_occupancy_simulator/faq.md' 
+    - Gene Mutation AI: 
+        - 'Overview': 'gene_mutation/overview.md'
+        - 'Guide': 
+          - 'Connecting to Snowflake': 'gene_mutation/snowflake.md'
+          - 'Selecting a dataset': 'gene_mutation/selecting_a_dataset.md'
+          - 'Running a prediction': 'gene_mutation/predicting_mutations.md'
+        - 'Team': 'gene_mutation/team.md'
+        - 'FAQ': 'gene_mutation/faq.md' 
     - 'Team': 'team.md'
     
 

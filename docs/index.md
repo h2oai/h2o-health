@@ -9,6 +9,10 @@ At <a href="https://h2o.ai/solutions/industry/health/" target="_blank" >H2O Heal
     <img src="assets/index/logo_chos.png" class="home-app-logo" />
     <span>Covid-19 Hospital Occupancy Simulator (CHOS)</span>
   </a>
+  <a href="/gene_mutation/overview/" class="home-app-link">
+    <img src="assets/index/logo_mutation.png" class="home-app-logo" />
+    <span>Gene Mutation AI</span>
+  </a>
 </div>
 
 
@@ -24,6 +28,9 @@ At <a href="https://h2o.ai/solutions/industry/health/" target="_blank" >H2O Heal
   </li>
   <li>
     <span><a class="table-of-contents-link" href="/h2o-health/epidemiology/covid_19_hospital_occupancy_simulator/overview/">CHOS:</a> Documentation for CHOS</span>
+  </li>
+  <li>
+    <span><a class="table-of-contents-link" href="/gene_mutation/overview/">Gene Mutation AI:</a> Documentation for Gene Mutation AI</span>
   </li>
   <li>
     <span><a class="table-of-contents-link" href="/h2o-health/team/">Team:</a> A list of H2O makers who contribute to this initiative</span>
