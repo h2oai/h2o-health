@@ -1,3 +1,5 @@
+# :material-table: Datasets 
+
 # Selecting a dataset
 
 After adding datasets via Snowflake or manual upload, you can select them for use in the app. You will have the opportunity to preview your dataset before moving on to the prediction phase.

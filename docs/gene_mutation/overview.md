@@ -1,45 +1,48 @@
-# Gene Mutation AI
+# Gene Mutation AI 
 
-H2O Gene Mutation AI is a machine learning-powered patient risk assessment application that uses the Snowflake Data Cloud.
+Gene Mutation AI (GMA) is an application by H2O.ai and supported by Snowflake that enables participants around genomics to use a patient's gene sequence variations data (VCF files) to: 
 
-Using information about the presence of genic single nucleotide polymorphisms (SNP) in samples derived from patient samples, the application allows the user to:
+1. Evaluate on-demand a patient's risk for a particular disease determined by an appropriate uploaded model built-in Driverless AI. 
+2. Identify the ten most influential genes that influence a model's risk prediction for a specific disease.
+3. Understand how common a disease risk has been among past patients. 
+4. Compare a patient's disease risk to that of previously evaluated patients. 
+5. Store and process efficiently and reproducibly thousands of genetic results in parallel.
 
-1. Convert VCF files to a dataset that is suitable for machine learning (H2O-3 ©).
-2. Evaluate patient risk and understand how common this risk has been among past patients (H2O Driverless AI © AutoML).
-3. Find and explore similar patients (H2O-3 ©). 
-4. Identify the genes that influence patient risk (H2O Driverless AI © MLI).
+GMA, as a result, eases the process of processing, analyzing, and storing a patient's gene sequence variations data while generating on-demand disease prognoses.
 
-
-This solution combines the Snowflake database, with H2O Cloud to bring:
-
-- Intelligent clinical decision support directly to clinicians.
-- Advanced analytics for pharmacogenomics and pharmacovigilance pipelines.
-
-<figure>
-  <img src="../assets/hero_image.jpeg" width="800" alt="Gene Mutation Charts"/>
-</figure>
 
 ## Audience 
 
-Clinicians
+GMA is intended for participants around genomics (e.g., geneticists, clinicians) 
+
+!!! note 
+
+    GMA assumes that basic knowledge of genomics has been acquired to build new predictive disease models. 
 
 ## Background 
 
-Medical diagnosis and drug discovery increasingly take more into consideration the genetic makeup of the patient. From the multiple types and subtypes of cancer to heart disease, to obesity or the immune response, the individual’s genetic predisposition plays an important role. When a disease is diagnosed, then, again, the patient’s genetic information often determines the appropriate pharmaceutic intervention. 
+A medical professional often considers a patient's genetic makeup to generate a medical diagnosis and discover the appropriate drug for a certain disease. For instance, observing someone's genetic makeup can determine someone's predisposition to a certain type of cancer or heart disease. Looking at a patient's genetic makeup cannot only shed light on someone's likelihood of developing a genetic disease but can also help determine the appropriate pharmaceutic intervention. 
 
-All the thousands of hospitals and clinics in the US that offer genetic counseling, are faced with challenges around maintaining a database with the raw patient data that need to be preprocessed and analyzed. The same is true for pharmaceutical companies that invest many million dollars to develop personalized drug regimes. The entire pipeline currently starts with MB of information and typically reduces it to a handful of known genes that can then be  evaluated by an expert in each case. 
-
-H2O Gene Mutation AI offers a portable personalized medicine interface that can: 
-
-1. Store and process efficiently and reproducibly thousands of genetic results in parallel.
-2. Offer an individual’s genetic risk on-demand.
-3. Present a selection of the ten most influential genes for this sample among thousands of genes, not dozens.
-
-The application supports multiple pretrained models, so the same patient can be examined for their risk to multiple diseases or the response to alternative pharmaceutical interventions. Semi-automated data selection helps navigate the Snowflake warehouse, while for the more technical users automatic code generation allows auditing and implementation of multiple pipelines.
+Before a medical professional or others can use the genetic data, the data needs to be processed, which is often a challenge. Unfortunately, processing the genetic data is not the only problem; problems during the analysis process of the genetic data make it complicated to use the data effectively. In essence, the pharmacogenomics and pharmacovigilance pipelines are currently dealing with a complicated process of preprocessing and analyzing a patients genetic data. 
 
 ## Access 
 
-[**CHOS**](./terminology.md#chos) is available on the H2O AI Cloud. To learn how to access it, see [Access H2O Health Apps](../../access_h2o_health_apps.md).
+[**Gene Mutation AI**](./terminology.md#chos) is available on the H2O AI Cloud (HAIC). To learn how to access it, see [Access H2O Health Apps](../../access_h2o_health_apps.md).
+
+
+## Technology 
+
+H2O.ai and Snowflake have combined specific technologies to create Gene Mutation AI. The technologies from both who were integrated are as follows: 
+
+### H2O.ai 
+
+- Driverless AI 
+- H2O Wave 
+
+### Snowflake 
+
+- Snowpark Python API
+- Snowfalke user-defined fucntions (UDF)
 
 
 

@@ -1,4 +1,4 @@
-site_name: H2O Health 
+site_name: H2O Health | Docs
 
 theme:
   name: material
@@ -72,9 +72,11 @@ nav:
     - Gene Mutation AI: 
         - 'Overview': 'gene_mutation/overview.md'
         - 'Guide': 
-          - 'Connecting to Snowflake': 'gene_mutation/snowflake.md'
-          - 'Selecting a dataset': 'gene_mutation/selecting_a_dataset.md'
-          - 'Running a prediction': 'gene_mutation/predicting_mutations.md'
+          - 'How do prognoses work?': 'gene_mutation/how-do-prognoses-work.md'
+          - 'Snowflake': 'gene_mutation/snowflake.md'
+          - 'Datasets': 'gene_mutation/datasets.md'
+          - 'Predictions': 'gene_mutation/predictions.md'
+        - 'Terminology': 'gene_mutation/terminology.md'
         - 'Team': 'gene_mutation/team.md'
         - 'FAQ': 'gene_mutation/faq.md' 
     - 'Team': 'team.md'

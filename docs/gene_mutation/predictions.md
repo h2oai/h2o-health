@@ -1,3 +1,6 @@
+# :material-chart-bubble: Predictions
+
+
 # Running a prediction
 
 Once you have [selected a dataset](./selecting_a_dataset.md), you can run predictions.

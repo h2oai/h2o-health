@@ -1,6 +1,65 @@
-# Connecting to Snowflake
+# :material-snowflake: Snowflake 
 
-You can use the Gene Mutation AI app with data stored in Snowflake.
+
+## Connecting to Snowflake
+
+To connect to your Snowflake account and make use of your data and models: 
+
+1. In the **Gene Mutation AI** menu, click **Snowflake**.
+2. In the **Snowflake Account** box, enter your account identifier.
+3. In the **Username** box, enter your username. 
+4. In the **Password** box, enter your password. 
+5. Click **Connect**. 
+
+    !!! note 
+
+        - Right after connecting to your Snowflake account, you will be required to define a default Snowflake warehouse, DB, schema, and stage.
+
+        - When selecting a Snowflake warehouse, DB, schema, and stage in the following steps, the items in the lists will be based on the user's Snowflake account access privileges. 
+
+6. In the **Snowflake Warehouse** list, search or select a warehouse.
+7. In the **Snowflake Database** list, search or select a database.
+8. In the **Snowflake Schema** list, search or select a shema. 
+9. In the **Snowflake Stage** list, search or select a stage.
+10. Click **Submit**.
+
+  
+
+## Disconnecting from Snowflake 
+
+To disconet from your Snowflake account: 
+
+1. In the **Gene Mutation AI** menu, click **Snowflake**. 
+2. Click **Disconnect**.
+
+
+## Change default Snowflake warehouse, DB, schema, and stage
+
+After connecting to Snowflake and defining a default Snowflake warehouse, DB, schema, and stage, you can change the default values as follows: 
+
+1. In the **Gene Mutation AI** menu, click **Snowflake**.
+2. Click **Click Here to select Warehouse**. 
+3. In the **Snowflake Warehouse** list, search or select a warehouse.
+4. In the **Snowflake Database** list, search or select a database.
+5. In the **Snowflake Schema** list, search or select a shema. 
+6. In the **Snowflake Stage** list, search or select a stage.
+7. Click **Submit**.
+
+
+## Tabs
+
+After successfully connecting to Snowflake and defining a default Snowflake warehouse, DB, schema, and stage, the following tabs are available on the Snowflake page: 
+
+- [Explore]()
+- [Models]()
+- [Resources]()
+
+### Explore
+
+### Models 
+
+### Resources 
+
 
 ## Step 1: Authenticate with Snowflake 
 
@@ -92,12 +151,3 @@ A list of available artifacts that will be generated:
  - GeneMutation_table_preperation shows the table creation from the VCF records
 
 
-## How to disconnect from Snowflake 
-
-When you are finished with your session, click on the __Snowflake__ tab on the Menu bar and click __Disconnect__.
-
-<figure>
-  <img src="../assets/snowflake_login_filled.png" width="300" alt="Snowflake disconnect"/>
-</figure>
-
-The user is now disconnected from Snowflake.
