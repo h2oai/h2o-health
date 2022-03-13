@@ -1,9 +1,9 @@
 # :material-snowflake: Snowflake 
 
 
-## Connecting to Snowflake
+## Connect to Snowflake
 
-To connect to your Snowflake account and make use of your data and models: 
+To connect to your Snowflake account to make use of your data and models, consider the following instructions: 
 
 1. In the **Gene Mutation AI** menu, click **Snowflake**.
 2. In the **Snowflake Account** box, enter your account identifier.
@@ -25,7 +25,7 @@ To connect to your Snowflake account and make use of your data and models:
 
   
 
-## Disconnecting from Snowflake 
+## Disconnect from Snowflake 
 
 To disconet from your Snowflake account: 
 
@@ -46,108 +46,131 @@ After connecting to Snowflake and defining a default Snowflake warehouse, DB, sc
 7. Click **Submit**.
 
 
+
+
+
 ## Tabs
 
 After successfully connecting to Snowflake and defining a default Snowflake warehouse, DB, schema, and stage, the following tabs are available on the Snowflake page: 
 
-- [Explore]()
-- [Models]()
-- [Resources]()
+- [Explore](#explore)
+- [Models](#models)
+- [Resources](#resources)
 
 ### Explore
 
-### Models 
-
-### Resources 
-
-
-## Step 1: Authenticate with Snowflake 
-
-In the top menu bar, locate the "Snowflake Connector" panel. Enter your account credentials to continue.
-
-<figure>
-  <img src="../assets/snowflake_login_empty.png" width="300" alt="Snowflake login form"/>
-</figure>
-
- - Snowflake Account: *your snowflake account*
- - Username: *your snowflake username*
- - Password: *your snowflake password*
- - Click __Connect__.
-
-## Step 2: Set Default Warehouse / DB / Schema / Stage
-
-Based on the user’s access privileges only the resources they have access to will be displayed in the dropdown.
-
-The application comes preloaded with some synthetic datasets:
-
-
-<figure>
-  <img src="../assets/data_warehouse_setup.png" width="500" alt="Data warehouse setup"/>
-</figure>
-
-At this point you can select the following dataset to continue with the tutorial exactly. Or you could select your own dataset and follow along more loosely.
-
- - Snowflake Warehouse: Healthcareandlifescienses
- - Snowflake Database: Genomes
- - Snowflake Schema: Public
- - Snowflake Stage: Java_UDF_Stage
- - Click __Submit__.
-
-## Step 3: Explore tables 
-
-The tables within the database you selected will be shown. The screenshot below is from the Patient table.
+The **Explore** tab will display all the tables available in the default database. 
 
 <figure>
   <img src="../assets/patient_table.png" width="700" alt="Patient table"/>
 </figure>
 
-Click on the __Patient table__.
 
-## Step 4: Snowflake data preview 
+### View Snowflake table 
 
-This shows the table that was created in Snowflake with a specific set of patient genomes, we will see how this was done later in the Resource tab.
+To view a Snowflake table consider the following instructions: 
 
-<figure>
-  <img src="../assets/snowflake_data_preview.png" width="500" alt="Snowflake data preview"/>
-</figure>
+1. Connect to Snowflake. 
 
-Click __Select Complete Table__.
+    !!! note 
 
-This makes this table available for the application and will be the one used for this session.
+        - To learn how to connect to Snowflake, see [Connect to Snowflake](#connect-to-snowflake).
+        - While connecting to Snowflake, remember to select the correct warehouse containing the table you want to view. 
 
-Once the data selection is completed, a confirmation message will be shown in the UI and you will be returned to the Explore panel.
+2. On the **Snowflake** page, click the name of the Snowflake table you want to view. 
 
-<figure>
-  <img src="../assets/successful_import_banner.png" width="900" alt="Successful import banner"/>
-</figure>
+#### Import Snowflake table 
 
-## Step 5: Viewing Snowflake Models 
+To make a Snowflake table available for predictions, you need to import the table. To import a Snowflake table: 
 
-Click on the __Models__ tab, and the available models will be shown. If you are using the preloaded dataset, you will see the models that would have been created using H2O.ai Driverless AI.
+1. Connect to Snowflake. 
+
+    !!! note 
+
+        - To learn how to connect to Snowflake, see [Connect to Snowflake](#connect-to-snowflake).
+        - While connecting to Snowflake, remember to select the correct warehouse containing the table you want to import. 
+
+2. On the **Snowflake** page, click the name of the Snowflake table you want to import. 
+
+    <figure>
+    <img src="../assets/snowflake/snowflake-page.png" width="500" alt="Snowflake page" />
+    </figure>
+
+3. Click **Select Complete Table**. 
+
+### Models 
+
+
+The **Models** tab will display all the models available in the default warehouse. 
 
 <figure>
   <img src="../assets/models_table.png" width="900" alt="Models table"/>
 </figure>
 
-These models execute within the Snowflake environment, so data does not leave the environment for scoring (inferencing), it also means the scalability of the warehouse can be used to reduce the time to score patients as the solution scales with the warehouse.
+The execution of these models to generate predictions (prognoses) occur within the Snowflake environment. The execution of these models in Snowflake contains scoring data while enabling the use of the scalability of the warehouse to reduce the time to score patients as the solution scales with the warehouse. 
 
-## Step 6: Viewing Snowflake Models 
 
-Click on __Resources__. This tab dynamically creates different artifacts for the user, for example maybe a clinical data scientist wants to use a Jupyter Notebook with the model and Snowflake.
-Snowflake Models: Select  a mojo artifact from the dropdown and click __List Resources__.
+!!! note
 
-<figure>
-  <img src="../assets/resources_tab.png" width="900" alt="Resources table"/>
-</figure>
+    These models refer to models built in H2O Driverless AI. 
 
-A list of available artifacts that will be generated:
 
- - Example Data Market Place, maybe third party data is going to be used with the model
- - Jupyter notebooks, Use the model with Snowflake, pull data into Driverless AI
- - Snowflake Worksheet, a complete SQL worksheet can be created and loaded into Snowflake
- - UDF examples in SQL, Scala and Python
- - Snowpark Python example code
- - SnowSQL showing the commands needed to upload models outside of the application
- - GeneMutation_table_preperation shows the table creation from the VCF records
+
+#### Upload model 
+
+
+If you don't want to use one of the available Snowflake models in the default Snowflake stage, you can upload a new model. 
+
+To upload a new model, consider the following instructions: 
+
+1. In the **Gene Mutation AI** menu, click **Predictions**. 
+2. Click **Browse...**. 
+3. Click **Upload an experiment**.
+
+
+### Resources 
+
+The **Resources** tab enables you to access dynamically created [artifacts](#artifacts) (e.g., a Jupyter Notebook) from particular Snowflake models. 
+
+#### Artifacts
+
+Available artifacts for a particular Snowflake model are as follows: 
+
+- **Snowflake_Data_MarketPlace.scala**
+- **Snowflake.ipynb**
+- **Snowflake.sql**
+- **Snowflake.udf** 
+- **Snowpark.DriverlessAI.ipynb**
+- **Snowpark_Python_native.py**
+- **Snowpark_Score.scala**
+- **Snowpark.scala** 
+- **Snowsql**
+- **GeneMutation_table_preperation.py**
+
+#### Download artifacts 
+
+You can download all generated artifacts for a particular Snowflake model one by one. To download an artifact from a particular Snowflake model: 
+
+1. Connect to Snowflake. 
+
+    !!! note 
+
+        - To learn how to connect to Snowflake, see [Connect to Snowflake](#connect-to-snowflake).
+        - While connecting to Snowflake, remember to select the correct warehouse containing the model you want to download its artifacts. 
+
+2. On the **Snowflake** page, click the **Resources** tab. 
+3. In the **Snowflake Models** list, select the model you want to download its artifacts. 
+4. Click **List Resources**. 
+5. In the **Resource Type** list, select an artifact. 
+
+    <figure>
+    <img src="../assets/resources_tab.png" width="900" alt="Resources table"/>
+    </figure>
+
+    !!! note 
+
+        To learn about available model artifacts, see [Artifcts](#artifacts). 
+
+6. Click **Get Data**. 
 
 

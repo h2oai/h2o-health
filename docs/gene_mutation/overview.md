@@ -13,7 +13,7 @@ GMA, as a result, eases the process of processing, analyzing, and storing a pati
 
 ## Audience 
 
-GMA is intended for participants around genomics (e.g., geneticists, clinicians) 
+GMA is intended for participants around genomics (e.g., clinicians) 
 
 !!! note 
 

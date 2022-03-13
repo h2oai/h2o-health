@@ -1,6 +1,6 @@
 # :material-account-supervisor-circle-outline: Team 
 
-The *COVID-19 Hospital Occupancy Simulator* was built by the following people:
+The *Gene Mutation AI* application was built by the following people:
 
 **Ranjith Anantharaman** | Data Scientist, Wave Engineer
 
