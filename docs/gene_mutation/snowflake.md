@@ -81,7 +81,7 @@ To view a Snowflake table consider the following instructions:
 
 #### Import Snowflake table 
 
-To make a Snowflake table available for predictions, you need to import the table. To import a Snowflake table: 
+To make a Snowflake table (dataset) available for predictions, you need to import the table. To import a Snowflake table: 
 
 1. Connect to Snowflake. 
 
