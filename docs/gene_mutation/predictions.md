@@ -131,7 +131,7 @@ Certain graphs and plots are provided to clarify and understand a prediction. Su
 
 
 
-# Running a prediction
+## Running a prediction
 
 Once you have [selected a dataset](./selecting_a_dataset.md), you can run predictions.
 
