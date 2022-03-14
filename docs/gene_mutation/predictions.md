@@ -51,6 +51,10 @@ To overwrite an uploaded model, consider the following instructions:
 
 You can view a generated disease prediction for a patient or a set of disease predictions for a cohort of patients in the prediction(s) table. The prediction(s) table can be viewed when the prediction(s) are complete. 
 
+<figure>
+  <img src="../assets/predictions_workflow.png" width="800" alt="Generate patient prognosis"/>
+</figure>
+
 The columns of the prediction(s) table are as follows: 
 
 
@@ -65,9 +69,7 @@ The columns of the prediction(s) table are as follows:
 
 
 
-<figure>
-  <img src="../assets/predictions_workflow.png" width="800" alt="Generate patient prognosis"/>
-</figure>
+
 
 
 ### View individual prediction
@@ -79,15 +81,28 @@ To view detailed explanations into a prediction, consider the following instruct
 
     !!! note 
 
-        To learn about the graph and chart explanations of a prediction (prognosis), see [Prediction graphs/charts](#prediction-graphscharts).
+        To learn about the graph and chart explanations of a prediction (prognosis), see [Prediction graphs and plots](#prediction-graphs-plots).
 
 
-## Prediction graphs/charts 
+## Drift Detection 
+
+
+## Prediction graphs and plots 
 
 
 
 
+Certain graphs and plots are provided to clarify and understand a prediction. Such graphs and plots are as follows: 
 
+
+
+### Gauge & Shapley graph
+
+### Histogram
+
+### Sankey plot 
+
+### Radar plot 
 
 
 
