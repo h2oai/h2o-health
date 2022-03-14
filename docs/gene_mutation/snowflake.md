@@ -115,17 +115,7 @@ The execution of these models to generate predictions (prognoses) occur within t
     These models refer to models built in H2O Driverless AI. 
 
 
-
-#### Upload model 
-
-
-If you don't want to use one of the available Snowflake models in the default Snowflake stage, you can upload a new model. 
-
-To upload a new model, consider the following instructions: 
-
-1. In the **Gene Mutation AI** menu, click **Predictions**. 
-2. Click **Browse...**. 
-3. Click **Upload an experiment**.
+If you don't want to use one of the available models in the default Snowflake stage, you can upload a new model. To learn more, see [Upload model](./predictions.md#upload-model).
 
 
 ### Resources 

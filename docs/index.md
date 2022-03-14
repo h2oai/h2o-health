@@ -6,11 +6,11 @@ At <a href="https://h2o.ai/solutions/industry/health/" target="_blank" >H2O Heal
 
 <div class="home-suite-container">
   <a href="./epidemiology/covid_19_hospital_occupancy_simulator/overview/" class="home-app-link">
-    <img src="assets/index/logo_chos.png" class="home-app-logo" />
+    <img src="assets/index/logo_chos.png#shadow" class="home-app-logo" />
     <span>Covid-19 Hospital Occupancy Simulator (CHOS)</span>
   </a>
   <a href="./gene_mutation/overview/" class="home-app-link">
-    <img src="assets/index/logo_mutation.png" class="home-app-logo" />
+    <img src="assets/index/gene-mutation-ai-logo.png#shadow" class="home-app-logo" />
     <span>Gene Mutation AI</span>
   </a>
 </div>

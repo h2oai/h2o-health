@@ -33,7 +33,7 @@ To upload a new dataset, consider the following instructions:
 
     - The dataset should be in a `.csv` or `.txt` file format, where each row is a patient sample and each column a gene name. Allowed values are 1/0, indicating the presence/absence of detected SNP(s) within the gene’s ORF.
 
-    - Uploaded datasets through the UI will be store at 
+    - Uploaded datasets through the UI will be stored at the instance level. 
 
 
 ## View dataset 
