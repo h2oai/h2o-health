@@ -12,20 +12,20 @@ In the below sections, each step, in turn, is explained in detail.
 
 As step one of the predictions workflow, Gene Mutation AI enables you to control the process of controlling the datasets. The manipulation of the datasets occurs within the support of Snowflake. 
 
-- To learn about how Snowflake supports Gene Mutation AI, see [Snowflake](/gene_mutation/snowflake/).
-- To learn about datasets in Gene Mutation AI, see [Datasets](/gene_mutation/datasets/).
+- To learn about how Snowflake supports Gene Mutation AI, see [Snowflake](./snowflake.md).
+- To learn about datasets in Gene Mutation AI, see [Datasets](./datasets.md).
 
 ## Step 2: Run Predictions
 
 To run predictions *Gene Mutation AI* requires particular models built in H2O Driverless AI. 
 
-- To learn about all the H2O Driverless AI models supported within *Gene Mutation AI*, see [Predictions](/gene_mutation/predictions).
+- To learn about all the H2O Driverless AI models supported within *Gene Mutation AI*, see [Predictions](./predictions.md).
 
 ## Step 3: View Results
 
 After running certain predictions sets, *Gene Mutation AI* offers several graphs and plots to understand a patient's prediction in depth. 
 
-- To learn about available graphs and plots, see [Prediction graphs and plots](/gene_mutation/predictions/#prediction-graphs-and-plots) 
+- To learn about available graphs and plots, see [Prediction graphs and plots](./predictions.md#prediction-graphs-and-plots) 
 
 
 <br>
