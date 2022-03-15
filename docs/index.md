@@ -1,6 +1,7 @@
 <h1 class="home-page-title"> H2O Health | Docs</h1>
-
+<p style="margin-bottom: 40px;">
 At <a href="https://h2o.ai/solutions/industry/health/" target="_blank" >H2O Health</a>, we build AI apps that solve complex healthcare and life science problems. We are co-innovating with major healthcare organizations to address long-standing and emerging challenges. Many of these solutions are currently offered in preview in the <a href="https://cloud.h2o.ai/login?referer=%2F" target="_blank" >H2O AI Cloud (HAIC)</a>. At the same time, built solutions are documented here. 
+</p>
 
 <h3 class="suite-title">H2O Health apps (docs)</h3>
 
@@ -10,7 +11,7 @@ At <a href="https://h2o.ai/solutions/industry/health/" target="_blank" >H2O Heal
     <span>Covid-19 Hospital Occupancy Simulator (CHOS)</span>
   </a>
   <a href="./gene_mutation/overview/" class="home-app-link">
-    <img src="assets/index/gene-mutation-ai-logo.png#shadow" class="home-app-logo" />
+    <img src="assets/index/gene-mutation-ai-logo.png#shawow" class="home-app-logo" />
     <span>Gene Mutation AI</span>
   </a>
 </div>
