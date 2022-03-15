@@ -1,4 +1,4 @@
-site_name: H2O Health 
+site_name: H2O Health | Docs
 
 theme:
   name: material
@@ -69,6 +69,15 @@ nav:
         - 'Terminology': 'epidemiology/covid_19_hospital_occupancy_simulator/terminology.md'
         - 'Team': 'epidemiology/covid_19_hospital_occupancy_simulator/team.md'
         - 'FAQ': 'epidemiology/covid_19_hospital_occupancy_simulator/faq.md' 
+    - Gene Mutation AI: 
+        - 'Overview': 'gene_mutation/overview.md'
+        - 'Guide': 
+          - 'Prediction(s) Workflow': 'gene_mutation/predictions-workflow.md'
+          - 'Snowflake': 'gene_mutation/snowflake.md'
+          - 'Datasets': 'gene_mutation/datasets.md'
+          - 'Predictions': 'gene_mutation/predictions.md'
+        - 'Team': 'gene_mutation/team.md'
+        - 'FAQ': 'gene_mutation/faq.md' 
     - 'Team': 'team.md'
     
 
