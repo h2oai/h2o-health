@@ -18,7 +18,7 @@ The below sections provide answers to frequently asked questions. If you have ad
 
 ### How can I use the *Gene Mutation AI* application? 
 
-The Gene Mutation AI app is available on the [H2O AI Cloud](https://cloud.h2o.ai/login?referer=%2F) (HAIC). If you have access to HAIC but are still having trouble finding or running the app, see [Accessing H2O Health Apps](../../access_h2o_health_apps.md).
+The *Gene Mutation AI* application is available on the [H2O AI Cloud](https://cloud.h2o.ai/login?referer=%2F) (HAIC). If you have access to HAIC but are still having trouble finding or running the app, see [Accessing H2O Health Apps](../../access_h2o_health_apps.md).
 
 
 <br>

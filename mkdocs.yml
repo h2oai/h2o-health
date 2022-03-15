@@ -76,7 +76,6 @@ nav:
           - 'Snowflake': 'gene_mutation/snowflake.md'
           - 'Datasets': 'gene_mutation/datasets.md'
           - 'Predictions': 'gene_mutation/predictions.md'
-        - 'Terminology': 'gene_mutation/terminology.md'
         - 'Team': 'gene_mutation/team.md'
         - 'FAQ': 'gene_mutation/faq.md' 
     - 'Team': 'team.md'
