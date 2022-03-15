@@ -76,3 +76,7 @@ To view a barplot of the cohort distribution of mutation frequencies for a parti
         Although a maximum of 10 rows are displayed when viewing a dataset (table), the barplots in the distribution summary are generated using the complete dataset in view. 
 
 
+<br>
+=== "Feedback"
+    - :material-file-outline: <a href="" target="_blank">Submit and view feedback for this page</a>
+    - :material-package-variant-closed: Send feedback about *Gene Mutation AI* to <niki.athanasiadou@h2o.ai>
