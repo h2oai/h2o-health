@@ -72,7 +72,7 @@ nav:
     - Gene Mutation AI: 
         - 'Overview': 'gene_mutation/overview.md'
         - 'Guide': 
-          - 'How do prognoses work?': 'gene_mutation/how-do-prognoses-work.md'
+          - 'Prediction(s) Workflow': 'gene_mutation/predictions-workflow.md'
           - 'Snowflake': 'gene_mutation/snowflake.md'
           - 'Datasets': 'gene_mutation/datasets.md'
           - 'Predictions': 'gene_mutation/predictions.md'

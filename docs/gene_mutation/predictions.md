@@ -64,16 +64,17 @@ The columns of the prediction(s) table are as follows:
 
 | Column     | Description                          |
 | ----------- | ------------------------------------ |
-| `[TARGET.1] Risk`      |    |
-| `[PLOT] Risk`     |   |
-| `PATIENT_ID`    |    |
-| **N** columns      |      |
-| `H2OPREDICTION`      |      |
-| `H2OSHAPLEY`      |      |
+| `[TARGET.1] Risk`      | A prediction in a percentage format that has been scaled from a classification probability using an isotonic regression    |
+| `[PLOT] Risk`     |  A link to a description prognosis containing plots and graphs |
+| `PATIENT_ID`    |   The numerical ID identifying a particular patient  |
+| `H2OPREDICTION`      |  Both classification probabilities (1 or 0)     |
+| `H2OSHAPLEY`      |  The values for all local and global features that are rendered in the patient's Shapley plot  |
 
 </center>
 
+!!! note 
 
+    The above columns are not the only ones; besides those above, you will find several other columns that refer to the feature names and values from the patient's data (genes). 
 
 
 ### View individual prediction
@@ -193,3 +194,10 @@ When viewing the graphs and plots of a prediction, you can also see the features
     <figure>
       <img src="../assets/patient_data.png" width="800" alt="Patient data"/>
     </figure>
+
+
+
+<br>
+=== "Feedback"
+    - :material-file-outline: <a href="https://github.com/h2oai/h2o-health/issues/new?assignees=5675sp&labels=gma%2Fdocumentation&template=gene-mutation-ai-feedback.md&title=%5BGene+Mutation+AI+DOCS%5D" target="_blank">Submit and view feedback for this page</a>
+    - :material-package-variant-closed: Send feedback about *Gene Mutation AI* to <niki.athanasiadou@h2o.ai>
