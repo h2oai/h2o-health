@@ -11,7 +11,7 @@ At <a href="https://h2o.ai/solutions/industry/health/" target="_blank" >H2O Heal
     <span>Covid-19 Hospital Occupancy Simulator (CHOS)</span>
   </a>
   <a href="./gene_mutation/overview/" class="home-app-link">
-    <img src="assets/index/gene-mutation-ai-logo.png#shawow" class="home-app-logo" />
+    <img src="assets/index/gene-mutation-ai-logo.png#shadow" class="home-app-logo" />
     <span>Gene Mutation AI</span>
   </a>
 </div>
