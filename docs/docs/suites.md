@@ -1,4 +1,7 @@
-# :material-shape-outline: Suites
+import {interpolate} from '@docusaurus/Interpolate';
+const feedback = interpolate('https://github.com/h2oai/docs-issues-requests/issues/new?assignees=5675sp&labels=area%2Fdocumentation%2C+h2o-health%2C+haic-app&body=%23%23%23%20Documentation%20issue%2Frequest%0A%0A%3C!--%20Please%20provide%20a%20clear%20and%20concise%20description%20of%20the%20documentation%20issue%2Frequest%20--%3E%0A%0A%23%23%23%20Additional%20context%0A%0A%3C!--%20Please%20add%20any%20other%20context%20about%20the%20issue%2Frequest%20here%20(e.g.%2C%20images)%20--%3E%0A%0A%23%23%23%20Page%20details%20%0A%0A-%20Application%20name%3A%20H2O%20Health%0A-%20Application%20version%3A%20{version}%0A-%20Page%20title%3A%20{title}%20&title=%5BHAIC-APP%5D', {title: metadata.permalink, version: metadata.version});
+
+# Suites
 
 H2O Health develops apps around the following suites: 
 
@@ -11,7 +14,8 @@ H2O Health develops apps around the following suites:
 Epidemiology AI refers to the intersectionality of AI and the branch of medicine that concerns itself with the incidence, distribution, and control of diseases and other factors relating to a patient's health. 
 
 
-<br>
-=== "Feedback"
-    - :material-file-outline: <a href="https://github.com/h2oai/h2o-health/issues/new?assignees=5675sp&labels=h2o_health%2Fdocumentation&template=general_documentation_feedback.md&title=%5BH2O+Health+DOCS%5D" target="_blank">Submit and view feedback for this page</a>
-    - :material-package-variant-closed: Send feedback about H2O Healthcare to <niki.athanasiadou@h2o.ai>
+***
+:::note Feedback
+  - <a href={feedback}>Submit and view feedback for this page</a>
+  - Send feedback about H2O Health to <cloud-feedback@h2o.ai>
+:::
