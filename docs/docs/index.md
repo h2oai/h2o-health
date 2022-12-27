@@ -26,7 +26,7 @@ const feedback = interpolate('https://github.com/h2oai/docs-issues-requests/issu
       <h2><Icon>rocket_launch</Icon> Get started</h2>
   <div class="space">
 
-[What is H2O Health?](./get-started/what-is-h2o-health.md)
+[What is H2O Health?](./get-started/what-is-h2o-health/what-is-h2o-health.md)
 
   </div>
   <div class="space">
