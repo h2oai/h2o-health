@@ -3,7 +3,7 @@ module.exports = {
     'index',
     {
       'Get started': [
-          'get-started/what-is-h2o-health',
+          'get-started/what-is-h2o-health/what-is-h2o-health',
           'get-started/access-h2o-health-apps/access-h2o-health-apps'
       ],
     },

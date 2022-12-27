@@ -5,9 +5,9 @@ const feedback = interpolate('https://github.com/h2oai/docs-issues-requests/issu
 
 To generate a disease risk prognostic for a patient or a cohort of patients, you will need to follow the following sequential steps: 
 
-- [Step 1:](#step-1-import-datasets) Import Datasets
-- [Step 2:](#step-2-run-predictions) Run Predictions
-- [Step 3:](#step-3-view-results) View Results
+- [Step 1: Import Datasets](#step-1-import-datasets) 
+- [Step 2: Run Predictions](#step-2-run-predictions) 
+- [Step 3: View Results](#step-3-view-results) 
 
 In the below sections, each step, in turn, is explained in detail.
 
@@ -15,20 +15,20 @@ In the below sections, each step, in turn, is explained in detail.
 
 As step one of the predictions workflow, Gene Mutation AI enables you to control the process of controlling the datasets. The manipulation of the datasets occurs within the support of Snowflake. 
 
-- To learn about how Snowflake supports Gene Mutation AI, see [Snowflake](./snowflake.md).
-- To learn about datasets in Gene Mutation AI, see [Datasets](./datasets.md).
+- To learn about how Snowflake supports Gene Mutation AI, see [Snowflake](snowflake/snowflake.md).
+- To learn about datasets in Gene Mutation AI, see [Datasets](datasets/datasets.md).
 
 ## Step 2: Run Predictions
 
 To run predictions *Gene Mutation AI* requires particular models built in H2O Driverless AI. 
 
-- To learn about all the H2O Driverless AI models supported within *Gene Mutation AI*, see [Predictions](./predictions.md).
+- To learn about all the H2O Driverless AI models supported within *Gene Mutation AI*, see [Predictions](predictions/predictions.md).
 
 ## Step 3: View Results
 
 After running certain predictions sets, *Gene Mutation AI* offers several graphs and plots to understand a patient's prediction in depth. 
 
-- To learn about available graphs and plots, see [Prediction graphs and plots](./predictions.md#prediction-graphs-and-plots) 
+- To learn about available graphs and plots, see [Prediction graphs and plots](predictions/predictions.md#prediction-graphs-and-plots) 
 
 
 ***

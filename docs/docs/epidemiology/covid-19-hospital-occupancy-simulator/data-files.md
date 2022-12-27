@@ -5,22 +5,16 @@ const feedback = interpolate('https://github.com/h2oai/docs-issues-requests/issu
 
 [CHOS](./terminology.md#chos) works with [simulation-based projections](./terminology.md#simulation-based-projection) that are based on relevant variables extracted from specific  **historical hospitalization datasets** (data files). Variables: 
 
-
-
 - Average weekly COVID-19 non-ICU admissions in the facility over the past four-week period. 
-
 - Average wekly net change in ICU admissions in the facility over the past four-week period. 
-
 - Average weekly occupancy by ICU and non-ICU COVID-19 patients in the facility over the past four-week period. 
-
 - Average Length of Stay (LOS) in the facility (defaults to the latest national average). 
-
 
 Datasets: 
 
 - [Hospital occupancy](#hospital-occupancy)
 - [COVID-19 cases](#covid-19-cases)
-- [COVID-19 forecast](covid-19-forecast)
+- [COVID-19 forecast](#covid-19-forecast)
 
 To download a dataset: 
 

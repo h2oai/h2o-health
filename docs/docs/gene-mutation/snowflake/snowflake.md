@@ -13,11 +13,10 @@ To connect to your Snowflake account to make use of your data and models, consid
 4. In the **Password** box, enter your password. 
 5. Click **Connect**. 
 
-    !!! note 
-
-        - Right after connecting to your Snowflake account, you will be required to define a default Snowflake warehouse, DB, schema, and stage.
-
-        - When selecting a Snowflake warehouse, DB, schema, and stage in the following steps, the items in the lists will be based on the user's Snowflake account access privileges. 
+  :::info Note 
+    - Right after connecting to your Snowflake account, you will be required to define a default Snowflake warehouse, DB, schema, and stage.
+    - When selecting a Snowflake warehouse, DB, schema, and stage in the following steps, the items in the lists will be based on the user's Snowflake account access privileges. 
+  :::
 
 6. In the **Snowflake Warehouse** list, search or select a warehouse.
 7. In the **Snowflake Database** list, search or select a database.
@@ -25,15 +24,12 @@ To connect to your Snowflake account to make use of your data and models, consid
 9. In the **Snowflake Stage** list, search or select a stage.
 10. Click **Submit**.
 
-  
-
 ## Disconnect from Snowflake 
 
 To disconet from your Snowflake account: 
 
 1. In the **Gene Mutation AI** menu, click **Snowflake**. 
 2. Click **Disconnect**.
-
 
 ## Change default Snowflake warehouse, DB, schema, and stage
 
@@ -47,10 +43,6 @@ After connecting to Snowflake and defining a default Snowflake warehouse, DB, sc
 6. In the **Snowflake Stage** list, search or select a stage.
 7. Click **Submit**.
 
-
-
-
-
 ## Tabs
 
 After successfully connecting to Snowflake and defining a default Snowflake warehouse, DB, schema, and stage, the following tabs are available on the Snowflake page: 
@@ -63,10 +55,7 @@ After successfully connecting to Snowflake and defining a default Snowflake ware
 
 The **Explore** tab will display all the tables available in the default database. 
 
-<figure>
-  <img src="../assets/patient_table.png" width="700" alt="Patient table"/>
-</figure>
-
+![Patient table](patient_table.png)
 
 ### View Snowflake table 
 
@@ -74,10 +63,10 @@ To view a Snowflake table consider the following instructions:
 
 1. Connect to Snowflake. 
 
-    !!! note 
-
-        - To learn how to connect to Snowflake, see [Connect to Snowflake](#connect-to-snowflake).
-        - While connecting to Snowflake, remember to select the correct warehouse containing the table you want to view. 
+   :::info Note 
+    - To learn how to connect to Snowflake, see [Connect to Snowflake](#connect-to-snowflake).
+    - While connecting to Snowflake, remember to select the correct warehouse containing the table you want to view. 
+   :::
 
 2. On the **Snowflake** page, click the name of the Snowflake table you want to view. 
 
@@ -87,16 +76,14 @@ To make a Snowflake table (dataset) available for predictions, you need to impor
 
 1. Connect to Snowflake. 
 
-    !!! note 
-
-        - To learn how to connect to Snowflake, see [Connect to Snowflake](#connect-to-snowflake).
-        - While connecting to Snowflake, remember to select the correct warehouse containing the table you want to import. 
+    :::info Note 
+     - To learn how to connect to Snowflake, see [Connect to Snowflake](#connect-to-snowflake).
+     - While connecting to Snowflake, remember to select the correct warehouse containing the table you want to import. 
+    :::
 
 2. On the **Snowflake** page, click the name of the Snowflake table you want to import. 
 
-    <figure>
-    <img src="../assets/snowflake/snowflake-page.png" width="500" alt="Snowflake page" />
-    </figure>
+    ![Snowflake page](snowflake-page.png)
 
 3. Click **Select Complete Table**. 
 
@@ -105,20 +92,15 @@ To make a Snowflake table (dataset) available for predictions, you need to impor
 
 The **Models** tab will display all the models available in the default warehouse. 
 
-<figure>
-  <img src="../assets/models_table.png" width="900" alt="Models table"/>
-</figure>
+![Models table](models_table.png)
 
 The execution of these models to generate predictions (prognoses) occur within the Snowflake environment. The execution of these models in Snowflake contains scoring data while enabling the use of the scalability of the warehouse to reduce the time to score patients as the solution scales with the warehouse. 
 
+:::info Note
+  These models refer to models built in H2O Driverless AI. 
+:::
 
-!!! note
-
-    These models refer to models built in H2O Driverless AI. 
-
-
-If you don't want to use one of the available models in the default Snowflake stage, you can upload a new model. To learn more, see [Upload model](./predictions.md#upload-model).
-
+If you don't want to use one of the available models in the default Snowflake stage, you can upload a new model. To learn more, see [Upload model](../predictions/predictions.md#upload-model).
 
 ### Resources 
 
@@ -145,23 +127,21 @@ You can download all generated artifacts for a particular Snowflake model one by
 
 1. Connect to Snowflake. 
 
-    !!! note 
-
-        - To learn how to connect to Snowflake, see [Connect to Snowflake](#connect-to-snowflake).
-        - While connecting to Snowflake, remember to select the correct warehouse containing the model you want to download its artifacts. 
+    :::info Note 
+      - To learn how to connect to Snowflake, see [Connect to Snowflake](#connect-to-snowflake).
+      - While connecting to Snowflake, remember to select the correct warehouse containing the model you want to download its artifacts. 
+    :::
 
 2. On the **Snowflake** page, click the **Resources** tab. 
 3. In the **Snowflake Models** list, select the model you want to download its artifacts. 
 4. Click **List Resources**. 
 5. In the **Resource Type** list, select an artifact. 
 
-    <figure>
-    <img src="../assets/resources_tab.png" width="900" alt="Resources table"/>
-    </figure>
+    ![Resources table](resources_tab.png)
 
-    !!! note 
-
-        To learn about available model artifacts, see [Artifcts](#artifacts). 
+    :::info Note 
+      To learn about available model artifacts, see [Artifcts](#artifacts). 
+    :::
 
 6. Click **Get Data**. 
 

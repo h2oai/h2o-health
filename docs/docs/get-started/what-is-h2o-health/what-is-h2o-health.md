@@ -1,4 +1,6 @@
 import {interpolate} from '@docusaurus/Interpolate';
+import chos from './logo-chos.png';
+import geneMutation from './gene-mutation-ai-logo.png';
 const feedback = interpolate('https://github.com/h2oai/docs-issues-requests/issues/new?assignees=5675sp&labels=area%2Fdocumentation%2C+h2o-health%2C+haic-app&body=%23%23%23%20Documentation%20issue%2Frequest%0A%0A%3C!--%20Please%20provide%20a%20clear%20and%20concise%20description%20of%20the%20documentation%20issue%2Frequest%20--%3E%0A%0A%23%23%23%20Additional%20context%0A%0A%3C!--%20Please%20add%20any%20other%20context%20about%20the%20issue%2Frequest%20here%20(e.g.%2C%20images)%20--%3E%0A%0A%23%23%23%20Page%20details%20%0A%0A-%20Application%20name%3A%20H2O%20Health%0A-%20Application%20version%3A%20{version}%0A-%20Page%20title%3A%20{title}%20&title=%5BHAIC-APP%5D', {title: metadata.permalink, version: metadata.version});
 
 # What is H2O Health?
@@ -11,16 +13,16 @@ At [H2O Health](https://h2o.ai/solutions/industry/health/), we build AI apps tha
 # H2O Health apps (docs)
 
 <div class="home-suite-container">
-  <a href="./epidemiology/covid_19_hospital_occupancy_simulator/overview/" class="home-app-link">
-    <img src="assets/index/logo_chos.png#shadow" class="home-app-logo" />
+  <a href="./epidemiology/covid_19_hospital_occupancy_simulator/overview" class="home-app-link">
+    <img src={chos} alt="" width="150"/> <br/>
     <span>Covid-19 Hospital Occupancy Simulator (CHOS)</span>
   </a>
-  <a href="./gene_mutation/overview/" class="home-app-link">
-    <img src="assets/index/gene-mutation-ai-logo.png#shadow" class="home-app-logo" />
+  <br/>
+  <a href="./gene_mutation/overview" class="home-app-link">
+    <img src={geneMutation} alt="" width="100"/> <br/>
     <span>Gene Mutation AI</span>
   </a>
 </div>
-
 
 ***
 :::note Feedback

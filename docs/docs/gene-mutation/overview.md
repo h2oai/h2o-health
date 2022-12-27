@@ -18,10 +18,9 @@ GMA, as a result, eases the process of processing, analyzing, and storing a pati
 
 GMA is intended for participants around genomics (e.g., clinicians) 
 
-!!! note 
-
-    GMA assumes that basic knowledge of genomics has been acquired to build new predictive disease models. 
-
+:::info Note 
+  GMA assumes that basic knowledge of genomics has been acquired to build new predictive disease models. 
+:::
 ## Background 
 
 A medical professional often considers a patient's genetic makeup to generate a medical diagnosis and discover the appropriate drug for a certain disease. For instance, observing someone's genetic makeup can determine someone's predisposition to a certain type of cancer or heart disease. Looking at a patient's genetic makeup cannot only shed light on someone's likelihood of developing a genetic disease but can also help determine the appropriate pharmaceutic intervention. 
@@ -30,8 +29,7 @@ Before a medical professional or others can use the genetic data, the data needs
 
 ## Access 
 
-*Gene Mutation AI* is available on the H2O AI Cloud (HAIC). To learn how to access it, see [Access H2O Health Apps](../access_h2o_health_apps.md).
-
+*Gene Mutation AI* is available on the H2O AI Cloud (HAIC). To learn how to access it, see [Access H2O Health Apps](get-started/access-h2o-health-apps/access-h2o-health-apps.md).
 
 ## Technology 
 

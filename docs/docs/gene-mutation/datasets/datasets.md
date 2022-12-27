@@ -5,10 +5,8 @@ const feedback = interpolate('https://github.com/h2oai/docs-issues-requests/issu
 
 On the **Datasets** page, you can view imported and uploaded datasets.
 
-
-- To learn how to import a dataset (table), see [Import Snowflake table](snowflake.md#import-snowflake-table).
+- To learn how to import a dataset (table), see [Import Snowflake table](../snowflake/snowflake.md#import-snowflake-table).
 - To learn how to upload a dataset, see [Upload dataset](#upload-dataset).
-
 
 ## Upload dataset 
 
@@ -32,12 +30,10 @@ To upload a new dataset, consider the following instructions:
 3. Click **Upload new dataset**. 
 
 
-!!! note
-
-    - The dataset should be in a `.csv` or `.txt` file format, where each row is a patient sample and each column a gene name. Allowed values are 1/0, indicating the presence/absence of detected SNP(s) within the gene’s ORF.
-
-    - Uploaded datasets through the UI will be stored at the instance level. 
-
+:::info Note
+- The dataset should be in a `.csv` or `.txt` file format, where each row is a patient sample and each column a gene name. Allowed values are 1/0, indicating the presence/absence of detected SNP(s) within the gene’s ORF.
+- Uploaded datasets through the UI will be stored at the instance level. 
+:::
 
 ## View dataset 
 
@@ -47,15 +43,11 @@ To view imported or uploaded datasets (table), consider the following instructio
 2. In the **Select an existing dataset** list, select the dataset (table) you want to view. 
 3. Click **View Dataset**. 
 
-    <figure>
-      <img src="../assets/data_preview.png" width="800" alt="Dataset preview"/>
-    </figure>
+    ![Dataset preview](data_preview.png)
 
-    !!! note 
-
-        A maximum of *10* rows and N columns will be displayed. N refers to the number of columns in the dataset (table). 
-
-
+    :::info Note 
+      A maximum of *10* rows and N columns will be displayed. N refers to the number of columns in the dataset (table). 
+    :::
 
 ## Distribution summary 
 
@@ -63,21 +55,17 @@ To view a barplot of the cohort distribution of mutation frequencies for a parti
 
 1. In the **Enter a variable name** box, enter one of the column names. 
 
-    !!! note
-
-        Case sensitive. The entered column name needs to match the column name in the dataset (table). 
+    :::info Note
+      Case sensitive. The entered column name needs to match the column name in the dataset (table). 
+    :::
 
 2. Click **Show Plot**. 
 
+    ![Barplot](barplot.png)
 
-    <figure>
-    <img src="../assets/barplot.png" width="500" alt="Barplot"/>
-    </figure>
-
-    !!! note
-
-        Although a maximum of 10 rows are displayed when viewing a dataset (table), the barplots in the distribution summary are generated using the complete dataset in view. 
-
+    :::info Note
+      Although a maximum of 10 rows are displayed when viewing a dataset (table), the barplots in the distribution summary are generated using the complete dataset in view. 
+    :::
 
 ***
 :::note Feedback
