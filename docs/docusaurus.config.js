@@ -9,7 +9,7 @@ const config = {
   title: 'H2O Health',
   tagline: 'H2O Health',
   url: 'https://docs.h2o.ai',
-  baseUrl: '/wave-apps/h2o-health/',
+  baseUrl: '/h2o-health/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
