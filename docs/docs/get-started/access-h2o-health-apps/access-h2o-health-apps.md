@@ -53,7 +53,7 @@ Now, HAIC is starting an instance of the app for you. While you have a starting/
   - To learn how to pause or terminate an instance, see [Pause or Terminate Instance](#pause-or-terminate-instance). 
 :::
 
-## Pause or Terminate Instance
+## Pause or terminate instance
 
 An app instance can be paused or terminated. Pausing the instance saves computational time and resources. Terminating an instance will delete the instance permanently. 
 

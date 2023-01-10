@@ -8,14 +8,14 @@ const feedback = interpolate('https://github.com/h2oai/docs-issues-requests/issu
 To generate a disease prediction for a patient or a set of disease predictions for a cohort of patients, consider the following instructions: 
 
 1. In the **Gene Mutation AI** menu, click **Predictions**. 
-2. In the **Snowflake Model** list, select one of the available models from the Snowflake stage.
+2. In the **Snowflake model** list, select one of the available models from the Snowflake stage.
 
     :::info note 
       - Beyond the available models, you can upload your model. To learn how to upload your model, see [Upload model](#upload-model). 
       - The delay after this step is because the application looks to tables that match this model and generates SQL dynamically based on the model. Otherwise, the user may not know which table(s) to use for a specific model.
     :::
 
-3. In the **Snowflake Table** box, select one of the available Snowflake tables that match the selected model.
+3. In the **Snowflake table** box, select one of the available Snowflake tables that match the selected model.
         
 4. Click **Predict**.
 
@@ -23,7 +23,7 @@ To generate a disease prediction for a patient or a set of disease predictions f
 :::info note  
   After generating predictions, you can start all over. To start all over and generate fresh predictions:
     
-  1. In the **Predictions Workflow** card, click **Restart**.  
+  1. In the **Predictions workflow** card, click **Restart**.  
 :::
 
 ## Upload model 
@@ -33,7 +33,7 @@ If you don't want to use one of the available models in the default Snowflake st
 To upload a new model, consider the following instructions:
 
 1. In the **Gene Mutation AI** menu, click **Predictions**.
-2. In the **Experiment Name** box, enter a name for the experiment. 
+2. In the **Experiment name** box, enter a name for the experiment. 
 3. Click **Browse...**.
 4. Click **Upload an experiment**.
 
@@ -81,11 +81,11 @@ To view detailed explanations into a prediction, consider the following instruct
     To learn about the graph and chart explanations of a prediction (prognosis), see [Prediction graphs and plots](#prediction-graphs-and-plots).
     :::
 
-## Drift Detection 
+## Drift detection 
 
 Any time a new prediction or a set of predictions are generated, you can observe whether data drift was detected. To see whether the data of a prediction drifted from the one the used model used, consider the following instructions: 
 
-1. Click the **Drift Detection** expander arrow when [viewing an individual prediction](#view-individual-prediction).
+1. Click the **Drift detection** expander arrow when [viewing an individual prediction](#view-individual-prediction).
 
     ![Drift detection](predictions_for_patient.png)
 

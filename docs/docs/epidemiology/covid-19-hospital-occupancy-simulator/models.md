@@ -4,7 +4,7 @@ const feedback = interpolate('https://github.com/h2oai/docs-issues-requests/issu
 # Models
 
 The models used to generate a simulation-based projection rely on certain [modeling assumptions](#modeling-assumptions). The county-level four-week projection of expected COVID-19 cases relies on the [CDC County-Level Ensemble Model](#cdc-county-level-ensemble-model). 
-## Modeling Assumptions 
+## Modeling assumptions 
 
 The state-of-the-art forecasting models rely on certain assumptions to effectively generate a simulation-based projection. Assumptions are as follows: 
 
@@ -15,7 +15,7 @@ The state-of-the-art forecasting models rely on certain assumptions to effective
   :::info Note 
     This assumption has the effect of smoothing the variation seen in daily reported cases over weekends and other irregular periods.
   :::
-## CDC County-Level Ensemble Model
+## CDC county-level ensemble model
 
 The **county-level** four-week projection of expected COVID-19 cases used to generate the hospital-level four-week projection makes use of the county-level ensemble model from the Center for Disease Control and Prevention (CDC). The CDC model incorporates diverse modeling algorithms (time-series, SEIRD, etc.) and government and non-government organizations use it.
 

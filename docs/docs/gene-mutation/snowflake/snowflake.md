@@ -8,7 +8,7 @@ const feedback = interpolate('https://github.com/h2oai/docs-issues-requests/issu
 To connect to your Snowflake account to make use of your data and models, consider the following instructions: 
 
 1. In the **Gene Mutation AI** menu, click **Snowflake**.
-2. In the **Snowflake Account** box, enter your account identifier.
+2. In the **Snowflake account** box, enter your account identifier.
 3. In the **Username** box, enter your username. 
 4. In the **Password** box, enter your password. 
 5. Click **Connect**. 
@@ -18,10 +18,10 @@ To connect to your Snowflake account to make use of your data and models, consid
     - When selecting a Snowflake warehouse, DB, schema, and stage in the following steps, the items in the lists will be based on the user's Snowflake account access privileges. 
   :::
 
-6. In the **Snowflake Warehouse** list, search or select a warehouse.
-7. In the **Snowflake Database** list, search or select a database.
-8. In the **Snowflake Schema** list, search or select a shema. 
-9. In the **Snowflake Stage** list, search or select a stage.
+6. In the **Snowflake warehouse** list, search or select a warehouse.
+7. In the **Snowflake database** list, search or select a database.
+8. In the **Snowflake schema** list, search or select a shema. 
+9. In the **Snowflake stage** list, search or select a stage.
 10. Click **Submit**.
 
 ## Disconnect from Snowflake 
@@ -36,11 +36,11 @@ To disconet from your Snowflake account:
 After connecting to Snowflake and defining a default Snowflake warehouse, DB, schema, and stage, you can change the default values as follows: 
 
 1. In the **Gene Mutation AI** menu, click **Snowflake**.
-2. Click **Click Here to select Warehouse**. 
-3. In the **Snowflake Warehouse** list, search or select a warehouse.
-4. In the **Snowflake Database** list, search or select a database.
-5. In the **Snowflake Schema** list, search or select a shema. 
-6. In the **Snowflake Stage** list, search or select a stage.
+2. Click **Click here to select warehouse**. 
+3. In the **Snowflake warehouse** list, search or select a warehouse.
+4. In the **Snowflake database** list, search or select a database.
+5. In the **Snowflake schema** list, search or select a shema. 
+6. In the **Snowflake stage** list, search or select a stage.
 7. Click **Submit**.
 
 ## Tabs
@@ -85,7 +85,7 @@ To make a Snowflake table (dataset) available for predictions, you need to impor
 
     ![Snowflake page](snowflake-page.png)
 
-3. Click **Select Complete Table**. 
+3. Click **Select complete table**. 
 
 ### Models 
 
@@ -133,9 +133,9 @@ You can download all generated artifacts for a particular Snowflake model one by
     :::
 
 2. On the **Snowflake** page, click the **Resources** tab. 
-3. In the **Snowflake Models** list, select the model you want to download its artifacts. 
-4. Click **List Resources**. 
-5. In the **Resource Type** list, select an artifact. 
+3. In the **Snowflake models** list, select the model you want to download its artifacts. 
+4. Click **List resources**. 
+5. In the **Resource type** list, select an artifact. 
 
     ![Resources table](resources_tab.png)
 
@@ -143,7 +143,7 @@ You can download all generated artifacts for a particular Snowflake model one by
       To learn about available model artifacts, see [Artifcts](#artifacts). 
     :::
 
-6. Click **Get Data**. 
+6. Click **Get data**. 
 
 
 ***
