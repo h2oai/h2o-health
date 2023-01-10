@@ -37,10 +37,10 @@ HC_TEMPLATE
 - `docs/docs`: It contains the Markdown documentation files to edit for the next documentation version. Customize the order of the docs sidebar in `sidebars.js`
 - `docs/src`: Non-documentation files (for example, `docs/src/css/custom.css`, controls the style of the documentation site)
 - `docs/static`: Static directory. In particular, it stores the location of the third-party licenses that are rendered in the docs
+- `docs/versioned_docs/`: It contains past Markdown documentation files to edit if a change is required for a particular documentation version
+- `docs/versioned_sidebars`: It contains past documentation sidebars to edit if a change is required for a particular documentation version 
 - `docs/docusaurus.config.js`: A config file containing the documentation (site) configuration
 - `docs/sidebars.js`: The specific documentation sidebar for the docs located at `docs/docs`
-
-
 
 ### Edit locally  
 
@@ -52,9 +52,24 @@ To view the documentation as you edit:
 
 1. Run: `make run-doc`
 
-    - **Documentation**: To view your edits for the documentation (located at `docs/docs`), navigate to the provided URL (for example, `http://localhost:3000/h2o-health/`). 
+    - **Next documentation version**: To view your edits for the next documentation version (located at `docs/docs`), navigate to the provided URL (for example, `http://localhost:3000/h2o-health/`) and select **Next** on the **Versions** dropdown menu. 
         - **Debug** 
             - If you do not see anything (that is, a white screen) after clicking **Next** , run the following command and try again: `make setup-doc` 
+            - Ensure that the following variable is set to `true` in the `docusaurus.config.js` file (located at `docs`): `includeCurrentVersion`
+    - **Past documentation versions**: To view your edits for past documentation versions (located at `docs/versioned_docs/`), navigate to the provided URL (for example, `http://localhost:3000/h2o-health/`) and select a *version* (for example, v0.2.0) on the **Versions** dropdown menu.
+
+### Cut a version 
+
+To cut a new version after making specific changes at `docs/docs` to align with the next version of the application, consider the following instructions: 
+
+1. Before a new version of the documentation is released, and right before we cut a version (`make version-doc`), change the following variable located in the `docusaurus.config.js` file to `false`: `includeCurrentVersion`
+2. Run: `make version-doc` (for example, `make version-doc DOC_VERSION=v0.3.0`)
+3. After the previous steps are executed, and all generated files are pushed to the main branch, trigger the following script in GitHub actions: `deploy-to-github-pages.yml`
+4. After publishing the new documentation version, change the following variable located in the `docusaurus.config.js` file to `true`: `includeCurrentVersion`
+    - This ensures that the next doc version to be edited will be visible while editing locally
+
+
+
 
 
 
