@@ -110,7 +110,7 @@ Certain graphs and plots are provided to clarify and understand a prediction. Su
 
 The Gauge indicates whether the patient has been predicted to be predisposed for *HIGH* or *LOW* *risk* to the disease the selected model classifies. As well, within the Gauge, a prediction value is displayed. 
 
-![Drift detection](gauge.png)
+![Drift detection](gauge.png#center)
 
 :::info note
   Above the Gauge, a text explanation is provided, identifying the determinant gene name for the prediction value. 

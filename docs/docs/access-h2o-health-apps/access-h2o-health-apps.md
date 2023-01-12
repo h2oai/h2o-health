@@ -46,7 +46,7 @@ To start an instance, click **Run App**:
 
 Now, HAIC is starting an instance of the app for you. While you have a starting/running instance, the **Run App** button will change its name to **Go to Instance**. To open the app in a new tab, click **Visit**:
 
-![Visit](visit.png)
+![Visit](visit.png#center)
 
 :::info Note  
   - In the app instance, several items will be installed. Right after, you will be able to use it. All items are automatically installed when you start an instance.

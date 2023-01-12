@@ -6,7 +6,6 @@ const feedback = interpolate('https://github.com/h2oai/docs-issues-requests/issu
 
 As part of the [Simulation Flow](how-do-simulations-work.md), the COVID-19 Hospital Occupancy Simulator ([**CHOS**](terminology.md#chos)) application enables hospitals to customize the models input data through **personalize hospital** overrides and **future expert estimate** overrides. Through  **future expert estimate** overrides, hospitals can adjust a [simulation-based projection](terminology.md#simulation-based-projection) to reflect a hospital's specific characteristics and to play out best and worst-case alternatives. The distinct overrides are discussed below: 
 
-
 - [Overrides: personalize hospital](#overrides-personalize-hospital)
 - [Overrides: future expert estimates](#overrides-future-expert-estimates)
 
@@ -19,7 +18,6 @@ To start a simulation, consider the following instructions:
 3. In the **County** list, select the *county* in which the hospital resides.
 4. (optional) Before starting a simulation, you can use **personalize hospital**  or **future expert estimate** overrides.  To learn more about available overrides and how to enable them, see [Overrides: personalize hospital ](#overrides-personalize-hospital) and [Overrides: future expert estimates](#overrides-future-expert-estimates).
 5. If you don't want to enable any overrides, click **Show forecast**. 
-
 
 ## Overrides: personalize hospital 
 
@@ -40,7 +38,6 @@ As part of the simulation flow ([step 2](how-do-simulations-work.md#step-2-revie
       1. On the **Simulation** page, slide the **Avg admissions per week over the past 4 weeks** slider. 
       2. Click **Apply & Go**.    
     :::
-
 
 - **Avg occupancy per week over the past 4 weeks**
 
@@ -80,11 +77,9 @@ To remove the **personalize hospital** overrides and generate a simulation, cons
 
 1. On the **Simulation** page, click **Reset Defaults & Go**. 
 
-
 ## Overrides: future expert estimates
 
 As part of the simulation flow (step [2](how-do-simulations-work.md#step-2-review-or-customize-input-data) and [3](how-do-simulations-work.md#step-3-review-simulation-based-projection)), a hospital can use the following **future expert estimate** overrides (settings):
-
 
 - **Avg admissions per week**
 
@@ -98,7 +93,6 @@ As part of the simulation flow (step [2](how-do-simulations-work.md#step-2-revie
 
 - **Avg net change ICU per week**
 
- 
     This override defines the future expected average value for weekly expected ICU net change admissions at the hospital level.
 
   :::caution Override Instructions
@@ -119,7 +113,6 @@ As part of the simulation flow (step [2](how-do-simulations-work.md#step-2-revie
 
 - **Avg LOS, non-ICU** 
 
-    
     This override defines the future expected average value for the weekly expected length of stay (LOS) for non-ICU COVID-19 patients at the hospital level.
 
   :::caution Override Instructions
@@ -138,7 +131,6 @@ As part of the simulation flow (step [2](how-do-simulations-work.md#step-2-revie
     3. Click **Apply & Go**.
   :::
 
-
 :::info Note
   To learn about the implications of using the above overrides (settings), see  [Adjust simulation to reflect best- and worst-case alternatives](how-do-simulations-work.md#adjust-simulation-to-reflect-best--and-worst-case-alternatives).
 :::
@@ -149,7 +141,6 @@ To remove the **future expected estimate** overrides and generate a simulation, 
 
 1. On the **Simulation** page, click the following expander arrow: **Expected future averages**. 
 2. Click **Reset Defaults & Go**.
-
 
 ***
 :::note Feedback
