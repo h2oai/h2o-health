@@ -11,9 +11,9 @@ html[data-theme="dark"] .footer {
   background-color: #242526;
 }
 
-html[data-theme="dark"] .card {
+/* html[data-theme="dark"] .card {
   background-color: #343332;
-}
+} */
 
 
 html[data-theme="dark"] .markdown a {
@@ -54,7 +54,7 @@ html[data-theme="dark"] .markdown a:hover {
 .index-card-row {
   margin: 0 -5px;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .index-card-row:after {
@@ -76,8 +76,8 @@ html[data-theme="dark"] .markdown a:hover {
 .card {
   min-width: 190px;
   padding: 20px;
-  background-color: rgba(232, 231, 230, 0.47);
-  border-radius: 0px;
+  /* background-color: rgba(232, 231, 230, 0.47); */
+  /* border-radius: 0px; */
   margin-bottom: 30px;
 }
 

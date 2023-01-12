@@ -25,18 +25,40 @@ At [H2O Health](https://h2o.ai/solutions/industry/health/), we build AI apps tha
 
 <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
 
-<div class="home-suite-container">
-  <a href="epidemiology/covid-19-hospital-occupancy-simulator/overview" class="home-app-link">
-    <img src={chos} alt="" width="150"/> <br/>
-    <span>Covid-19 Hospital Occupancy Simulator (CHOS)</span>
-  </a>
+<div class="index-card-row">
+  <div class="column">
+    <div class="row">
+      <img src={chos} alt="" width="200"/> 
+  <div class="space">
   <br/>
-  <a href="gene-mutation/overview" class="home-app-link">
-    <img src={geneMutation} alt="" width="100"/> <br/>
-    <span>Gene Mutation AI</span>
-  </a>
+  <div align="center">
+
+  [Covid-19 Hospital Occupancy Simulator (CHOS)](epidemiology/covid-19-hospital-occupancy-simulator/overview)
+  </div>
+  </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="row">
+      <img src={geneMutation} alt="" width="200"/>
+  <div class="space">
+  <br/>
+  <div align="center">
+
+  [Gene Mutation AI](gene-mutation/overview)
+  </div>
+  </div>
+    </div>
+  </div>
 </div>
 
+## Navigation
+
+- [Home: ](index.md)Description of the H2O Health Initiative and available apps
+- [Access H2O Health Apps: ](access-h2o-health-apps/access-h2o-health-apps.md)Learn how to access H2O Health apps
+- [CHOS: ](epidemiology/covid-19-hospital-occupancy-simulator/overview.md)Documentation for CHOS
+- [Gene Mutation AI: ](gene-mutation/overview.md)Documentation for Gene Mutation AI
+- [Team: ](team.md)A list of H2O makers who contribute to this initiative
 
 ***
 :::note Feedback
