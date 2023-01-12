@@ -16,9 +16,7 @@ To generate a disease prediction for a patient or a set of disease predictions f
     :::
 
 3. In the **Snowflake table** box, select one of the available Snowflake tables that match the selected model.
-        
 4. Click **Predict**.
-
 
 :::info note  
   After generating predictions, you can start all over. To start all over and generate fresh predictions:
@@ -131,11 +129,8 @@ Each bar is one gene of the top 10 most contributing genes for a particular pati
 The histogram displays an evaluation of how confident you should be in declaring a patient with a specific risk score (**[Gauge](#gauge)**) as **HIGH** or **LOW-RISK**. Few points: 
 
 - The histogram can also present how risk is distributed across an entire patient cohort.
-
 - **LOW RISK** is marked with green and **HIGH RISK** with red.
-
 - Gene Mutation AI will mark the prediction value for the in view patient with a red/green ping. 
-
 - The further right a **HIGH RISK** patient is, the better one can feel about the given prediction. On the other side, the further left a **LOW RISK** patient is, the better.
 
 ![Drift detection](histogram.png)
