@@ -12,12 +12,10 @@ To connect to your Snowflake account to make use of your data and models, consid
 3. In the **Username** box, enter your username. 
 4. In the **Password** box, enter your password. 
 5. Click **Connect**. 
-
   :::info Note 
     - Right after connecting to your Snowflake account, you will be required to define a default Snowflake warehouse, DB, schema, and stage.
     - When selecting a Snowflake warehouse, DB, schema, and stage in the following steps, the items in the lists will be based on the user's Snowflake account access privileges. 
   :::
-
 6. In the **Snowflake warehouse** list, search or select a warehouse.
 7. In the **Snowflake database** list, search or select a database.
 8. In the **Snowflake schema** list, search or select a shema. 
@@ -62,12 +60,10 @@ The **Explore** tab will display all the tables available in the default databas
 To view a Snowflake table consider the following instructions: 
 
 1. Connect to Snowflake. 
-
    :::info Note 
     - To learn how to connect to Snowflake, see [Connect to Snowflake](#connect-to-snowflake).
     - While connecting to Snowflake, remember to select the correct warehouse containing the table you want to view. 
    :::
-
 2. On the **Snowflake** page, click the name of the Snowflake table you want to view. 
 
 #### Import Snowflake table 
@@ -75,16 +71,12 @@ To view a Snowflake table consider the following instructions:
 To make a Snowflake table (dataset) available for predictions, you need to import the table. To import a Snowflake table: 
 
 1. Connect to Snowflake. 
-
     :::info Note 
      - To learn how to connect to Snowflake, see [Connect to Snowflake](#connect-to-snowflake).
      - While connecting to Snowflake, remember to select the correct warehouse containing the table you want to import. 
     :::
-
 2. On the **Snowflake** page, click the name of the Snowflake table you want to import. 
-
     ![Snowflake page](snowflake-page.png)
-
 3. Click **Select complete table**. 
 
 ### Models 
@@ -126,23 +118,18 @@ Available artifacts for a particular Snowflake model are as follows:
 You can download all generated artifacts for a particular Snowflake model one by one. To download an artifact from a particular Snowflake model: 
 
 1. Connect to Snowflake. 
-
     :::info Note 
       - To learn how to connect to Snowflake, see [Connect to Snowflake](#connect-to-snowflake).
       - While connecting to Snowflake, remember to select the correct warehouse containing the model you want to download its artifacts. 
     :::
-
 2. On the **Snowflake** page, click the **Resources** tab. 
 3. In the **Snowflake models** list, select the model you want to download its artifacts. 
 4. Click **List resources**. 
 5. In the **Resource type** list, select an artifact. 
-
     ![Resources table](resources_tab.png)
-
     :::info Note 
       To learn about available model artifacts, see [Artifcts](#artifacts). 
     :::
-
 6. Click **Get data**. 
 
 

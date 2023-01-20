@@ -9,12 +9,10 @@ To generate a disease prediction for a patient or a set of disease predictions f
 
 1. In the **Gene Mutation AI** menu, click **Predictions**. 
 2. In the **Snowflake model** list, select one of the available models from the Snowflake stage.
-
     :::info note 
       - Beyond the available models, you can upload your model. To learn how to upload your model, see [Upload model](#upload-model). 
       - The delay after this step is because the application looks to tables that match this model and generates SQL dynamically based on the model. Otherwise, the user may not know which table(s) to use for a specific model.
     :::
-
 3. In the **Snowflake table** box, select one of the available Snowflake tables that match the selected model.
 4. Click **Predict**.
 
@@ -74,7 +72,6 @@ The columns of the prediction(s) table are as follows:
 To view detailed explanations into a prediction, consider the following instructions: 
 
 1. In the *Predictions(s) table*, identify the prediction row you want to view, click **Explore this patient’s result**.
-
     :::info note
     To learn about the graph and chart explanations of a prediction (prognosis), see [Prediction graphs and plots](#prediction-graphs-and-plots).
     :::
@@ -84,9 +81,7 @@ To view detailed explanations into a prediction, consider the following instruct
 Any time a new prediction or a set of predictions are generated, you can observe whether data drift was detected. To see whether the data of a prediction drifted from the one the used model used, consider the following instructions: 
 
 1. Click the **Drift detection** expander arrow when [viewing an individual prediction](#view-individual-prediction).
-
     ![Drift detection](predictions_for_patient.png)
-
     :::info note
       In general, drift detection indicates whether the patient cohort or single patient is *consistent* with the trained model. The underlying model could be less reliable if drift is detected, and you should take specific maintenance actions. The absence of drift is evident that the model has the same performance during training. 
     :::
@@ -156,7 +151,6 @@ The radar plot explains the gene-level similarities and differences between the 
 When viewing the graphs and plots of a prediction, you can also see the features and values used for scoring. To view the features and values, consider the following instructions: 
 
 1. Click the **Patient Data**  arrow when viewing an individual prediction.
-
     ![Patient data](patient_data.png)
 
 

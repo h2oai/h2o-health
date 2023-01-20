@@ -11,7 +11,6 @@ The state-of-the-art forecasting models rely on certain assumptions to effective
 - The distribution for admissions and occupancy as a percent of active COVID-19 cases is stable within periods of eight weeks or less 
 - ICU and non-ICU COVID-19 admissions and occupancy is following a Weibull distribution
 - Active COVID-19 cases used for calculations are the sum of daily new COVID-19 cases from the last eight weeks
-
   :::info Note 
     This assumption has the effect of smoothing the variation seen in daily reported cases over weekends and other irregular periods.
   :::

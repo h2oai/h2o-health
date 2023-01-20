@@ -14,10 +14,8 @@ CHOS stands for *COVID-19 Hospital Occupancy Simulator*. The name of the applica
 A simulation-based projection includes: 
 
 - A **hospital-level** four-week projection that includes the following metrics for COVID-19 patients:
-
 	- Daily expected non-ICU occupancy and admissions 
 	- Daily expected ICU occupancy and admissions net change 
-
 - A **county-level** four-week projection of expected COVID-19 cases used to generate the **hospital-level** four-week projection
 
 ## LOS

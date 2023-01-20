@@ -13,20 +13,13 @@ On the **Datasets** page, you can view imported and uploaded datasets.
 To upload a new dataset, consider the following instructions: 
 
 1. In the **Gene Mutation AI** menu, click **Datasets**. 
-
 2. By default, during the process of uploading a dataset, Gene Mutation AI will score the uploaded dataset with the preloaded  ‘default’ model. It enables the calculation of mutation frequencies by pathway, which is the data frame that will be imported to the application. If you want to turn this **off**: 
-
     - To turn it **off**, click the **Run the data through pre-processing pipeline** toggle.
-
 3. If non-genic information such as demographics or ground truth diagnoses is present, please define their column names as follows: 
-
     - In the **Select columns to retain after pre-processing** box,  
-
 2. To upload your dataset either: 
-  
     - Click **Browse...**. 
     - Or drag and drop a file (containing the dataset)
-
 3. Click **Upload new dataset**. 
 
 
@@ -42,9 +35,7 @@ To view imported or uploaded datasets (table), consider the following instructio
 1. In the **Gene Mutation AI** menu, click **Datasets**. 
 2. In the **Select an existing dataset** list, select the dataset (table) you want to view. 
 3. Click **View Dataset**. 
-
     ![Dataset preview](data_preview.png)
-
     :::info Note 
       A maximum of *10* rows and N columns will be displayed. N refers to the number of columns in the dataset (table). 
     :::
@@ -54,15 +45,11 @@ To view imported or uploaded datasets (table), consider the following instructio
 To view a barplot of the cohort distribution of mutation frequencies for a particular gene (column) from a [dataset in view](#view-dataset), consider the following instructions: 
 
 1. In the **Enter a variable name** box, enter one of the column names. 
-
     :::info Note
       Case sensitive. The entered column name needs to match the column name in the dataset (table). 
     :::
-
 2. Click **Show Plot**. 
-
     ![Barplot](barplot.png)
-
     :::info Note
       Although a maximum of 10 rows are displayed when viewing a dataset (table), the barplots in the distribution summary are generated using the complete dataset in view. 
     :::
