@@ -24,7 +24,7 @@ COVID-19 Hospital Occupancy Simulator.
 
 ### How can I use the CHOS app? 
 
-The CHOS app is available on the [H2O AI Cloud](https://cloud.h2o.ai/login?referer=%2F) (HAIC). If you have access to HAIC but are still having trouble finding or running the CHOS app, see [Accessing H2O Health Apps](get-started/access-h2o-health-apps/access-h2o-health-apps.md).
+The CHOS app is available on the [H2O AI Cloud](https://cloud.h2o.ai/login?referer=%2F) (HAIC). If you have access to HAIC but are still having trouble finding or running the CHOS app, see [Accessing H2O Health Apps](access-h2o-health-apps/access-h2o-health-apps.md).
 
 ## Models 
 

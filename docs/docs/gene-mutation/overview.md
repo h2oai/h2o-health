@@ -29,7 +29,7 @@ Before a medical professional or others can use the genetic data, the data needs
 
 ## Access 
 
-*Gene Mutation AI* is available on the H2O AI Cloud (HAIC). To learn how to access it, see [Access H2O Health Apps](get-started/access-h2o-health-apps/access-h2o-health-apps.md).
+*Gene Mutation AI* is available on the H2O AI Cloud (HAIC). To learn how to access it, see [Access H2O Health Apps](access-h2o-health-apps/access-h2o-health-apps.md).
 
 ## Technology 
 

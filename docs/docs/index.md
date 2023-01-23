@@ -28,7 +28,7 @@ At [H2O Health](https://h2o.ai/solutions/industry/health/), we build AI apps tha
       <img src={chos} alt="" width="200"/> 
   <div class="space">
   <br/>
-  <div align="center">
+  <div align="left">
 
   [Covid-19 Hospital Occupancy Simulator (CHOS)](epidemiology/covid-19-hospital-occupancy-simulator/overview)
   </div>
@@ -40,7 +40,7 @@ At [H2O Health](https://h2o.ai/solutions/industry/health/), we build AI apps tha
       <img src={geneMutation} alt="" width="200"/>
   <div class="space">
   <br/>
-  <div align="center">
+  <div align="left">
 
   [Gene Mutation AI](gene-mutation/overview)
   </div>
