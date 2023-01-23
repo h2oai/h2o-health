@@ -30,7 +30,7 @@ As the COVID-19 pandemic demonstrates, hospital and ICU capacity management is v
 [**CHOS**](terminology.md#chos) offers a robust solution for capacity management of hospital and ICU beds. 
 ## Access 
 
-[**CHOS**](terminology.md#chos) is available on the H2O AI Cloud. To learn how to access it, see [Access H2O Health Apps](get-started/access-h2o-health-apps/access-h2o-health-apps.md).
+[**CHOS**](terminology.md#chos) is available on the H2O AI Cloud. To learn how to access it, see [Access H2O Health Apps](access-h2o-health-apps/access-h2o-health-apps.md).
 
 ***
 :::note Feedback
