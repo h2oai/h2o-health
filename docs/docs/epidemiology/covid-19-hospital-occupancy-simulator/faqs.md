@@ -14,7 +14,7 @@ Hospitals can better customize the models' data to reflect a hospital's specific
 
 With the insights [simulation-based projections](terminology.md#simulation-based-projection) can provide during public health emergencies like the one we currently experience, CHOS makes the process of managing hospital resources more efficient and less complicated.
 
-The below sections provide answers to frequently asked questions. If you have additional questions, send them to the following email: <niki.athanasiadou@h2o.ai>.
+The below sections provide answers to frequently asked questions. If you have additional questions, send them to the following email: <health@h2o.ai>.
 
 ## General 
 

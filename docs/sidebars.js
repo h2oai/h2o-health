@@ -19,7 +19,6 @@ module.exports = {
           ],
         },
         'epidemiology/covid-19-hospital-occupancy-simulator/terminology',
-        'epidemiology/covid-19-hospital-occupancy-simulator/team',
         'epidemiology/covid-19-hospital-occupancy-simulator/faqs'
       ],
     },
@@ -42,7 +41,6 @@ module.exports = {
         'gene-mutation/faqs'
       ],
     },
-    'team'
   ],
 };
 

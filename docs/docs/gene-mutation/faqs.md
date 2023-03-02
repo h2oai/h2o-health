@@ -15,7 +15,7 @@ Gene Mutation AI (GMA) is an application by H2O.ai and supported by Snowflake th
 GMA, as a result, eases the process of processing, analyzing, and storing a patient's gene sequence variations data while generating on-demand disease prognoses.
 
 
-The below sections provide answers to frequently asked questions. If you have additional questions, send them to <niki.athanasiadou@h2o.ai>.
+The below sections provide answers to frequently asked questions. If you have additional questions, send them to <health@h2o.ai>.
 
 ## General 
 
