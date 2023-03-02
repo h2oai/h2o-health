@@ -22,7 +22,7 @@ You can access a particular app through an instance of it.
 Access your [HAIC](https://cloud.h2o.ai/login?referer=%2F) account. 
 
 :::info Note
-  To obtain a HAIC account, please email <niki.athanasiadou@h2o.ai>.
+  To obtain a HAIC account, please email <health@h2o.ai>.
 :::
 
 ## Step 2: Search app
